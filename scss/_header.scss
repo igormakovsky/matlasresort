@@ -1,0 +1,61 @@
+.header {
+    position: absolute;
+    &__opener {
+        height: 4em;
+        width: 4em;
+        background-color: red;
+        position: fixed;
+        left: 2em;
+        top: 2em;
+        z-index: 1000;
+        cursor: pointer;
+        @media screen and (max-width: 800px) {
+            left: 0em;
+            top: 0em;
+        }
+    }
+    &__nav {
+        position: fixed;
+        left: 0;
+        top: 0;
+        transition: all .2s;
+        transform: translate(-20em, 0);
+        height: 100vh;
+        background-color: darkblue;
+        width: 20em;
+        opacity: .75;
+        z-index: 1;
+        ul {
+            color: white;
+            li {
+                color: white;
+            }
+            a {
+                @extend a;
+                color: white;
+                border-bottom: 1px solid white;
+            }
+        }
+    }
+    &-opened {
+        transform: translate(0, 0);
+        opacity: .9;
+    }
+}
+
+.page {
+    transition: all .2s;
+    background: white;
+    &-moved {
+        transform: scale(.9);
+        opacity: .5;
+        //filter: brightness(.8);
+    }
+}
+
+.testbutton {
+    height: 2em;
+    width: 2em;
+    background-color: red;
+    z-index: 1000;
+}

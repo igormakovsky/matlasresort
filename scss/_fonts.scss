@@ -1,0 +1,75 @@
+p {
+    font-size: 1.5em;
+    line-height: .9;
+    &.small {
+        // not used on igormakovsky
+        font-size: 0.75em;
+    }
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 1px solid $black;
+    color: $black;
+    &:hover {
+        //text-decoration: none;
+        //border-bottom-style: none;
+    }
+    img {
+        vertical-align: middle;
+        &:hover {
+            //opacity: 0.85;
+        }
+    }
+}
+
+h1 {
+    font-size: 4.5em;
+    font-weight: 400;
+    padding: 0;
+}
+
+h2 {
+    line-height: 1.5;
+    font-size: 3em;
+    font-weight: 400;
+    padding: 0;
+    a {
+        @extend a;
+    }
+}
+
+h3 {
+    font-size: 2em;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.quotes {
+    &:lang(ru) {
+        &::before {
+            content: '«';
+            margin-left: -.5em;
+        }
+        &::after {
+            content: '»';
+        }
+    }
+    &:lang(en) {
+        &::before {
+            content: '“';
+            margin-left: -.5em;
+        }
+        &::after {
+            content: '”';
+        }
+    }
+}
+
+.emdash {
+    display: block;
+    &::before {
+        content: '— ';
+        margin-left: -1.3em;
+    }
+}

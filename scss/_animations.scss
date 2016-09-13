@@ -1,0 +1,366 @@
+.rotates {
+    animation: rotates 20s linear 0s infinite normal;
+    &.normal {
+        animation-duration: 10s;
+    }
+    &.slow {
+        animation-duration: 30s;
+    }
+    &.redsquare {
+        animation-duration: 300s;
+    }
+}
+
+@keyframes rotates {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.blurry {
+    animation: blurry 8s linear 0s infinite alternate;
+}
+
+@keyframes blurry {
+    0% {
+        filter: blur(0px);
+    }
+    20% {
+        filter: blur(6px);
+    }
+    40% {
+        filter: blur(3px);
+    }
+    60% {
+        filter: blur(5px);
+    }
+    80% {
+        filter: blur(1px);
+    }
+    100% {
+        filter: blur(7px);
+    }
+}
+
+.hover {
+    animation: hover 4s ease-in-out 0s infinite alternate;
+}
+
+@keyframes hover {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(0, 1em);
+    }
+}
+
+.glow {
+    animation: glow 4s ease-in-out 0s infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        opacity: .6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.wind {
+    animation: wind 5s ease-in-out 0s infinite alternate;
+    transform-origin: bottom center;
+}
+
+@keyframes wind {
+    0% {
+        transform: rotate(-7deg);
+    }
+    100% {
+        transform: rotate(7deg);
+    }
+}
+
+.left-right {
+    animation: left-right 3s ease-in-out 0s infinite alternate;
+}
+
+@keyframes left-right {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-1em, 0);
+    }
+}
+
+.appear {
+    opacity: 0;
+    animation-duration: .5s;
+    animation-delay: 1s;
+}
+
+.appear-blur {
+    opacity: 0;
+    filter: blur(5px);
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+}
+
+.appeared-blur {
+    opacity: 1;
+    filter: blur(0px);
+}
+
+.grow {
+    transition: all .5s cubic-bezier(.5, 1.41, .95, 1.07) 1.5s;
+    opacity: 0;
+    transform: scale(.5);
+}
+
+.grown {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.del05 {
+    transition-delay: .5s;
+    animation-delay: .5s;
+}
+
+.del1 {
+    transition-delay: 1s;
+    animation-delay: 1s;
+}
+
+.del15 {
+    transition-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+
+.del2 {
+    transition-delay: 2s;
+    animation-delay: 2s;
+}
+
+.del25 {
+    transition-delay: 2.5s;
+    animation-delay: 2.5s;
+}
+
+.del3 {
+    transition-delay: 3s;
+    animation-delay: 3s;
+}
+
+.del35 {
+    transition-delay: 3.5s;
+    animation-delay: 3.5s;
+}
+
+.del4 {
+    transition-delay: 4s;
+    animation-delay: 4s;
+}
+
+.del5 {
+    transition-delay: 5s;
+    animation-delay: 5s;
+}
+
+.del6 {
+    transition-delay: 6s;
+    animation-delay: 6s;
+}
+
+.del7 {
+    transition-delay: 7s;
+    animation-delay: 7s;
+}
+
+.del8 {
+    transition-delay: 8s;
+    animation-delay: 8s;
+}
+
+.del9 {
+    transition-delay: 9s;
+    animation-delay: 9s;
+}
+
+.del10 {
+    transition-delay: 10s;
+    animation-delay: 10s;
+}
+
+.del11 {
+    transition-delay: 11s;
+    animation-delay: 11s;
+}
+
+.del12 {
+    transition-delay: 12s;
+    animation-delay: 12s;
+}
+
+.slow {
+    animation-duration: 1.5s;
+    animation-delay: 1.5s;
+}
+
+.slowest {
+    animation-duration: 30s;
+    //animation-delay: 2s;
+}
+
+.dur01 {
+    transition-duration: .1s;
+    animation-duration: .1s;
+}
+
+.dur02 {
+    transition-duration: .2s;
+    animation-duration: .2s;
+}
+
+.dur03 {
+    transition-duration: .3s;
+    animation-duration: .3s;
+}
+
+.dur05 {
+    transition-duration: .5s;
+    animation-duration: .5s;
+}
+
+.dur1 {
+    transition-duration: 1s;
+    animation-duration: 1s;
+}
+
+.dur15 {
+    transition-duration: 1.5s;
+    animation-duration: 1.5s;
+}
+
+.dur2 {
+    transition-duration: 2s;
+    animation-duration: 2s;
+}
+
+.dur25 {
+    transition-duration: 2.5s;
+    animation-duration: 2.5s;
+}
+
+.dur3 {
+    transition-duration: 3s;
+    animation-duration: 3s;
+}
+
+.dur4 {
+    transition-duration: 4s;
+    animation-duration: 4s;
+}
+
+.dur5 {
+    transition-duration: 5s;
+    animation-duration: 5s;
+}
+
+.dur10 {
+    transition-duration: 10s;
+    animation-duration: 10s;
+}
+
+.dur15 {
+    transition-duration: 15s;
+    animation-duration: 15s;
+}
+
+.dur20 {
+    transition-duration: 20s;
+    animation-duration: 20s;
+}
+
+.dur25 {
+    transition-duration: 25s;
+    animation-duration: 25s;
+}
+
+.dur30 {
+    transition-duration: 30s;
+    animation-duration: 30s;
+}
+
+.dur35 {
+    transition-duration: 35s;
+    animation-duration: 35s;
+}
+
+.dur40 {
+    transition-duration: 40s;
+    animation-duration: 40s;
+}
+
+.dur45 {
+    transition-duration: 45s;
+    animation-duration: 45s;
+}
+
+.dur50 {
+    transition-duration: 50s;
+    animation-duration: 50s;
+}
+
+.dur55 {
+    transition-duration: 55s;
+    animation-duration: 55s;
+}
+
+.dur60 {
+    transition-duration: 60s;
+    animation-duration: 60s;
+}
+
+.dur70 {
+    transition-duration: 80s;
+    animation-duration: 80s;
+}
+
+.dur80 {
+    transition-duration: 80s;
+    animation-duration: 80s;
+}
+
+.dur90 {
+    transition-duration: 80s;
+    animation-duration: 80s;
+}
+
+.dur100 {
+    transition-duration: 100s;
+    animation-duration: 100s;
+}
+
+.dur120 {
+    transition-duration: 120s;
+    animation-duration: 120s;
+}
+
+.dur140 {
+    transition-duration: 140s;
+    animation-duration: 140s;
+}
+
+.rev {
+    animation-direction: reverse;
+}
+
+.altrev {
+    animation-direction: alternate-reverse;
+}
