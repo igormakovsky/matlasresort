@@ -20,7 +20,6 @@ require $docroot.'includes/css.php';
 
 <body>
 <?
-require $docroot.'includes/preloader.php';
 require $docroot.'includes/menu.php';
 ?>
 

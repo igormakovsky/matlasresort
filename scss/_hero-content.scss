@@ -1,0 +1,35 @@
+.hero-content {
+    margin-top: 5rem;
+    &__matlas-logo {
+        width: 40%;
+        height:4.5em;
+        margin: 0 auto;
+        &_light {
+            @extend .hero-content__matlas-logo;
+            background: url(/img/matlas-logo-white.png) top center / contain no-repeat;
+        }
+        &_dark {
+            @extend .hero-content__matlas-logo;
+            background: url(/img/matlas-logo-dark.png) top center / contain no-repeat;
+        }
+    }
+    &__title {
+        text-align: center;
+        h2 {
+            margin: 1.5rem auto;
+        }
+    }
+    &__description {
+        padding: 1rem 7rem;
+        max-width: 1350px;
+        margin: 0 auto;
+    }
+    &__list {
+        font-size: 2rem;
+        margin-left: 7.5em;
+    }
+    &__carousel {
+        height:600px;
+        width:1000px;
+    }
+}

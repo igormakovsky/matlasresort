@@ -12,23 +12,35 @@
   src: url("../fonts/graphik-bold-web/Graphik-Bold-Web.eot#iefix") format("embedded-opentype"), url("../fonts/graphik-bold-web/Graphik-Bold-Web.woff2") format("woff2"), url("../fonts/graphik-bold-web/Graphik-Bold-Web.woff") format("woff"), url("../fonts/graphik-bold-web/Graphik-Bold-Web.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'Cervo-Regular';
+  src: url("../fonts/cervo-regular/322B3C_0_0.eot");
+  src: url("../fonts/cervo-regular/322B3C_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/cervo-regular/322B3C_0_0.woff2") format("woff2"), url("../fonts/cervo-regular/322B3C_0_0.woff") format("woff"), url("../fonts/cervo-regular/322B3C_0_0.ttf") format("truetype"); }
 .regular {
   font-family: "Graphik Regular", helvetica neue, arial, sans-serif; }
 
-.bold, h1 {
+.bold, strong {
   font-family: "Graphik Bold", helvetica neue, arial, sans-serif; }
+
+.cervo, h1, h2 {
+  font-family: "Cervo-Regular", helvetica neue, arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .35rem; }
 
 .dark-blue {
   color: #354452; }
 
-.brown, h1 {
+.brown, h2 {
   color: #7b6059; }
 
-p {
-  font-size: 1.5rem;
-  line-height: 1; }
+.light, h1 {
+  color: white; }
 
-a, h2 a, .header__nav ul a {
+p {
+  font-size: 2rem;
+  line-height: 1.5; }
+
+a, .header__nav ul a {
   text-decoration: none;
   border-bottom: 1px solid;
   color: #393836; }
@@ -38,20 +50,29 @@ a, h2 a, .header__nav ul a {
     vertical-align: middle; }
 
 h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: normal;
   padding: 0; }
 
 h2 {
-  line-height: 1.5;
-  font-size: 3rem;
-  font-weight: 400;
+  font-size: 2.5rem;
+  font-weight: normal;
   padding: 0; }
 
 h3 {
   font-size: 2rem;
   line-height: 1.5;
   font-weight: 400; }
+
+ul {
+  text-align: left; }
+  ul li {
+    font-size: 2rem;
+    list-style-type: none;
+    padding-bottom: 1.5rem; }
+    ul li::before {
+      content: '— ';
+      margin-left: -1em; }
 
 .quotes:lang(ru)::before {
   content: '«';
@@ -1274,26 +1295,64 @@ h3 {
   width: 100vw; }
   .hero-image__matlas-logo, .hero-image__matlas-logo_light, .hero-image__matlas-logo_dark {
     position: absolute;
-    width: 45%;
+    width: 37rem;
     height: 10em;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
-    top: 3.5em;
+    top: 9.5em;
     z-index: 1;
-    -webkit-transition: all 1s;
-    transition: all 1s; }
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s; }
     .hero-image__matlas-logo_light {
       background: url(/img/matlas-logo-white.png) top center/contain no-repeat; }
     .hero-image__matlas-logo_dark {
       background: url(/img/matlas-logo-dark.png) top center/contain no-repeat; }
-    .hero-image__matlas-logo .exited, .hero-image__matlas-logo_light .exited, .hero-image__matlas-logo_dark .exited {
-      -webkit-transform: scale(0.5);
-              transform: scale(0.5); }
+  .hero-image__title {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 17rem;
+    z-index: 1;
+    width: 1000px;
+    text-align: center;
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s; }
   .hero-image_hotel-four-stars {
+    -webkit-filter: brightness(75%);
+            filter: brightness(75%);
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 98%, 80% 80%, 60% 98%, 0% 50%);
             clip-path: polygon(0% 0%, 100% 0%, 100% 98%, 80% 80%, 60% 98%, 0% 50%); }
+  .hero-image .exited {
+    opacity: 0; }
+
+.hero-content {
+  margin-top: 5rem; }
+  .hero-content__matlas-logo, .hero-content__matlas-logo_light, .hero-content__matlas-logo_dark {
+    width: 40%;
+    height: 4.5em;
+    margin: 0 auto; }
+    .hero-content__matlas-logo_light {
+      background: url(/img/matlas-logo-white.png) top center/contain no-repeat; }
+    .hero-content__matlas-logo_dark {
+      background: url(/img/matlas-logo-dark.png) top center/contain no-repeat; }
+  .hero-content__title {
+    text-align: center; }
+    .hero-content__title h2 {
+      margin: 1.5rem auto; }
+  .hero-content__description {
+    padding: 1rem 7rem;
+    max-width: 1350px;
+    margin: 0 auto; }
+  .hero-content__list {
+    font-size: 2rem;
+    margin-left: 7.5em; }
+  .hero-content__carousel {
+    height: 600px;
+    width: 1000px; }
 
 html {
   background-color: white; }
@@ -1306,7 +1365,7 @@ body {
   width: 100%;
   height: 100%;
   overflow-x: hidden;
-  color: #393836;
+  color: #354452;
   -webkit-font-smoothing: antialiased; }
 
 article {

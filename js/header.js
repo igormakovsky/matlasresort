@@ -20,16 +20,13 @@ $(function () {
             $('.page').removeClass("page-moved");
         });
 
-    var inview = new Waypoint.Inview({
-        element: $('#logo')[0],
-        enter: function (direction) {
-            $('#logo').toggleClass("exited");
+    var wpLogo = new Waypoint({
+        element: document.getElementById('logo'),
+        handler: function () {
+            $('#logo').toggleClass("exited"),
+            $('#title').toggleClass("exited")
         },
-        entered: function (direction) {},
-        exit: function (direction) {
-            $('#logo').toggleClass("exited");
-        },
-        exited: function (direction) {}
-    });
+        offset: 50
+    })
 
 });

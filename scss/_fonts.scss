@@ -14,14 +14,25 @@
     font-style: normal;
 }
 
-//
+@font-face {
+    font-family: 'Cervo-Regular';
+    src: url('../fonts/cervo-regular/322B3C_0_0.eot');
+    src: url('../fonts/cervo-regular/322B3C_0_0.eot?#iefix') format('embedded-opentype'), url('../fonts/cervo-regular/322B3C_0_0.woff2') format('woff2'), url('../fonts/cervo-regular/322B3C_0_0.woff') format('woff'), url('../fonts/cervo-regular/322B3C_0_0.ttf') format('truetype');
+}
 
+//
 .regular {
     font-family: $font-regular;
 }
 
 .bold {
     font-family: $font-bold;
+}
+
+.cervo {
+    font-family: $font-cervo;
+    text-transform: uppercase;
+    letter-spacing: .35rem;
 }
 
 .dark-blue {
@@ -32,11 +43,14 @@
     color: $brown;
 }
 
-//
+.light {
+    color: white;
+}
 
+//
 p {
-    font-size: 1.5rem;
-    line-height: 1;
+    font-size: 2rem;
+    line-height: 1.5;
 }
 
 a {
@@ -55,27 +69,42 @@ a {
 }
 
 h1 {
-    @extend .bold;
-    @extend .brown;
-    font-size: 2rem;
+    @extend .cervo;
+    @extend .light;
+    font-size: 3rem;
     font-weight: normal;
     padding: 0;
 }
 
 h2 {
-    line-height: 1.5;
-    font-size: 3rem;
-    font-weight: 400;
+    @extend .cervo;
+    @extend .brown;
+    font-size: 2.5rem;
+    font-weight: normal;
     padding: 0;
-    a {
-        @extend a;
-    }
 }
 
 h3 {
     font-size: 2rem;
     line-height: 1.5;
     font-weight: 400;
+}
+
+ul {
+    text-align: left;
+    li {
+        font-size: 2rem;
+        list-style-type: none;
+        padding-bottom: 1.5rem;
+        &::before {
+            content: '— ';
+            margin-left: -1em;
+        }
+    }
+}
+
+strong {
+    @extend .bold;
 }
 
 .quotes {
