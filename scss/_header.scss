@@ -21,7 +21,7 @@
         transition: all .2s;
         transform: translate(-20em, 0);
         height: 100vh;
-        background-color: darkblue;
+        background-color: $dark-blue;
         width: 20em;
         opacity: .75;
         z-index: 1;
@@ -43,13 +43,26 @@
     }
 }
 
+.backtomain {
+    display: none;
+    visibility: 0;
+}
+
+.language {
+    display: none;
+    visibility: 0;
+    position: absolute;
+    top: 1em;
+    right: 3em;
+    z-index: 9998;
+}
+
 .page {
     transition: all .2s;
     background: white;
     &-moved {
-        transform: scale(.9);
-        opacity: .5;
-        //filter: brightness(.8);
+        //transform: scale(.9);
+        filter: brightness(20%);
     }
 }
 

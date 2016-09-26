@@ -1,4 +1,11 @@
+// colors
+
 $black: #393836;
+$dark-blue: #354452;
+$brown: #7b6059;
+
+// fonts
+
 $font-regular: 'Graphik Regular',
 helvetica neue,
 arial,
@@ -7,11 +14,15 @@ $font-bold: 'Graphik Bold',
 helvetica neue,
 arial,
 sans-serif;
+
+// imports
+
 @import "/bower_components/normalize-css/normalize.css";
 @import "fonts";
 @import "shorthands";
 @import "animations";
 @import "header";
+@import "hero-image";
 html {
     background-color: white;
 }
@@ -43,50 +54,9 @@ article {
 section {
     // always 1000px
     margin: 0 auto;
-    width: 1000px;
     position: relative;
-    min-width: 300px;
-    &.large {
-        // <1280, fluid with small white paddings
-        width: 95vw;
-        max-width: 1280px;
-    }
-    &.largest {
-        // <1280, fluid, without those paddings
-        width: 100vw;
-        max-width: 1280px;
-    }
-}
-
-.langchanger {
-    position: absolute;
-    top: 1em;
-    right: 3em;
-    z-index: 9998;
-}
-
-.wide {
-    // for background images
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.center {
-    text-align: center;
-}
-
-.clearfix {
-    display: block;
-    zoom: 1;
-    &:after {
-        content: " ";
-        display: block;
-        font-size: 0;
-        height: 0;
-        clear: both;
-        visibility: hidden;
-    }
+    width:1000px;
+    min-width: 1000px;
 }
 
 #footer-container {
@@ -94,25 +64,6 @@ section {
     justify-content: center;
     align-items: baseline;
     flex-flow: row;
-}
-
-.footer {
-    margin: 0 auto;
-    &__first {
-        margin-top: 3em;
-        &_small {
-            margin-bottom: 1em;
-        }
-        &_large {
-            margin-bottom: 10em;
-        }
-    }
-    &__second {
-        margin-top: 4em;
-        &_small {
-            margin-bottom: 1em;
-        }
-    }
 }
 
 .carousel .page {

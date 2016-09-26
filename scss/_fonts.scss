@@ -24,6 +24,14 @@
     font-family: $font-bold;
 }
 
+.dark-blue {
+    color: $dark-blue;
+}
+
+.brown {
+    color: $brown;
+}
+
 //
 
 p {
@@ -47,7 +55,9 @@ a {
 }
 
 h1 {
-    font-size: 4.5rem;
+    @extend .bold;
+    @extend .brown;
+    font-size: 2rem;
     font-weight: normal;
     padding: 0;
 }

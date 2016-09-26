@@ -19,4 +19,17 @@ $(function () {
             $('#header__nav').removeClass("header-opened");
             $('.page').removeClass("page-moved");
         });
+
+    var inview = new Waypoint.Inview({
+        element: $('#logo')[0],
+        enter: function (direction) {
+            $('#logo').toggleClass("exited");
+        },
+        entered: function (direction) {},
+        exit: function (direction) {
+            $('#logo').toggleClass("exited");
+        },
+        exited: function (direction) {}
+    });
+
 });

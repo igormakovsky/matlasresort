@@ -666,6 +666,19 @@
     transform: translateZ(0);
 }
 
+.clearfix {
+    display: block;
+    zoom: 1;
+    &:after {
+        content: " ";
+        display: block;
+        font-size: 0;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+}
+
 ///
 
 .absolute {
@@ -674,4 +687,8 @@
 
 .relate {
     position: relative;
+}
+
+.center {
+    text-align: center;
 }
