@@ -14,8 +14,20 @@
     font-style: normal;
 }
 
+//
+
+.regular {
+    font-family: $font-regular;
+}
+
+.bold {
+    font-family: $font-bold;
+}
+
+//
+
 p {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     line-height: 1;
 }
 
@@ -35,14 +47,14 @@ a {
 }
 
 h1 {
-    font-family: $font-bold;
-    font-size: 4.5em;
+    font-size: 4.5rem;
+    font-weight: normal;
     padding: 0;
 }
 
 h2 {
     line-height: 1.5;
-    font-size: 3em;
+    font-size: 3rem;
     font-weight: 400;
     padding: 0;
     a {
@@ -51,7 +63,7 @@ h2 {
 }
 
 h3 {
-    font-size: 2em;
+    font-size: 2rem;
     line-height: 1.5;
     font-weight: 400;
 }

@@ -15,9 +15,9 @@ $full_url  = "${protocol}://${domain}${disp_port}${base_url}";
 //universal paths to the pages on the whole website
 $siteroot = $protocol.'://'.$domain; //http://igormakovsky.ru
 if ($id != 'contents'){
-$mainfolder = '/'.$year.'/'.$id;
-$headimage = $siteroot.'/'.$year.'/'.$id.'/img/index.jpg'; //path to leading image
-$canonical = $siteroot.'/'.$year.'/'.$id.'/'; //path to canonical page
+$mainfolder = '/'.$parent.'/'.$id;
+$headimage = $siteroot.'/'.$parent.'/'.$id.'/img/index.jpg'; //path to leading image
+$canonical = $siteroot.'/'.$parent.'/'.$id.'/'; //path to canonical page
 }
 else {
     $mainfolder = '';

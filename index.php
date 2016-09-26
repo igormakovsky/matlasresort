@@ -46,7 +46,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';
         <h1 lang="ru">Привет, Матлас</h1>
         <h1 lang="en">Hello</h1>
 
-        <p lang="ru">Перейти на <a href="/objects/agatha/">страницу объекта</a></p>
+        <p lang="ru">Перейти на <a href="/objects/hotel-four-stars/">страницу объекта</a></p>
         <p lang="en">Go to <a href="/objects/agatha/">object page</a></p>
 
         <p><span>Lorem ipsum dolor <a href="#" id="test">sit amet</a>, consectetur adipisicing elit. Rerum tempora ullam suscipit, laudantium eos nemo, autem tenetur nam itaque iure, possimus porro ipsam accusamus amet atque architecto eum omnis eius!</span>

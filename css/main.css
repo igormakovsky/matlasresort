@@ -12,8 +12,14 @@
   src: url("../fonts/graphik-bold-web/Graphik-Bold-Web.eot#iefix") format("embedded-opentype"), url("../fonts/graphik-bold-web/Graphik-Bold-Web.woff2") format("woff2"), url("../fonts/graphik-bold-web/Graphik-Bold-Web.woff") format("woff"), url("../fonts/graphik-bold-web/Graphik-Bold-Web.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+.regular {
+  font-family: "Graphik Regular", helvetica neue, arial, sans-serif; }
+
+.bold {
+  font-family: "Graphik Bold", helvetica neue, arial, sans-serif; }
+
 p {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   line-height: 1; }
 
 a, h2 a, .header__nav ul a {
@@ -26,18 +32,18 @@ a, h2 a, .header__nav ul a {
     vertical-align: middle; }
 
 h1 {
-  font-family: "Graphik Bold", helvetica neue, arial, sans-serif;
-  font-size: 4.5em;
+  font-size: 4.5rem;
+  font-weight: normal;
   padding: 0; }
 
 h2 {
   line-height: 1.5;
-  font-size: 3em;
+  font-size: 3rem;
   font-weight: 400;
   padding: 0; }
 
 h3 {
-  font-size: 2em;
+  font-size: 2rem;
   line-height: 1.5;
   font-weight: 400; }
 

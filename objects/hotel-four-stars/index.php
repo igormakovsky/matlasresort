@@ -1,9 +1,8 @@
 <?php
-$year = '2006';
-$id = 'agatha';
+$id = 'hotel-four-stars';
 $parent = 'object';
-$title_ru = 'Объект';
-$title_en = 'Object';
+$title_ru = 'Гостиничный комплекс 4 *';
+$title_en = 'Hotel complex 4 *';
 $description_ru = 'Описание на русском»';
 $description_en = 'Description on english';
 $keywords_ru = 'кейвордс на русском';
