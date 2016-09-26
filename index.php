@@ -43,7 +43,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';
             <img style="width:100%;" src="img/test-bird-view.jpg" srcset="img/test-bird-view@2x.jpg 2x">
         </div>
 
-        <h1 lang="ru">Привет</h1>
+        <h1 lang="ru">Привет, Матлас</h1>
         <h1 lang="en">Hello</h1>
 
         <p lang="ru">Перейти на <a href="/objects/agatha/">страницу объекта</a></p>

@@ -1,5 +1,10 @@
 $black: #393836;
-$font: helvetica neue,
+$font-regular: 'Graphik Regular',
+helvetica neue,
+arial,
+sans-serif;
+$font-bold: 'Graphik Bold',
+helvetica neue,
 arial,
 sans-serif;
 @import "/bower_components/normalize-css/normalize.css";
@@ -12,8 +17,8 @@ html {
 }
 
 body {
-    font-family: $font;
-    min-width: 300px;
+    font-family: $font-regular;
+    min-width: 1000px;
     min-height: 100%;
     font-size: 1em;
     width: 100%;
@@ -65,14 +70,6 @@ section {
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.absolute {
-    position: absolute;
-}
-
-.relate {
-    position: relative;
 }
 
 .center {

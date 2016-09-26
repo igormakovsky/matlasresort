@@ -1,616 +1,629 @@
-// transform rotates clockwise
+// rotate mixin
+@mixin rotate($rotate) {
+    transform: rotate($rotate + deg);
+}
+
+// transform rotates cw
 .rot5 {
-    transform: rotate(5deg);
+    @include rotate(5);
 }
 
 .rot10 {
-    transform: rotate(10deg);
+    @include rotate(10);
 }
 
 .rot15 {
-    transform: rotate(15deg);
+    @include rotate(15);
 }
 
 .rot20 {
-    transform: rotate(20deg);
+    @include rotate(20);
 }
 
 .rot25 {
-    transform: rotate(25deg);
+    @include rotate(25);
 }
 
 .rot30 {
-    transform: rotate(30deg);
+    @include rotate(30);
 }
 
 .rot35 {
-    transform: rotate(35deg);
+    @include rotate(35);
 }
 
 .rot40 {
-    transform: rotate(40deg);
+    @include rotate(40);
 }
 
 .rot45 {
-    transform: rotate(45deg);
+    @include rotate(45);
 }
 
 .rot50 {
-    transform: rotate(50deg);
+    @include rotate(50);
 }
 
 .rot55 {
-    transform: rotate(55deg);
+    @include rotate(55);
 }
 
 .rot60 {
-    transform: rotate(60deg);
+    @include rotate(60);
 }
 
 .rot65 {
-    transform: rotate(65deg);
+    @include rotate(65);
 }
 
 .rot70 {
-    transform: rotate(70deg);
+    @include rotate(70);
 }
 
 .rot75 {
-    transform: rotate(75deg);
+    @include rotate(75);
 }
 
 .rot80 {
-    transform: rotate(80deg);
+    @include rotate(80);
 }
 
 .rot85 {
-    transform: rotate(85deg);
+    @include rotate(85);
 }
 
 .rot90 {
-    transform: rotate(90deg);
+    @include rotate(90);
 }
 
 .rot95 {
-    transform: rotate(95deg);
+    @include rotate(95);
 }
 
 .rot100 {
-    transform: rotate(100deg);
+    @include rotate(100);
 }
 
 .rot105 {
-    transform: rotate(105deg);
+    @include rotate(105);
 }
 
 .rot110 {
-    transform: rotate(110deg);
+    @include rotate(110);
 }
 
 .rot115 {
-    transform: rotate(115deg);
+    @include rotate(115);
 }
 
 .rot120 {
-    transform: rotate(120deg);
+    @include rotate(120);
 }
 
 .rot125 {
-    transform: rotate(125deg);
+    @include rotate(125);
 }
 
 .rot130 {
-    transform: rotate(130deg);
+    @include rotate(130);
 }
 
 .rot135 {
-    transform: rotate(135deg);
+    @include rotate(135);
 }
 
 .rot140 {
-    transform: rotate(140deg);
+    @include rotate(140);
 }
 
 .rot145 {
-    transform: rotate(145deg);
+    @include rotate(145);
 }
 
 .rot150 {
-    transform: rotate(150deg);
+    @include rotate(150);
 }
 
 .rot155 {
-    transform: rotate(155deg);
+    @include rotate(155);
 }
 
 .rot160 {
-    transform: rotate(160deg);
+    @include rotate(160);
 }
 
 .rot165 {
-    transform: rotate(165deg);
+    @include rotate(165);
 }
 
 .rot170 {
-    transform: rotate(170deg);
+    @include rotate(170);
 }
 
 .rot175 {
-    transform: rotate(175deg);
+    @include rotate(175);
 }
 
 .rot180 {
-    transform: rotate(180deg);
+    @include rotate(180);
 }
 
 .rot185 {
-    transform: rotate(185deg);
+    @include rotate(185);
 }
 
 .rot190 {
-    transform: rotate(190deg);
+    @include rotate(190);
 }
 
 .rot195 {
-    transform: rotate(195deg);
+    @include rotate(195);
 }
 
 .rot200 {
-    transform: rotate(200deg);
+    @include rotate(200);
 }
 
 .rot205 {
-    transform: rotate(205deg);
+    @include rotate(205);
 }
 
 .rot210 {
-    transform: rotate(210deg);
+    @include rotate(210);
 }
 
 .rot215 {
-    transform: rotate(215deg);
+    @include rotate(215);
 }
 
 .rot220 {
-    transform: rotate(220deg);
+    @include rotate(220);
 }
 
 .rot225 {
-    transform: rotate(225deg);
+    @include rotate(225);
 }
 
 .rot230 {
-    transform: rotate(230deg);
+    @include rotate(230);
 }
 
 .rot235 {
-    transform: rotate(235deg);
+    @include rotate(235);
 }
 
 .rot240 {
-    transform: rotate(240deg);
+    @include rotate(240);
 }
 
 .rot245 {
-    transform: rotate(245deg);
+    @include rotate(245);
 }
 
 .rot250 {
-    transform: rotate(250deg);
+    @include rotate(250);
 }
 
 .rot255 {
-    transform: rotate(255deg);
+    @include rotate(255);
 }
 
 .rot260 {
-    transform: rotate(260deg);
+    @include rotate(260);
 }
 
 .rot265 {
-    transform: rotate(265deg);
+    @include rotate(265);
 }
 
 .rot270 {
-    transform: rotate(270deg);
+    @include rotate(270);
 }
 
 .rot275 {
-    transform: rotate(275deg);
+    @include rotate(275);
 }
 
 .rot280 {
-    transform: rotate(280deg);
+    @include rotate(280);
 }
 
 .rot285 {
-    transform: rotate(285deg);
+    @include rotate(285);
 }
 
 .rot290 {
-    transform: rotate(290deg);
+    @include rotate(290);
 }
 
 .rot295 {
-    transform: rotate(295deg);
+    @include rotate(295);
 }
 
 .rot300 {
-    transform: rotate(300deg);
+    @include rotate(300);
 }
 
 .rot305 {
-    transform: rotate(305deg);
+    @include rotate(305);
 }
 
 .rot310 {
-    transform: rotate(310deg);
+    @include rotate(310);
 }
 
 .rot315 {
-    transform: rotate(315deg);
+    @include rotate(315);
 }
 
 .rot320 {
-    transform: rotate(320deg);
+    @include rotate(320);
 }
 
 .rot325 {
-    transform: rotate(325deg);
+    @include rotate(325);
 }
 
 .rot330 {
-    transform: rotate(330deg);
+    @include rotate(330);
 }
 
 .rot335 {
-    transform: rotate(335deg);
+    @include rotate(335);
 }
 
 .rot340 {
-    transform: rotate(340deg);
+    @include rotate(340);
 }
 
 .rot345 {
-    transform: rotate(345deg);
+    @include rotate(345);
 }
 
 .rot350 {
-    transform: rotate(350deg);
+    @include rotate(350);
 }
 
 .rot355 {
-    transform: rotate(355deg);
+    @include rotate(355);
 }
 
 .rot360 {
-    transform: rotate(360deg);
+    @include rotate(360);
 }
 
-// transform rotates counter-clockwise
+// transform rotates ccw
 .rot-5 {
-    transform: rotate(-5deg);
+    @include rotate(-5);
 }
 
 .rot-10 {
-    transform: rotate(-10deg);
+    @include rotate(-10);
 }
 
 .rot-15 {
-    transform: rotate(-15deg);
+    @include rotate(-15);
 }
 
 .rot-20 {
-    transform: rotate(-20deg);
+    @include rotate(-20);
 }
 
 .rot-25 {
-    transform: rotate(-25deg);
+    @include rotate(-25);
 }
 
 .rot-30 {
-    transform: rotate(-30deg);
+    @include rotate(-30);
 }
 
 .rot-35 {
-    transform: rotate(-35deg);
+    @include rotate(-35);
 }
 
 .rot-40 {
-    transform: rotate(-40deg);
+    @include rotate(-40);
 }
 
 .rot-45 {
-    transform: rotate(-45deg);
+    @include rotate(-45);
 }
 
 .rot-50 {
-    transform: rotate(-50deg);
+    @include rotate(-50);
 }
 
 .rot-55 {
-    transform: rotate(-55deg);
+    @include rotate(-55);
 }
 
 .rot-60 {
-    transform: rotate(-60deg);
+    @include rotate(-60);
 }
 
 .rot-65 {
-    transform: rotate(-65deg);
+    @include rotate(-65);
 }
 
 .rot-70 {
-    transform: rotate(-70deg);
+    @include rotate(-70);
 }
 
 .rot-75 {
-    transform: rotate(-75deg);
+    @include rotate(-75);
 }
 
 .rot-80 {
-    transform: rotate(-80deg);
+    @include rotate(-80);
 }
 
 .rot-85 {
-    transform: rotate(-85deg);
+    @include rotate(-85);
 }
 
 .rot-90 {
-    transform: rotate(-90deg);
+    @include rotate(-90);
 }
 
 .rot-95 {
-    transform: rotate(-95deg);
+    @include rotate(-95);
 }
 
 .rot-100 {
-    transform: rotate(-100deg);
+    @include rotate(-100);
 }
 
 .rot-105 {
-    transform: rotate(-105deg);
+    @include rotate(-105);
 }
 
 .rot-110 {
-    transform: rotate(-110deg);
+    @include rotate(-110);
 }
 
 .rot-115 {
-    transform: rotate(-115deg);
+    @include rotate(-115);
 }
 
 .rot-120 {
-    transform: rotate(-120deg);
+    @include rotate(-120);
 }
 
 .rot-125 {
-    transform: rotate(-125deg);
+    @include rotate(-125);
 }
 
 .rot-130 {
-    transform: rotate(-130deg);
+    @include rotate(-130);
 }
 
 .rot-135 {
-    transform: rotate(-135deg);
+    @include rotate(-135);
 }
 
 .rot-140 {
-    transform: rotate(-140deg);
+    @include rotate(-140);
 }
 
 .rot-145 {
-    transform: rotate(-145deg);
+    @include rotate(-145);
 }
 
 .rot-150 {
-    transform: rotate(-150deg);
+    @include rotate(-150);
 }
 
 .rot-155 {
-    transform: rotate(-155deg);
+    @include rotate(-155);
 }
 
 .rot-160 {
-    transform: rotate(-160deg);
+    @include rotate(-160);
 }
 
 .rot-165 {
-    transform: rotate(-165deg);
+    @include rotate(-165);
 }
 
 .rot-170 {
-    transform: rotate(-170deg);
+    @include rotate(-170);
 }
 
 .rot-175 {
-    transform: rotate(-175deg);
+    @include rotate(-175);
 }
 
 .rot-180 {
-    transform: rotate(-180deg);
+    @include rotate(-180);
 }
 
 .rot-185 {
-    transform: rotate(-185deg);
+    @include rotate(-185);
 }
 
 .rot-190 {
-    transform: rotate(-190deg);
+    @include rotate(-190);
 }
 
 .rot-195 {
-    transform: rotate(-195deg);
+    @include rotate(-195);
 }
 
 .rot-200 {
-    transform: rotate(-200deg);
+    @include rotate(-200);
 }
 
 .rot-205 {
-    transform: rotate(-205deg);
+    @include rotate(-205);
 }
 
 .rot-210 {
-    transform: rotate(-210deg);
+    @include rotate(-210);
 }
 
 .rot-215 {
-    transform: rotate(-215deg);
+    @include rotate(-215);
 }
 
 .rot-220 {
-    transform: rotate(-220deg);
+    @include rotate(-220);
 }
 
 .rot-225 {
-    transform: rotate(-225deg);
+    @include rotate(-225);
 }
 
 .rot-230 {
-    transform: rotate(-230deg);
+    @include rotate(-230);
 }
 
 .rot-235 {
-    transform: rotate(-235deg);
+    @include rotate(-235);
 }
 
 .rot-240 {
-    transform: rotate(-240deg);
+    @include rotate(-240);
 }
 
 .rot-245 {
-    transform: rotate(-245deg);
+    @include rotate(-245);
 }
 
 .rot-250 {
-    transform: rotate(-250deg);
+    @include rotate(-250);
 }
 
 .rot-255 {
-    transform: rotate(-255deg);
+    @include rotate(-255);
 }
 
 .rot-260 {
-    transform: rotate(-260deg);
+    @include rotate(-260);
 }
 
 .rot-265 {
-    transform: rotate(-265deg);
+    @include rotate(-265);
 }
 
 .rot-270 {
-    transform: rotate(-270deg);
+    @include rotate(-270);
 }
 
 .rot-275 {
-    transform: rotate(-275deg);
+    @include rotate(-275);
 }
 
 .rot-280 {
-    transform: rotate(-280deg);
+    @include rotate(-280);
 }
 
 .rot-285 {
-    transform: rotate(-285deg);
+    @include rotate(-285);
 }
 
 .rot-290 {
-    transform: rotate(-290deg);
+    @include rotate(-290);
 }
 
 .rot-295 {
-    transform: rotate(-295deg);
+    @include rotate(-295);
 }
 
 .rot-300 {
-    transform: rotate(-300deg);
+    @include rotate(-300);
 }
 
 .rot-305 {
-    transform: rotate(-305deg);
+    @include rotate(-305);
 }
 
 .rot-310 {
-    transform: rotate(-310deg);
+    @include rotate(-310);
 }
 
 .rot-315 {
-    transform: rotate(-315deg);
+    @include rotate(-315);
 }
 
 .rot-320 {
-    transform: rotate(-320deg);
+    @include rotate(-320);
 }
 
 .rot-325 {
-    transform: rotate(-325deg);
+    @include rotate(-325);
 }
 
 .rot-330 {
-    transform: rotate(-330deg);
+    @include rotate(-330);
 }
 
 .rot-335 {
-    transform: rotate(-335deg);
+    @include rotate(-335);
 }
 
 .rot-340 {
-    transform: rotate(-340deg);
+    @include rotate(-340);
 }
 
 .rot-345 {
-    transform: rotate(-345deg);
+    @include rotate(-345);
 }
 
 .rot-350 {
-    transform: rotate(-350deg);
+    @include rotate(-350);
 }
 
 .rot-355 {
-    transform: rotate(-355deg);
+    @include rotate(-355);
 }
 
 .rot-360 {
-    transform: rotate(-360deg);
+    @include rotate(-360);
 }
 
+// scale mixin
+@mixin scale($scale) {
+    transform: scale($scale);
+}
+
+/// scales
 .scale-09 {
-    transform: scale(.9);
+    @include scale(.9);
 }
 
 .scale-08 {
-    transform: scale(.8);
+    @include scale(.8);
 }
 
 .scale-07 {
-    transform: scale(.7);
+    @include scale(.7);
 }
 
 .scale-06 {
-    transform: scale(.6);
+    @include scale(.6);
 }
 
 .scale-05 {
-    transform: scale(.5);
+    @include scale(.5);
 }
 
 .scale-04 {
-    transform: scale(.4);
+    @include scale(.4);
 }
 
 .scale-03 {
-    transform: scale(.3);
+    @include scale(.3);
 }
 
 .scale-02 {
-    transform: scale(.2);
+    @include scale(.2);
 }
 
 .scale-01 {
-    transform: scale(.1);
+    @include scale(.1);
 }
+
+///
 
 .fullwidth {
     width: 100vw;
@@ -644,7 +657,21 @@
     }
 }
 
+.margin-auto {
+    margin: 0 auto;
+}
+
 .will-change {
     will-change: transform;
     transform: translateZ(0);
+}
+
+///
+
+.absolute {
+    position: absolute;
+}
+
+.relate {
+    position: relative;
 }

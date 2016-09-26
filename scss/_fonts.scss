@@ -1,19 +1,30 @@
+@font-face {
+    font-family: 'Graphik Regular';
+    src: url('../fonts/graphik-regular-web/Graphik-Regular-Web.eot');
+    src: url('../fonts/graphik-regular-web/Graphik-Regular-Web.eot#iefix') format('embedded-opentype'), url('../fonts/graphik-regular-web/Graphik-Regular-Web.woff2') format('woff2'), url('../fonts/graphik-regular-web/Graphik-Regular-Web.woff') format('woff'), url('../fonts/graphik-regular-web/Graphik-Regular-Web.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik Bold';
+    src: url('../fonts/graphik-bold-web/Graphik-Bold-Web.eot');
+    src: url('../fonts/graphik-bold-web/Graphik-Bold-Web.eot#iefix') format('embedded-opentype'), url('../fonts/graphik-bold-web/Graphik-Bold-Web.woff2') format('woff2'), url('../fonts/graphik-bold-web/Graphik-Bold-Web.woff') format('woff'), url('../fonts/graphik-bold-web/Graphik-Bold-Web.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 p {
     font-size: 1.5em;
-    line-height: .9;
-    &.small {
-        // not used on igormakovsky
-        font-size: 0.75em;
-    }
+    line-height: 1;
 }
 
 a {
     text-decoration: none;
-    border-bottom: 1px solid $black;
+    border-bottom: 1px solid;
     color: $black;
     &:hover {
-        //text-decoration: none;
-        //border-bottom-style: none;
+        border-bottom: none;
     }
     img {
         vertical-align: middle;
@@ -24,8 +35,8 @@ a {
 }
 
 h1 {
+    font-family: $font-bold;
     font-size: 4.5em;
-    font-weight: 400;
     padding: 0;
 }
 
