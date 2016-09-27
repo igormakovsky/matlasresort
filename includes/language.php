@@ -2,8 +2,12 @@
 
 function ru()
 {
-    if ($_COOKIE['langs'] == 'en') {
-        return false;
+    if (isset($_COOKIE)) {
+        if ($_COOKIE['langs'] == 'en') {
+            return false;
+        } else {
+            return true;
+        }
     } else {
         return true;
     }
