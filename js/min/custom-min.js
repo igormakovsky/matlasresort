@@ -7,14 +7,38 @@ $(function () {
     });
 
     $(document).on('click', '#header__opener',
-        function () {
-            $('#header__nav').toggleClass("opened");
-            $('.page').toggleClass("moved");
+        function (e) {
+            e.preventDefault();
+            $('#header__nav').toggleClass("header-opened");
+            $('.page').toggleClass("page-moved");
         });
-    $(document).on('click', '.moved',
-        function () {
-            $('#header__nav').removeClass("opened");
-            $('.page').removeClass("moved");
+    $(document).on('click', '.page-moved',
+        function (e) {
+            e.preventDefault();
+            $('#header__nav').removeClass("header-opened");
+            $('.page').removeClass("page-moved");
         });
+
+    /// hero-image
+
+    $('#logo').removeClass('exited');
+    $('#title').removeClass('exited');
+
+    var wpLogo = new Waypoint({
+        element: document.getElementById('logo'),
+        handler: function () {
+            $('#logo').toggleClass("exited"),
+            $('#title').toggleClass("exited")
+        },
+        offset: 150
+    })
+
+    /// hero-content
+
+    $('#carousel').slick({
+        prevArrow: $("#btn-left"),
+        nextArrow: $("#btn-right")
+    });
+
 });
 

@@ -55,16 +55,13 @@ p {
 
 a {
     text-decoration: none;
-    border-bottom: 1px solid;
-    color: $black;
+    color: inherit;
+    border-bottom: 1px solid lighten($dark-blue, 30%);
     &:hover {
-        border-bottom: none;
+        border-bottom: 1px solid inherit;
     }
     img {
         vertical-align: middle;
-        &:hover {
-            //opacity: 0.85;
-        }
     }
 }
 
@@ -134,4 +131,9 @@ strong {
         content: '— ';
         margin-left: -1.3em;
     }
+}
+
+.asterisk {
+    display: inline-block;
+    transform: translate(0, .4em);
 }

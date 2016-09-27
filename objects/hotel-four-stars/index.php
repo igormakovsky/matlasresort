@@ -8,8 +8,7 @@ $description_en = 'Description on english';
 $keywords_ru = 'кейвордс на русском';
 $keywords_en = 'keywords on english';
 
-require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';
-?>
+require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
     <section class="hero-image">
 
@@ -17,7 +16,13 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';
         </div>
 
         <div id="title" class="hero-image__title exited">
-            <h1>Гостиничный&nbsp;комплекс<br>****</h1>
+            <h1>Гостиничный&nbsp;комплекс</h1>
+            <div class="hero-image__stars">
+                <div id="star-1" class="hero-image__star light appear"></div>
+                <div id="star-2" class="hero-image__star light appear"></div>
+                <div id="star-3" class="hero-image__star light appear"></div>
+                <div id="star-4" class="hero-image__star light appear"></div>
+            </div>
         </div>
 
         <div class="hero-image_hotel-four-stars">
@@ -35,16 +40,16 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';
             <h2 lang="en">Hotel complex</h2>
 
             <div class="hero-content__stars">
-                <div class="hero-content__star appear"></div>
-                <div class="hero-content__star appear"></div>
-                <div class="hero-content__star appear"></div>
-                <div class="hero-content__star appear"></div>
+                <div class="hero-content__star dark appear"></div>
+                <div class="hero-content__star dark appear"></div>
+                <div class="hero-content__star dark appear"></div>
+                <div class="hero-content__star dark appear"></div>
             </div>
 
         </div>
 
         <div class="hero-content__description">
-            <p>Элегантная и утонченная, гостиница 4 звезды представляет собой идеальное место для расслабляющего и оздоровительного отдыха в&nbsp;обстановке домашнего уюта и комфорта, вдали от суматошного ритма повседневной жизни</p>
+            <p>Элегантная и утонченная, <a href="#">гостиница 4 звезды</a> представляет собой идеальное место для расслабляющего и оздоровительного отдыха в&nbsp;обстановке домашнего уюта и комфорта, вдали от суматошного ритма повседневной жизни</p>
         </div>
 
         <div class="hero-content__list">
@@ -73,8 +78,14 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';
                 <tr>
                     <th>Стоимость</th>
                     <td></td>
-                    <td>5 000 ₽ / номер<br><div class="regular">в сутки</div></td>
-                    <td>15 000 ₽ / м<sup>2</sup><br><div class="regular">в год</div></td>
+                    <td>5 000 ₽ / номер
+                        <br>
+                        <div class="regular">в сутки</div>
+                    </td>
+                    <td>15 000 ₽ / м<sup>2</sup>
+                        <br>
+                        <div class="regular">в год</div>
+                    </td>
                 </tr>
                 <tr>
                     <th>Загрузка</th>
@@ -88,7 +99,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';
 
         <div class="hero-content__carousel">
 
-            <div id="carousel">
+            <div class="photos" id="carousel">
 
                 <div class="photo">
                     <img src="img/carousel-image-1.jpg" srcset="img/carousel-image-1@2x.jpg 2x">
@@ -115,6 +126,25 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';
 
         </div>
 
+        <div class="hero-content__poetic">
+
+            <div class="hero-content__poetic_poem">
+                <p>И люблю не дома, а на воле,
+                    <br> В чистом поле, на хмельной траве,
+                    <br> Задремать и пролежать, доколе
+                    <br> Не склонится месяц к голове</p>
+
+                <div class="hero-content__poetic_author">
+                    <p>Расул Гамзатов
+                        <br> «О родине»
+                        <br> (отрывок)
+                        <br> 1979</p>
+                </div>
+
+            </div>
+
+        </div>
+
     </section>
 
-    <?php require $docroot.'includes/bottom.php'; ?>
+<?php require $docroot.'includes/bottom.php'; ?>

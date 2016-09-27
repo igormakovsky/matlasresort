@@ -1,6 +1,6 @@
 <?php
 $year = '1985';
-$id = 'contents';
+$id = 'index';
 $parent = 'object';
 $title_ru = 'Матлас';
 $title_en = 'Matlas';

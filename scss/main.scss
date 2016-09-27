@@ -20,8 +20,7 @@ helvetica neue,
 arial,
 sans-serif;
 
-// imports
-
+//
 @import "/bower_components/normalize-css/normalize.css";
 @import "fonts";
 @import "shorthands";
@@ -30,6 +29,8 @@ sans-serif;
 @import "header";
 @import "hero-image";
 @import "hero-content";
+@import "footer";
+//
 
 html {
     background-color: white;
@@ -50,13 +51,8 @@ body {
 }
 
 article {
-    // Like a whole page wrapper
-    //width: 100%;
-    //min-width: 1000px;
     overflow: hidden;
-    //margin: 0 auto;
     position: relative;
-    //height: 100%;
 }
 
 section {

@@ -624,7 +624,6 @@
 }
 
 ///
-
 .fullwidth {
     width: 100vw;
 }
@@ -680,7 +679,6 @@
 }
 
 ///
-
 .absolute {
     position: absolute;
 }
@@ -691,4 +689,17 @@
 
 .center {
     text-align: center;
+}
+
+///
+.flex-centered {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-flow: row;
+}
+
+.hidden {
+    visibility: hidden;
+    display: none;
 }

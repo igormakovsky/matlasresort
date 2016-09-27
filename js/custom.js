@@ -18,12 +18,12 @@ $(function () {
             $('#header__nav').removeClass("header-opened");
             $('.page').removeClass("page-moved");
         });
-    
+
     /// hero-image
-    
+
     $('#logo').removeClass('exited');
     $('#title').removeClass('exited');
-    
+
     var wpLogo = new Waypoint({
         element: document.getElementById('logo'),
         handler: function () {
@@ -32,9 +32,9 @@ $(function () {
         },
         offset: 150
     })
-    
+
     /// hero-content
-    
+
     $('#carousel').slick({
         prevArrow: $("#btn-left"),
         nextArrow: $("#btn-right")

@@ -1,6 +1,5 @@
 $opacity-transition: opacity 1s;
 $transform-transition: transform 1.5s;
-
 .hero-image {
     width: 100vw;
     &__matlas-logo {
@@ -32,12 +31,50 @@ $transform-transition: transform 1.5s;
         right: 0;
         top: 19rem;
         z-index: 1;
-        width:1000px;
+        width: 1000px;
         text-align: center;
         transition: $opacity-transition, $transform-transition;
         transform-origin: top center;
         @extend .no-mobile;
     }
+    &__stars {
+            display: flex;
+            height: 3rem;
+            width: 10rem;
+            justify-content: space-between;
+            margin: 0 auto;
+        }
+        &__star {
+            margin-top: 1.2em;
+            width: 1.5em;
+            height: 1.5em;
+            animation-duration: 1s;
+            transition: transform .5s;
+            &:hover {
+                transform: scale(1.5);
+            }
+            &:nth-of-type(1) {
+                animation-delay: 1s;
+            }
+            &:nth-of-type(2) {
+                animation-delay: 1.2s;
+            }
+            &:nth-of-type(3) {
+                animation-delay: 1.4s;
+            }
+            &:nth-of-type(4) {
+                animation-delay: 1.6s;
+            }
+            &:nth-of-type(5) {
+                animation-delay: 1.8s;
+            }
+            &.light {
+                background: url(/img/hotelstar-light.svg) center / contain no-repeat;
+            }
+            &.dark {
+                background: url(/img/hotelstar-dark.svg) center / contain no-repeat;
+            }
+        }
     &_hotel-four-stars {
         filter: brightness(75%);
         clip-path: polygon(0% 0%, 100% 0%, 100% 98%, 80% 80%, 60% 98%, 0% 50%);
@@ -45,5 +82,5 @@ $transform-transition: transform 1.5s;
     .exited {
         opacity: 0;
         transform: scale(.95);
-        }
+    }
 }

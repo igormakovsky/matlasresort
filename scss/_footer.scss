@@ -1,0 +1,142 @@
+///
+.footer {
+    @extend section;
+    width: 90%;
+    &__menu {
+        border-top: dotted 1px lighten($dark-blue, 50%);
+        &_primary {
+            ul {
+                display: flex;
+                justify-content: space-around;
+                padding-left: 0;
+                li {
+                    @extend .cervo;
+                    letter-spacing: .2rem;
+                    text-align: center;
+                    padding: 1rem 1rem 1rem;
+                    transition: background-color 1.5s;
+                    white-space: nowrap;
+                    width: 100%;
+                    min-height: 5em;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    a {
+                        border-bottom: none;
+                        &:hover {
+                            border-bottom: inherit;
+                        }
+                    }
+                    &::before {
+                        content: '';
+                        margin-left: 0em;
+                    }
+                    &:hover {
+                        background-color: darken($light, 5%);
+                    }
+                    &.active {
+                        pointer-events: none;
+                        opacity: .3;
+                        a {
+                            border-bottom: none;
+                        }
+                    }
+                }
+                &.row {
+                    li {
+                        font-size: 2em;
+                    }
+                }
+            }
+        }
+        
+        &_secondary {
+            ul {
+                display: flex;
+                justify-content: space-between;
+                padding-left: 0;
+                li {
+                    @extend .cervo;
+                    letter-spacing: .2rem;
+                    text-align: center;
+                    padding: 1rem 1rem 1rem;
+                    transition: transform .5s, background-color 1.5s;
+                    white-space: nowrap;
+                    a {
+                        border-bottom: none;
+                        &:hover {
+                            border-bottom: inherit;
+                        }
+                    }
+                    &::before {
+                        content: '';
+                        margin-left: 0em;
+                    }
+                    &:hover {
+                        transform: scale(1.05);
+                        /* background-color: darken($light, 5%); */
+                    }
+                    &.active {
+                        pointer-events: none;
+                        opacity: .3;
+                        a {
+                            border-bottom: none;
+                        }
+                    }
+                }
+                &.first-row {
+                    li {
+                        font-size: 1.25em;
+                    }
+                }
+                &.second-row {
+                    li {
+                        font-size: 1em;
+                    }
+                }
+                &.third-row {
+                    li {
+                        font-size: 1.5em;
+                    }
+                }
+            }
+        }
+    }
+    &__partners {
+        border-top: dotted 1px lighten($dark-blue, 50%);
+        margin: 0 auto 5em;
+        &_row {
+            margin-top: 1.5em;
+            display: flex;
+            justify-content: space-around;
+            .partner {
+                .logo {
+                    width: 4.5em;
+                    height: 5em;
+                    margin: 0 auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transition: transform .4s;
+                    a {
+                        width: inherit;
+                        border-bottom: none;
+                        img {
+                            width: inherit;
+                        }
+                    }
+                    &:hover {
+                        transform: scale(1.05);
+                    }
+                }
+                .title {
+                    visibility: hidden;
+                    display: none;
+                    text-align: center;
+                    font-size: .7rem;
+                    opacity: .8;
+                }
+            }
+        }
+    }
+}
