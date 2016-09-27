@@ -26,7 +26,6 @@
     <p>
        <form action="/includes/switch_languages.php" method="post" id="switch-lang-form">
            <input type="hidden" name="lang" value="<?=!ru()?'ru':'en'?>">
-           <input type="hidden" name="referer" value="<?=$_SERVER['SCRIPT_NAME']?>">
             <a href="#" id="switch-lang">
                 <?=$settolang;?>
             </a>

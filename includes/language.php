@@ -2,8 +2,8 @@
 
 function ru()
 {
-    if (isset($_COOKIE)) {
-        if ($_COOKIE['langs'] == 'en') {
+    if (isset($_COOKIE['matlas-lang'])) {
+        if ($_COOKIE['matlas-lang'] == 'en') {
             return false;
         } else {
             return true;
