@@ -45,16 +45,16 @@
 
 .backtomain {
     display: none;
-    visibility: 0;
+    visibility: hidden;
 }
 
 .language {
-    //display: none;
-    //visibility: 0;
+    display: block;
+    visibility: visible;
     position: absolute;
     top: 1em;
     right: 3em;
-    z-index: 9998;
+    z-index: 9999;
 }
 
 .page {
