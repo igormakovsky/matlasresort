@@ -33,8 +33,6 @@
        </form>
         <? if ($id == 'contents'){
     echo '<p><a href="#contactinfo">'.$contact.'</a></p>';} ?>
-
-    </p>
 </div>
 
 
