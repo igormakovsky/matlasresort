@@ -1270,8 +1270,6 @@ ul {
   visibility: 0; }
 
 .language {
-  display: none;
-  visibility: 0;
   position: absolute;
   top: 1em;
   right: 3em;
