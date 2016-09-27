@@ -6,16 +6,23 @@
         <nav id="header__nav" class="header__nav">
 
             <ul>
-                <li><a href="/">item1</a></li>
-                <li>item2</li>
-                <li>item3</li>
-                <li>item4</li>
-                <li>item5</li>
-                <li>item6</li>
-                <li>item7</li>
-                <li>item8</li>
-                <li>item9</li>
-                <li>item10</li>
+                <li><a href="#">Отель 5<span class="asterisk">*</span></a></li>
+                <li><a href="/objects/hotel-four-stars/">Отель 4<span class="asterisk">*</span></a></li>
+                <li><a href="#">Виллы и коттеджи</a></li>
+                <li><a href="#">Бельнеология</a></li>
+                <li><a href="#">СПА и Детокс</a></li>
+                <li><a href="#">Спорт</a></li>
+                <li><a href="#">Гольф</a></li>
+                <li id="f-horse-club"><a href="/objects/horse-club/">Конно-
+                            <br>спортивный
+                            <br>клуб</a></li>
+                <li><a href="#">Горнолыжный
+                            <br>комплекс</a></li>
+                <li><a href="#">Коммерция</a></li>
+                <li><a href="#">Ферма</a></li>
+                <li><a href="#">Хунзахская
+                            <br>крепость</a></li>
+                <li><a href="#">Аэропорт</a></li>
             </ul>
 
         </nav>

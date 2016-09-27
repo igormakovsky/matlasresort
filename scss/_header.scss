@@ -32,13 +32,20 @@
         z-index: 1;
         ul {
             color: white;
+            @extend .cervo;
+            margin-top: 2em;
             li {
                 color: white;
+                font-size: 1.3rem;
+                &::before {
+                    content: '';
+                    margin-left: 0em;
+                }
             }
             a {
                 @extend a;
-                color: white;
-                border-bottom: 1px solid white;
+                color: $light;
+                border-bottom: none;
             }
         }
     }

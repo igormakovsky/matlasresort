@@ -27,7 +27,7 @@
             <ul class="row">
 
                 <li><a href="#">Виллы<br>и коттеджи</a></li>
-                <li><a href="#">Бельнеологический<br>комплекс</a></li>
+                <li><a href="#">Бальнеологический<br>комплекс</a></li>
                 <li><a href="#">СПА<br>и Детокс</a></li>
 
             </ul>
@@ -72,7 +72,7 @@
                 <li id="f-hotel-five-stars"><a href="#">Отель 5<span class="asterisk">*</span></a></li>
                 <li id="f-hotel-four-stars"><a href="/objects/hotel-four-stars/">Отель 4<span class="asterisk">*</span></a></li>
                 <li><a href="#">Виллы и коттеджи</a></li>
-                <li><a href="#">Бельнеология</a></li>
+                <li><a href="#">Бальнеология</a></li>
                 <li><a href="#">СПА и Детокс</a></li>
 
             </ul>
