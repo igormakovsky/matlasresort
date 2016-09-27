@@ -25,7 +25,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
             </div>
         </div>
 
-        <div class="hero-image_hotel-four-stars">
+        <div id="hero-image" class="hero-image__photo hero-image__hotel-four-stars darker">
             <img style="width:100%;" src="img/hero-image.jpg" srcset="img/hero-image@2x.jpg 2x">
         </div>
 
@@ -49,7 +49,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
         </div>
 
         <div class="hero-content__description">
-            <p>Элегантная и утонченная, <a href="#">гостиница 4 звезды</a> представляет собой идеальное место для расслабляющего и оздоровительного отдыха в&nbsp;обстановке домашнего уюта и комфорта, вдали от суматошного ритма повседневной жизни</p>
+            <p>Элегантная и утонченная, гостиница 4 звезды представляет собой идеальное место для расслабляющего и оздоровительного отдыха в&nbsp;обстановке домашнего уюта и комфорта, вдали от суматошного ритма повседневной жизни</p>
         </div>
 
         <div class="hero-content__list">

@@ -1,1 +1,0 @@
-function changeLanguage(){var e=document.cookie;document.cookie="language=en"}

@@ -6,8 +6,7 @@
 <script src="/bower_components/waypoints/lib/shortcuts/inview.min.js"></script>
 
 <!-- custom -->
-<script src="/js/min/smoothScroller-min.js"></script>
+<!-- <script src="/js/smoothScroller.js"></script> -->
 <script src="/js/appear.js"></script>
-<script src="/js/language.js"></script>
 <script src="/js/clickhover.js"></script>
 <script src="/js/custom.js"></script>

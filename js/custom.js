@@ -28,7 +28,8 @@ $(function () {
         element: document.getElementById('logo'),
         handler: function () {
             $('#logo').toggleClass("exited"),
-            $('#title').toggleClass("exited")
+            $('#title').toggleClass("exited"),
+            $('#hero-image').toggleClass("darker")
         },
         offset: 150
     })
@@ -38,6 +39,20 @@ $(function () {
     $('#carousel').slick({
         prevArrow: $("#btn-left"),
         nextArrow: $("#btn-right")
+    });
+
+    /// footer
+
+    $('a[href="#showmap"]').click(function () {
+        $('#map').toggleClass('show');
+        $('#showmap').toggleClass('hidden');
+        $('#closemap').toggleClass('hidden');
+    });
+    
+    $('a[href="#closemap"]').click(function () {
+        $('#map').removeClass('show');
+        $('#showmap').toggleClass('hidden');
+        $('#closemap').toggleClass('hidden');
     });
 
 });
