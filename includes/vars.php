@@ -39,7 +39,7 @@ echo 'siteroot is '.$siteroot.'<br>';*/
 //Language differences in variables
 
 
-
+/// Саня!
 
 if (ru()) {
     $sign = date("Y").' — Игорь Маковский';

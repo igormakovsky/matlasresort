@@ -8,6 +8,8 @@ function parseUrl ()
 
 function ru() {
     
+    /// Саня!
+    
     $dev = '.dev'; //.dev
     $host = parseUrl();
 	$host = $host['host'];
