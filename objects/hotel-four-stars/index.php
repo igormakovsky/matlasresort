@@ -13,11 +13,11 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';
 
     <section class="hero-image">
 
-        <div id="logo" class="hero-image__matlas-logo_light">
+        <div id="logo" class="hero-image__matlas-logo_light exited">
         </div>
 
-        <div id="title" class="hero-image__title">
-            <h1>Гостиничный&nbsp;комплекс</h1>
+        <div id="title" class="hero-image__title exited">
+            <h1>Гостиничный&nbsp;комплекс<br>****</h1>
         </div>
 
         <div class="hero-image_hotel-four-stars">
@@ -28,12 +28,19 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';
 
     <section class="hero-content">
 
-        <div class="hero-content__matlas-logo_dark">
-        </div>
+        <div class="hero-content__matlas-logo_dark"></div>
 
         <div class="hero-content__title">
-            <h2 lang="ru">Гостиничный комплекс 4*</h2>
-            <h2 lang="en">Hotel complex 4*</h2>
+            <h2 lang="ru">Гостиничный комплекс</h2>
+            <h2 lang="en">Hotel complex</h2>
+
+            <div class="hero-content__stars">
+                <div class="hero-content__star appear"></div>
+                <div class="hero-content__star appear"></div>
+                <div class="hero-content__star appear"></div>
+                <div class="hero-content__star appear"></div>
+            </div>
+
         </div>
 
         <div class="hero-content__description">
@@ -48,35 +55,63 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';
             </ul>
         </div>
 
+        <div class="hero-content__table">
+
+            <table>
+                <tr>
+                    <th>Наименования</th>
+                    <th>Гостиничный комплекс, итого</th>
+                    <th>Номерной фонд</th>
+                    <th>Коммерческие площади</th>
+                </tr>
+                <tr>
+                    <th>Общая площадь</th>
+                    <td>15 000 м<sup>2</sup></td>
+                    <td>10 400 м<sup>2</sup></td>
+                    <td>4 600 м<sup>2</sup></td>
+                </tr>
+                <tr>
+                    <th>Стоимость</th>
+                    <td></td>
+                    <td>5 000 ₽ / номер<br><div class="regular">в сутки</div></td>
+                    <td>15 000 ₽ / м<sup>2</sup><br><div class="regular">в год</div></td>
+                </tr>
+                <tr>
+                    <th>Загрузка</th>
+                    <td></td>
+                    <td>56,13%</td>
+                    <td>90%</td>
+                </tr>
+            </table>
+
+        </div>
+
         <div class="hero-content__carousel">
 
-            <div class="relate" style="margin:6em auto; width:1000px;">
-                <div id="carousel" class="absolute carousel" style="left:0em; top:0em; height:600px; width:1000px;">
+            <div id="carousel">
 
-                    <div class="photo">
-                        <img src="img/carousel-image-1.jpg" srcset="img/carousel-image-1@2x.jpg 2x">
-                    </div>
-                       
-                    <div class="photo">
-                        <img src="img/carousel-image-2.jpg" srcset="img/carousel-image-2@2x.jpg 2x">
-                    </div>
-                       
-                    <div class="photo">
-                        <img src="img/carousel-image-3.jpg" srcset="img/carousel-image-3@2x.jpg 2x">
-                    </div>
-                       
-                    <div class="photo">
-                        <img src="img/carousel-image-4.jpg" srcset="img/carousel-image-4@2x.jpg 2x">
-                    </div>
-
+                <div class="photo">
+                    <img src="img/carousel-image-1.jpg" srcset="img/carousel-image-1@2x.jpg 2x">
                 </div>
-                
-                <nav class="carousel-btns">
-                    <div id="btn-left" class="btn-right"></div>
-                    <div id="btn-right" class="btn-left"></div>
-                </nav>
-                
+
+                <div class="photo">
+                    <img src="img/carousel-image-2.jpg" srcset="img/carousel-image-2@2x.jpg 2x">
+                </div>
+
+                <div class="photo">
+                    <img src="img/carousel-image-3.jpg" srcset="img/carousel-image-3@2x.jpg 2x">
+                </div>
+
+                <div class="photo">
+                    <img src="img/carousel-image-4.jpg" srcset="img/carousel-image-4@2x.jpg 2x">
+                </div>
+
             </div>
+
+            <nav class="carousel-btns">
+                <div id="btn-left" class="btn-left"></div>
+                <div id="btn-right" class="btn-right"></div>
+            </nav>
 
         </div>
 

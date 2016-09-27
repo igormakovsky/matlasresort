@@ -1,8 +1,15 @@
+.btn {
+    height: 1.5em;
+    width: 1.5em;
+    background-color: red;
+    position: absolute;
+}
+
 .hero-content {
     margin-top: 5rem;
     &__matlas-logo {
         width: 40%;
-        height:4.5em;
+        height: 4.5em;
         margin: 0 auto;
         &_light {
             @extend .hero-content__matlas-logo;
@@ -16,20 +23,116 @@
     &__title {
         text-align: center;
         h2 {
-            margin: 1.5rem auto;
+            margin: 1.5rem auto 0;
+        }
+    }
+    &__stars {
+        display: flex;
+        height: 3rem;
+        width: 10rem;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    &__star {
+        margin-top: 1.2em;
+        width: 1.5em;
+        height: 1.5em;
+        background: url(/img/hotel-star.svg) center / contain no-repeat;
+        animation-duration: 1s;
+        transition: transform .5s;
+        &:hover {
+            transform: scale(1.2);
+        }
+        &:nth-of-type(1) {
+            animation-delay: 1s;
+        }
+        &:nth-of-type(2) {
+            animation-delay: 1.2s;
+        }
+        &:nth-of-type(3) {
+            animation-delay: 1.4s;
+        }
+        &:nth-of-type(4) {
+            animation-delay: 1.6s;
+        }
+        &:nth-of-type(5) {
+            animation-delay: 1.8s;
         }
     }
     &__description {
-        padding: 1rem 7rem;
-        max-width: 1350px;
-        margin: 0 auto;
+        width: 1000px;
+        margin: 3em auto 6em;
+        p {
+            width: 80%;
+            margin: 0 auto;
+        }
     }
     &__list {
-        font-size: 2rem;
-        margin-left: 7.5em;
+        margin: 3em auto 4.5em;
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        flex-flow: row;
+    }
+    &__table {
+        table {
+            width: 90%;
+            margin: 3em auto;
+            text-align: left;
+            vertical-align: top;
+            tr {
+                min-height: 1.5rem;
+                height: 3.5em;
+                border-bottom: dotted 1px $dark-blue;
+                transition: background-color .4s;
+                &:nth-last-of-type(1) {
+                    border-bottom: none;
+                }
+                &:hover {
+                    background-color: rgba(232, 232, 232, 0.3);
+                }
+                th {
+                    @extend .regular;
+                    padding: 1rem;
+                    text-align: inherit;
+                    border-bottom: inherit;
+                    border-left: dotted 1px $dark-blue;
+                    &:nth-of-type(1) {
+                        border-left: none;
+                    }
+                }
+                td {
+                    @extend .bold;
+                    font-size: 1.5rem;
+                    padding: 1rem;
+                    text-align: inherit;
+                    border-bottom: inherit;
+                    border-left: dotted 1px $dark-blue;
+                }
+            }
+        }
     }
     &__carousel {
-        height:600px;
-        width:1000px;
+        height: 630px;
+        width: 1000px;
+        position: relative;
+        margin: 10em auto;
+        overflow: hidden;
+        .carousel-btns {
+            position: absolute;
+            width: inherit;
+            top: 18rem;
+            .btn-left {
+                left: 0;
+                @extend .btn;
+            }
+            .btn-right {
+                right: 0;
+                @extend .btn;
+            }
+        }
+        .photo {
+            outline: none;
+        }
     }
 }

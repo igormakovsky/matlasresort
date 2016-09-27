@@ -62,17 +62,6 @@ article {
 section {
     margin: 0 auto;
     position: relative;
-    width: 1000px;
+    //width: 1000px;
     min-width: 1000px;
-}
-
-#footer-container {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    flex-flow: row;
-}
-
-.carousel .page {
-    outline: none;
 }

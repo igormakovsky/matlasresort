@@ -10,9 +10,4 @@
 <script src="/js/appear.js"></script>
 <script src="/js/language.js"></script>
 <script src="/js/clickhover.js"></script>
-
-<script src="/js/header.js"></script>
-<script src="/js/hero-content.js"></script>
-
-<!-- <script src="/js/min/interact-min.js"></script> -->
-<!-- <script src="/js/preloader.js"></script> -->
+<script src="/js/custom.js"></script>

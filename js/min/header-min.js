@@ -6,7 +6,6 @@ $(function () {
         $('#a:in-viewport(-300)').css('transform', 'translateX(10em)');
     });
 
-    //$('#header__opener').css('cursor', 'pointer');
     $(document).on('click', '#header__opener',
         function (e) {
             e.preventDefault();
@@ -19,15 +18,24 @@ $(function () {
             $('#header__nav').removeClass("header-opened");
             $('.page').removeClass("page-moved");
         });
-
+    
+    /// hero-image
+    
     var wpLogo = new Waypoint({
         element: document.getElementById('logo'),
         handler: function () {
             $('#logo').toggleClass("exited"),
             $('#title').toggleClass("exited")
         },
-        offset: 50
+        offset: 100
     })
+    
+    /// hero-content
+    
+    $('#carousel').slick({
+        prevArrow: $("#btn-left"),
+        nextArrow: $("#btn-right")
+    });
 
 });
 
