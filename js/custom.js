@@ -40,4 +40,14 @@ $(function () {
         nextArrow: $("#btn-right")
     });
 
+
 });
+$(document).ready(function (e) {
+    // Switch languages
+    $(document).on('click','#switch-lang', function (e) {
+        console.log('uuu');
+        e.preventDefault();
+        $('#switch-lang-form').submit();
+        return false;
+    })
+})
