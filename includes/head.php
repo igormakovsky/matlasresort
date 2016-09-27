@@ -7,7 +7,7 @@ require $docroot . 'includes/vars.php';
 ?>
 
 <!doctype html>
-<html lang="<?= $lang ?>">
+<html lang="<?= isset($lang)?$lang:'ru' ?>">
 
 <head>
     <?
