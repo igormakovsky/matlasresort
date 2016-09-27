@@ -37,7 +37,7 @@
   color: white; }
 
 p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1.5; }
 
 a, .header__nav ul a {
@@ -1400,6 +1400,7 @@ ul {
               animation-delay: 1.8s; }
   .hero-content__description {
     width: 1000px;
+    opacity: .8;
     margin: 3em auto 6em; }
     .hero-content__description p {
       width: 80%;
