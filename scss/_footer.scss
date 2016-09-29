@@ -156,7 +156,7 @@
         &_primary {
             position: relative;
             margin: 1.5em 0;
-            height: 40rem;
+            height: 35rem;
             //height: 75rem;
             .first-column {
                 position: absolute;
@@ -179,6 +179,13 @@
                 right: 0rem;
                 top: 0rem;
                 width: 18rem;
+                &.design {
+                    top: 28rem;
+                    opacity: .8;
+                    p {
+                        font-size: .9rem;
+                    }
+                }
             }
             .partner {
                 position: relative;
@@ -217,7 +224,6 @@
                     left: 10rem;
                     top: 2.2rem;
                     text-align: left;
-                    font-size: 1rem;
                     opacity: .8;
                     font-size: .9rem;
                     line-height: 1.4;

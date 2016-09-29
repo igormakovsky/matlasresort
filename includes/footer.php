@@ -150,23 +150,23 @@
             <div class="second-column">
                 <div class="partner">
                     <div class="logo">
-                        <a href="#" target="_blank"><img src="/img/partners/partner-6.png"></a>
+                        <a href="http://government.ru/" target="_blank"><img src="/img/partners/partner-6.png"></a>
                     </div>
-                    <div class="title"><a href="#" target="_blank">Правительство РФ</a></div>
+                    <div class="title"><a href="http://government.ru/" target="_blank">Правительство РФ</a></div>
                 </div>
                 <div class="partner">
                     <div class="logo">
-                        <a href="#" target="_blank"><img src="/img/partners/partner-7.png"></a>
+                        <a href="http://www.e-dag.ru/" target="_blank"><img src="/img/partners/partner-7.png"></a>
                     </div>
-                    <div class="title"><a href="#" target="_blank">Правительство
+                    <div class="title"><a href="http://www.e-dag.ru/" target="_blank">Правительство
                             <br>республики
                             <br>Дагестан</a></div>
                 </div>
                 <div class="partner">
                     <div class="logo">
-                        <a href="#" target="_blank"><img src="/img/partners/partner-8.png"></a>
+                        <a href="http://khunzakh.ru/" target="_blank"><img src="/img/partners/partner-8.png"></a>
                     </div>
-                    <div class="title"><a href="#" target="_blank">Администрация
+                    <div class="title"><a href="http://khunzakh.ru/" target="_blank">Администрация
                             <br>Хунзахского
                             <br>района</a></div>
                 </div>
@@ -187,11 +187,19 @@
                     <br> г. Махачкала,
                     <br> ул. Танкаева, 54
                     <br> <a id="showmap" href="#showmap">показать карту</a><a id="closemap" class="hidden" href="#closemap">скрыть карту</a>
-                    <br> +7 495 604 45 36,
-                    <br> +7 910 942 73 20
                     <br><a href="mailto:info@matlasresort.com">info<span class="beige">@</span>matlasresort.com</a>
-                    <br>
-                    <a href="/">matlasresort.com</a>
+                    <br>matlasresort.com<br>
+                    <?=date("Y")?>
+
+                </p>
+
+            </div>
+                
+            <div class="third-column design">
+
+                <p>
+
+                    Дизайнер<br>и разработчик сайта —<br><a href="http://www.igormakovsky.ru" target="_blank">Игорь Маковский</a>
 
                 </p>
 
@@ -222,17 +230,17 @@
             </div>
             <div class="partner">
                 <div class="logo">
-                    <a href="#" target="_blank"><img src="/img/partners/partner-6.png"></a>
+                    <a href="http://government.ru/" target="_blank"><img src="/img/partners/partner-6.png"></a>
                 </div>
             </div>
             <div class="partner">
                 <div class="logo">
-                    <a href="#" target="_blank"><img src="/img/partners/partner-7.png"></a>
+                    <a href="http://www.e-dag.ru/" target="_blank"><img src="/img/partners/partner-7.png"></a>
                 </div>
             </div>
             <div class="partner">
                 <div class="logo">
-                    <a href="#" target="_blank"><img src="/img/partners/partner-8.png"></a>
+                    <a href="http://khunzakh.ru/" target="_blank"><img src="/img/partners/partner-8.png"></a>
                 </div>
             </div>
             <div class="partner">
@@ -250,10 +258,10 @@
 
             <strong>Матлас</strong>
             <br> г. Махачкала, ул. Танкаева, 54
-            <br> +7 495 604 45 36, +7 910 942 73 20
             <br><a href="mailto:info@matlasresort.com">info<span class="beige">@</span>matlasresort.com</a>
+            <br>matlasresort.com
             <br>
-            <a href="/">matlasresort.com</a>
+            <?=date("Y")?>
 
         </p>
 

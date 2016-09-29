@@ -15,6 +15,8 @@
         }
     }
     &__title {
+        max-width: 900px;
+        margin: 0 auto;
         text-align: center;
         h2 {
             margin: 1.5rem auto 0;
@@ -198,6 +200,28 @@
                     border: solid 1px $light;
                 }
             }
+        }
+    }
+    &__intermediate {
+        width: 100vw;
+        margin: 10rem 0;
+        img {
+            width: 100%;
+        }
+        &_area {
+            clip-path: polygon(0% 0%, 100% 0%, 100% 98%, 0% 98%);
+        }
+        &_farm-1 {
+            clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 80% 70%, 20% 98%, 0% 85%);
+        }
+        &_farm-2 {
+            clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 70% 98%, 0% 80%);
+        }
+        &_craft {
+            clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 80% 77%, 20% 98%, 0% 85%);
+        }
+        &_farm-3 {
+            clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 70% 98%, 0% 80%);
         }
     }
     &__poetic {

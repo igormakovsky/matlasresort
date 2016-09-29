@@ -39,45 +39,48 @@ $transform-transition: transform 1.5s;
         @extend .no-mobile;
     }
     &__stars {
-            display: flex;
-            height: 3rem;
-            width: 10rem;
-            justify-content: space-between;
-            margin: 0 auto;
+        display: flex;
+        height: 3rem;
+        width: 10rem;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    &__star {
+        margin-top: 1.2em;
+        width: 1.5em;
+        height: 1.5em;
+        animation-duration: 1s;
+        transition: transform .5s;
+        &:hover {
+            transform: scale(1.5);
         }
-        &__star {
-            margin-top: 1.2em;
-            width: 1.5em;
-            height: 1.5em;
-            animation-duration: 1s;
-            transition: transform .5s;
-            &:hover {
-                transform: scale(1.5);
-            }
-            &:nth-of-type(1) {
-                animation-delay: 1s;
-            }
-            &:nth-of-type(2) {
-                animation-delay: 1.2s;
-            }
-            &:nth-of-type(3) {
-                animation-delay: 1.4s;
-            }
-            &:nth-of-type(4) {
-                animation-delay: 1.6s;
-            }
-            &:nth-of-type(5) {
-                animation-delay: 1.8s;
-            }
-            &.light {
-                background: url(/img/hotelstar-light.svg) center / contain no-repeat;
-            }
-            &.dark {
-                background: url(/img/hotelstar-dark.svg) center / contain no-repeat;
-            }
+        &:nth-of-type(1) {
+            animation-delay: 1s;
         }
+        &:nth-of-type(2) {
+            animation-delay: 1.2s;
+        }
+        &:nth-of-type(3) {
+            animation-delay: 1.4s;
+        }
+        &:nth-of-type(4) {
+            animation-delay: 1.6s;
+        }
+        &:nth-of-type(5) {
+            animation-delay: 1.8s;
+        }
+        &.light {
+            background: url(/img/hotelstar-light.svg) center / contain no-repeat;
+        }
+        &.dark {
+            background: url(/img/hotelstar-dark.svg) center / contain no-repeat;
+        }
+    }
     &__photo {
-       transition: filter 1s; 
+        transition: filter 1s;
+        img {
+            width: 100%;
+        }
     }
     ///
     &__hotel-four-stars {

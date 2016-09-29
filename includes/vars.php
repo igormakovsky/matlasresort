@@ -40,7 +40,7 @@ echo 'siteroot is '.$siteroot.'<br>';*/
 
 
 if (ru()) {
-    $sign = date("Y").' — Copyright (c) Игорь Маковский | http://www.igormakovsky.ru/';
+    $sign = date("Y").' — Copyright (c) Igor Makovsky | http://www.igormakovsky.ru/';
     $title = $title_ru;
     $description = $description_ru;
     $keywords = 'матлас, курорт, дагестан, хунзах, '.$keywords_ru;
