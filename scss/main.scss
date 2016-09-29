@@ -1,12 +1,10 @@
 // colors
-
 $black: #393836;
 $dark-blue: #354452;
+$light-blue: #6895ab;
 $brown: #7b6059;
 $light: rgb(249, 249, 249);
-
 // fonts
-
 $font-regular: 'Graphik Regular',
 helvetica neue,
 arial,
@@ -19,12 +17,12 @@ $font-cervo: 'Cervo-Regular',
 helvetica neue,
 arial,
 sans-serif;
-
 //
 @import "/bower_components/normalize-css/normalize.css";
 @import "fonts";
 @import "shorthands";
 @import "animations";
+@import "interactive";
 @import "retinajs";
 //
 @import "header";
@@ -32,7 +30,6 @@ sans-serif;
 @import "hero-content";
 @import "footer";
 //
-
 html {
     background-color: white;
 }
@@ -62,3 +59,5 @@ section {
     //width: 1000px;
     min-width: 1000px;
 }
+
+///

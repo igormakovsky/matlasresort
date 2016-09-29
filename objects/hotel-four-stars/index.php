@@ -1,12 +1,12 @@
 <?php
 $id = 'hotel-four-stars';
 $parent = 'object';
-$title_ru = 'Гостиничный комплекс 4 *';
-$title_en = 'Hotel complex 4 *';
-$description_ru = 'Описание на русском»';
-$description_en = 'Description on english';
-$keywords_ru = 'кейвордс на русском';
-$keywords_en = 'keywords on english';
+$title_ru = 'Гостиничный комплекс 4*';
+$title_en = 'Hotel complex 4*';
+$description_ru = 'Гостиничный комплекс 4*';
+$description_en = 'Hotel complex 4*';
+$keywords_ru = '';
+$keywords_en = '';
 
 require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
@@ -16,12 +16,13 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
         </div>
 
         <div id="title" class="hero-image__title exited">
-            <h1>Гостиничный&nbsp;комплекс</h1>
+            <h1 lang="ru">Гостиничный комплекс</h1>
+            <h1 lang="en">Hotel complex</h1>
             <div class="hero-image__stars">
-                <div id="star-1" class="hero-image__star light appear"></div>
-                <div id="star-2" class="hero-image__star light appear"></div>
-                <div id="star-3" class="hero-image__star light appear"></div>
-                <div id="star-4" class="hero-image__star light appear"></div>
+                <div class="hero-image__star light appear"></div>
+                <div class="hero-image__star light appear"></div>
+                <div class="hero-image__star light appear"></div>
+                <div class="hero-image__star light appear"></div>
             </div>
         </div>
 
@@ -71,20 +72,34 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
                 </tr>
                 <tr>
                     <th>Общая площадь</th>
-                    <td>15 000 м<sup>2</sup></td>
-                    <td>10 400 м<sup>2</sup></td>
-                    <td>4 600 м<sup>2</sup></td>
+                    <td>
+                        <nobr>
+                            15 000 м<sup>2</sup>
+                        </nobr>
+                    </td>
+                    <td>
+                        <nobr>
+                            10 400 м<sup>2</sup>
+                        </nobr>
+                    </td>
+                    <td>
+                        <nobr>
+                            4 600 м<sup>2</sup>
+                        </nobr>
+                    </td>
                 </tr>
                 <tr>
                     <th>Стоимость</th>
                     <td></td>
-                    <td>5 000 ₽ / номер
+                    <td>
+                        <nobr>5 000 ₽</nobr>&nbsp;/ номер
                         <br>
-                        <div class="regular">в сутки</div>
+                        <span class="regular">в сутки</span>
                     </td>
-                    <td>15 000 ₽ / м<sup>2</sup>
+                    <td>
+                        <nobr>15 000 ₽</nobr>&nbsp;/ м<sup>2</sup>
                         <br>
-                        <div class="regular">в год</div>
+                        <span class="regular">в год</span>
                     </td>
                 </tr>
                 <tr>
@@ -102,19 +117,27 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
             <div class="photos" id="carousel">
 
                 <div class="photo">
-                    <img src="img/carousel-image-1.jpg" srcset="img/carousel-image-1@2x.jpg 2x">
+                    <img src="/img/interiors/01-lobby-1.jpg">
                 </div>
-
+                   
                 <div class="photo">
-                    <img src="img/carousel-image-2.jpg" srcset="img/carousel-image-2@2x.jpg 2x">
+                    <img src="/img/interiors/02-reception-1.jpg">
                 </div>
-
+                   
                 <div class="photo">
-                    <img src="img/carousel-image-3.jpg" srcset="img/carousel-image-3@2x.jpg 2x">
+                    <img src="/img/interiors/10-living.jpg">
                 </div>
-
+                   
                 <div class="photo">
-                    <img src="img/carousel-image-4.jpg" srcset="img/carousel-image-4@2x.jpg 2x">
+                    <img src="/img/interiors/07-luxe-2.jpg">
+                </div>
+                   
+                <div class="photo">
+                    <img src="/img/interiors/08-deluxe-1.jpg">
+                </div>
+                   
+                <div class="photo">
+                    <img src="/img/interiors/12-master-bedroom.jpg">
                 </div>
 
             </div>
@@ -130,15 +153,15 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
             <div class="hero-content__poetic_poem">
                 <p>И люблю не дома, а на воле,
-                    <br> В чистом поле, на хмельной траве,
-                    <br> Задремать и пролежать, доколе
-                    <br> Не склонится месяц к голове</p>
+                    <br>В чистом поле, на хмельной траве,
+                    <br>Задремать и пролежать, доколе
+                    <br>Не склонится месяц к голове</p>
 
                 <div class="hero-content__poetic_author">
                     <p>Расул Гамзатов
-                        <br> «О родине»
-                        <br> (отрывок)
-                        <br> 1979</p>
+                        <br><span class="title">О родине</span>
+                        <br>(отрывок)
+                        <br>1979</p>
                 </div>
 
             </div>
@@ -147,4 +170,4 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
     </section>
 
-<?php require $docroot.'includes/bottom.php'; ?>
+    <?php require $docroot.'includes/bottom.php'; ?>

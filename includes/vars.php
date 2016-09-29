@@ -10,14 +10,12 @@ $port      = $_SERVER['SERVER_PORT'];
 $disp_port = ($protocol == 'http' && $port == 80 || $protocol == 'https' && $port == 443) ? '' : ":$port";
 $domain    = $_SERVER['SERVER_NAME'];
 $full_url  = "${protocol}://${domain}${disp_port}${base_url}";
-# Ex: 'http://example.com', 'https://example.com/mywebsite', etc.
 
-//universal paths to the pages on the whole website
-$siteroot = $protocol.'://'.$domain; //http://igormakovsky.ru
+$siteroot = $protocol.'://'.$domain;
 if ($id != 'contents'){
 $mainfolder = '/'.$parent.'/'.$id;
-$headimage = $siteroot.'/'.$parent.'/'.$id.'/img/index.jpg'; //path to leading image
-$canonical = $siteroot.'/'.$parent.'/'.$id.'/'; //path to canonical page
+$headimage = $siteroot.'/'.$parent.'/'.$id.'/img/hero-image.jpg';
+$canonical = $siteroot.'/'.$parent.'/'.$id.'/';
 }
 else {
     $mainfolder = '';
@@ -42,25 +40,22 @@ echo 'siteroot is '.$siteroot.'<br>';*/
 
 
 if (ru()) {
-    $sign = date("Y").' — Игорь Маковский';
+    $sign = date("Y").' — Copyright (c) Игорь Маковский | http://www.igormakovsky.ru/';
     $title = $title_ru;
     $description = $description_ru;
-    $keywords = 'игорь, маковский, дизайн, сайт, иллюстрация, книга, портфолио, работы, '.$keywords_ru;
-    $author = 'Игорь Маковский';
-    $switch = 'igormakovsky.com'.$dev.$deldomain;
+    $keywords = 'матлас, курорт, дагестан, хунзах, '.$keywords_ru;
+    $author = 'Матлас';
     $lang = 'ru';
     $tomainpage = '&larr;';
     $contact = 'контакты';
     $settolang = 'in english';
 }
 else {
-    $sign = date("Y").' — Igor Makovsky';
+    $sign = date("Y").' — Copyright (c) Igor Makovsky | http://www.igormakovsky.com/';
     $title = $title_en;
     $description = $description_en;
-    $keywords = 'igor, makovsky, design, site, illustrations, books, portfolio, works, '.$keywords_en;
-    $author = 'Igor Makovsky';
-    $switch = 'igormakovsky.ru'.$dev.$deldomain;
-    $contact = 'contact info';
+    $keywords = 'matlas, resort, dagestan, khuzakh, '.$keywords_en;
+    $author = 'Matlas';
     $tomainpage = '&larr;';
     $lang = 'en-US';
     $settolang = 'по-русски';

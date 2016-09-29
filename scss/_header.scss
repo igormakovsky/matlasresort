@@ -41,6 +41,13 @@
                     content: '';
                     margin-left: 0em;
                 }
+                &.active {
+                        pointer-events: none;
+                        opacity: .3;
+                        a {
+                            border-bottom: none;
+                        }
+                    }
             }
             a {
                 @extend a;

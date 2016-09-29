@@ -1,8 +1,8 @@
 <?php
 $id = 'horse-club';
 $parent = 'object';
-$title_ru = 'Гостиничный комплекс 4 *';
-$title_en = 'Hotel complex 4 *';
+$title_ru = 'Конно-спортивный клуб';
+$title_en = '';
 $description_ru = 'Описание на русском»';
 $description_en = 'Description on english';
 $keywords_ru = 'кейвордс на русском';
@@ -16,7 +16,8 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
         </div>
 
         <div id="title" class="hero-image__title exited">
-            <h1>Конно-спортивный клуб</h1>
+            <h1 lang="ru">Конно-спортивный клуб</h1>
+            <h1 lang="en"></h1>
         </div>
 
         <div id="hero-image" class="hero-image__photo hero-image__hotel-four-stars darker">
@@ -31,7 +32,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
         <div class="hero-content__title">
             <h2 lang="ru">Конно-спортивный клуб</h2>
-            <h2 lang="en">Hotel complex</h2>
+            <h2 lang="en"></h2>
         </div>
 
         <div class="hero-content__description">
@@ -64,7 +65,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
                     <th>Среднее количество прогулок в день</th>
                 </tr>
                 <tr>
-                    <td class="no-border">800 м<sup>2</sup></td>
+                    <td>800 м<sup>2</sup></td>
                     <td>50 лошадей</td>
                     <td>1 600 ₽</td>
                     <td>16</td>
@@ -78,15 +79,15 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
             <div class="photos" id="carousel">
 
                 <div class="photo">
-                    <img src="img/carousel-image-1.jpg" srcset="img/carousel-image-1@2x.jpg 2x">
+                    <img src="img/horse-club-1.jpg">
                 </div>
 
                 <div class="photo">
-                    <img src="img/carousel-image-2.jpg" srcset="img/carousel-image-2@2x.jpg 2x">
+                    <img src="img/horse-club-2.jpg">
                 </div>
 
                 <div class="photo">
-                    <img src="img/carousel-image-3.jpg" srcset="img/carousel-image-3@2x.jpg 2x">
+                    <img src="img/horse-club-3.jpg">
                 </div>
 
             </div>
@@ -108,9 +109,9 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
                 <div class="hero-content__poetic_author">
                     <p>Расул Гамзатов
-                        <br> «Берегите друзей»
-                        <br> (отрывок)
-                        <br> 1977</p>
+                        <br><span class="title">Берегите друзей</span>
+                        <br>(отрывок)
+                        <br>1977</p>
                 </div>
 
             </div>

@@ -4,6 +4,7 @@
         width: 40%;
         height: 4.5em;
         margin: 0 auto;
+        transform: translate(-.2rem, 0);
         &_light {
             @extend .hero-content__matlas-logo;
             background: url(/img/matlas-logo-white.png) top center / contain no-repeat;
@@ -37,6 +38,58 @@
     &__list {
         @extend .flex-centered;
         margin: 3em auto 4.5em;
+        max-width: 800px;
+    }
+    &__illustration {
+        width: 1000px;
+        margin: 0 auto;
+        position: relative;
+        .image {
+            margin: inherit;
+            img {
+                width: 100%;
+            }
+        }
+        .pin {
+            @extend .absolute;
+            height: auto;
+            width: 4rem;
+            animation-delay: .2s;
+            z-index: 1;
+            opacity: 0;
+            &.pin-start {
+                opacity: 1;
+            }
+            img {
+                @extend .scale__bottom;
+            }
+            &__note {
+                position: inherit;
+                animation-delay: 1.2s;
+                h5 {
+                    @extend .bold;
+                    font-size: 1.5rem;
+                    line-height: 1.2;
+                    font-weight: normal;
+                    display: inline-block;
+                    margin: 0;
+                    padding: 0;
+                    width: 100%;
+                    a {
+                        border-bottom-color: lighten($brown, 20%);
+                    }
+                    &.meters {
+                        margin-top: .5rem;
+                        font-size: 2.5rem;
+                        white-space: nowrap;
+                        margin-left: -.65em;
+                        &.align-right {
+                            margin-left: 0;
+                        }
+                    }
+                }
+            }
+        }
     }
     &__table {
         table {
@@ -45,6 +98,12 @@
             margin: 3em auto;
             text-align: left;
             vertical-align: top;
+            &.mini {
+                width: 50%;
+            }
+            @media screen and (max-width: 1150px) {
+                width: 100%;
+            }
             tr {
                 min-height: 1.5rem;
                 height: 3.5em;
@@ -63,6 +122,7 @@
                     text-align: inherit;
                     border-bottom: inherit;
                     border-left: dotted 1px $dark-blue;
+                    vertical-align: top;
                     &:nth-of-type(1) {
                         border-left: none;
                     }
@@ -70,11 +130,15 @@
                 td {
                     @extend .bold;
                     font-size: 1.5rem;
+                    line-height: 1.3;
                     padding: 1rem;
                     text-align: inherit;
                     border-bottom: inherit;
                     border-left: dotted 1px $dark-blue;
-                    &.no-border {
+                    vertical-align: top;
+                }
+                &>td {
+                    &:first-child {
                         border-left: none;
                     }
                 }
@@ -82,16 +146,21 @@
         }
     }
     &__carousel {
-        height: 630px;
+        height: auto;
         width: 1000px;
         position: relative;
-        margin: 6em auto;
+        margin: 6em auto 0;
+        //overflow: hidden;
         .photos {
-            overflow: hidden;
             height: inherit;
             width: inherit;
             .photo {
                 outline: none;
+                img {
+                    width: 1000px;
+                    //height: 630px;
+                    margin: 0 auto;
+                }
             }
         }
         .carousel-btns {
@@ -113,7 +182,7 @@
             }
             .btn-left {
                 left: -6rem;
-                background: url(/img/carousel-arrow-left.svg) 30% 50% / 75% 75% no-repeat, $dark-blue;
+                background: url(/img/carousel-arrow-left.svg) 30% 50% / 75% 75% no-repeat, $light;
                 @extend .btn;
                 @media screen and (max-width: 1200px) {
                     left: 2.5rem;
@@ -122,7 +191,7 @@
             }
             .btn-right {
                 right: -6rem;
-                background: url(/img/carousel-arrow-right.svg) 70% 50% / 75% 75% no-repeat, $dark-blue;
+                background: url(/img/carousel-arrow-right.svg) 70% 50% / 75% 75% no-repeat, $light;
                 @extend .btn;
                 @media screen and (max-width: 1200px) {
                     right: 2.5rem;
@@ -133,9 +202,26 @@
     }
     &__poetic {
         @extend .flex-centered;
-        margin: 5em auto;
+        margin: 5rem auto;
+        &_poem {
+            p {
+                margin-bottom: .5rem;
+            }
+        }
         &_author {
             opacity: .6;
+            padding-top: .5rem;
+            p {
+                .title {
+                    &:before {
+                        content: '«';
+                        margin-left: -.8rem;
+                    }
+                    &:after {
+                        content: '»';
+                    }
+                }
+            }
         }
     }
 }

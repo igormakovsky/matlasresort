@@ -1,6 +1,6 @@
 <script>
     $(function () {
-        $('#f-<?=$id;?>').addClass('active');
+        $('.<?=$id;?>').addClass('active');
         <?php if ($id == 'index'): ?>
         $('#f-menu-primary').removeClass('hidden');
         $('#f-menu-secondary').addClass('hidden');
@@ -19,23 +19,23 @@
 
             <ul class="row">
 
-                <li><a href="#">Гостиничный<br>комплекс<br><span class="asterisk">*****</span></a></li>
+                <li><a href="/objects/hotel-five-stars/">Гостиничный<br>комплекс<br><span class="asterisk">*****</span></a></li>
                 <li><a href="/objects/hotel-four-stars/">Гостиничный<br>комплекс<br><span class="asterisk">****</span></a></li>
 
             </ul>
 
             <ul class="row">
 
-                <li><a href="#">Виллы<br>и коттеджи</a></li>
-                <li><a href="#">Бальнеологический<br>комплекс</a></li>
-                <li><a href="#">СПА<br>и Детокс</a></li>
+                <li><a href="/objects/villas-and-cottages/">Виллы<br>и коттеджи</a></li>
+                <li><a href="/objects/balneology/">Бальнеологический<br>комплекс</a></li>
+                <li><a href="/objects/spa-and-detox/">СПА<br>и Детокс</a></li>
 
             </ul>
 
             <ul class="row">
 
-                <li><a href="#">Спорт</a></li>
-                <li><a href="#">Гольф</a></li>
+                <li><a href="/objects/sport/">Спорт</a></li>
+                <li><a href="/objects/golf/">Гольф</a></li>
 
             </ul>
 
@@ -44,15 +44,15 @@
                 <li><a href="/objects/horse-club/">Конно-
                             <br>спортивный
                             <br>клуб</a></li>
-                <li><a href="#">Горнолыжный
+                <li><a href="/objects/ski/">Горнолыжный
                             <br>комплекс</a></li>
-                <li><a href="#">Коммерция</a></li>
+                <li><a href="/objects/commercial/">Коммерция</a></li>
 
             </ul>
 
             <ul class="row">
 
-                <li><a href="#">Ферма</a></li>
+                <li><a href="/objects/farm/">Ферма</a></li>
                 <li><a href="#">Хунзахская
                             <br>крепость</a></li>
                 <li><a href="#">Аэропорт</a></li>
@@ -69,25 +69,25 @@
 
             <ul class="first-row">
 
-                <li id="f-hotel-five-stars"><a href="#">Отель 5<span class="asterisk">*</span></a></li>
-                <li id="f-hotel-four-stars"><a href="/objects/hotel-four-stars/">Отель 4<span class="asterisk">*</span></a></li>
-                <li><a href="#">Виллы и коттеджи</a></li>
-                <li><a href="#">Бальнеология</a></li>
-                <li><a href="#">СПА и Детокс</a></li>
+                <li class="hotel-five-stars"><a href="/objects/hotel-five-stars/">Отель 5<span class="asterisk">*</span></a></li>
+                <li class="hotel-four-stars"><a href="/objects/hotel-four-stars/">Отель 4<span class="asterisk">*</span></a></li>
+                <li class="villas-and-cottages"><a href="/objects/villas-and-cottages/">Виллы и коттеджи</a></li>
+                <li class="balneology"><a href="/objects/balneology/">Бальнеология</a></li>
+                <li class="spa-and-detox"><a href="/objects/spa-and-detox/">СПА и Детокс</a></li>
 
             </ul>
 
             <ul class="second-row">
 
-                <li><a href="#">Спорт</a></li>
-                <li><a href="#">Гольф</a></li>
-                <li id="f-horse-club"><a href="/objects/horse-club/">Конно-
+                <li class="sport"><a href="/objects/sport/">Спорт</a></li>
+                <li class="golf"><a href="/objects/golf/">Гольф</a></li>
+                <li class="horse-club"><a href="/objects/horse-club/">Конно-
                             <br>спортивный
                             <br>клуб</a></li>
-                <li><a href="#">Горнолыжный
+                <li class="ski"><a href="/objects/ski/">Горнолыжный
                             <br>комплекс</a></li>
-                <li><a href="#">Коммерция</a></li>
-                <li><a href="#">Ферма</a></li>
+                <li class="commercial"><a href="/objects/commercial/">Коммерция</a></li>
+                <li class="farm"><a href="/objects/farm/">Ферма</a></li>
                 <li><a href="#">Хунзахская
                             <br>крепость</a></li>
                 <li><a href="#">Аэропорт</a></li>
@@ -123,27 +123,27 @@
                 </div>
                 <div class="partner">
                     <div class="logo">
-                        <a href="#" target="_blank"><img src="/img/partners/partner-2.png"></a>
+                        <a href="http://www.cushmanwakefield.ru/" target="_blank"><img src="/img/partners/partner-2.png"></a>
                     </div>
-                    <div class="title"><a href="#" target="_blank">Коммерческий Консультант</a></div>
+                    <div class="title"><a href="http://www.cushmanwakefield.ru/" target="_blank">Стратегический консалтинг</a></div>
                 </div>
                 <div class="partner">
                     <div class="logo">
-                        <a href="#" target="_blank"><img src="/img/partners/partner-3.png"></a>
+                        <a href="http://www.exclusivadesign.com/" target="_blank"><img src="/img/partners/partner-3.png"></a>
                     </div>
-                    <div class="title"><a href="#" target="_blank">Архитектурное бюро</a></div>
+                    <div class="title"><a href="http://www.exclusivadesign.com/" target="_blank">Архитектурное бюро</a></div>
                 </div>
                 <div class="partner">
                     <div class="logo">
-                        <a href="#" target="_blank"><img src="/img/partners/partner-4.png"></a>
+                        <a href="http://www.cniipz.ru/" target="_blank"><img src="/img/partners/partner-4.png"></a>
                     </div>
-                    <div class="title"><a href="#" target="_blank">Проектное бюро</a></div>
+                    <div class="title"><a href="http://www.cniipz.ru/" target="_blank">Проектное бюро</a></div>
                 </div>
                 <div class="partner">
                     <div class="logo">
                         <a href="#" target="_blank"><img src="/img/partners/partner-5.png"></a>
                     </div>
-                    <div class="title"><a href="#" target="_blank">Девелопер проекта</a></div>
+                    <div class="title">Девелопер проекта</div>
                 </div>
             </div>
 
@@ -172,9 +172,9 @@
                 </div>
                 <div class="partner">
                     <div class="logo">
-                        <a href="#" target="_blank"><img src="/img/partners/partner-9.png"></a>
+                        <a href="http://www.ncrc.ru/" target="_blank"><img src="/img/partners/partner-9.png"></a>
                     </div>
-                    <div class="title"><a href="#" target="_blank">Управляющая
+                    <div class="title"><a href="http://www.ncrc.ru/" target="_blank">Управляющая
                             <br>компания ОЭЗ</a></div>
                 </div>
             </div>
@@ -207,17 +207,17 @@
             </div>
             <div class="partner">
                 <div class="logo">
-                    <a href="#" target="_blank"><img src="/img/partners/partner-2.png"></a>
+                    <a href="http://www.cushmanwakefield.ru/" target="_blank"><img src="/img/partners/partner-2.png"></a>
                 </div>
             </div>
             <div class="partner">
                 <div class="logo">
-                    <a href="#" target="_blank"><img src="/img/partners/partner-3.png"></a>
+                    <a href="http://www.exclusivadesign.com/" target="_blank"><img src="/img/partners/partner-3.png"></a>
                 </div>
             </div>
             <div class="partner">
                 <div class="logo">
-                    <a href="#" target="_blank"><img src="/img/partners/partner-4.png"></a>
+                    <a href="http://www.cniipz.ru/" target="_blank"><img src="/img/partners/partner-4.png"></a>
                 </div>
             </div>
             <div class="partner">
@@ -237,7 +237,7 @@
             </div>
             <div class="partner">
                 <div class="logo">
-                    <a href="#" target="_blank"><img src="/img/partners/partner-9.png"></a>
+                    <a href="http://www.ncrc.ru/" target="_blank"><img src="/img/partners/partner-9.png"></a>
                 </div>
             </div>
         </div>
