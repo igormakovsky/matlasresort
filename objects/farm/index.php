@@ -1,9 +1,9 @@
 <?php
 $id = 'farm';
 $parent = 'object';
-$title_ru = 'Концепция создания фермы';
+$title_ru = 'Ферма «Матлас»';
 $title_en = '';
-$description_ru = '';
+$description_ru = 'Концепция создания фермы';
 $description_en = '';
 $keywords_ru = '';
 $keywords_en = '';

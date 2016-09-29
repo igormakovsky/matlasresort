@@ -34,7 +34,7 @@
         margin: 3em auto 6em;
         p {
             width: 80%;
-            margin: 0 auto;
+            margin: 0 auto 1rem;
         }
     }
     &__list {
@@ -208,6 +208,7 @@
         img {
             width: 100%;
         }
+        // farm
         &_area {
             clip-path: polygon(0% 0%, 100% 0%, 100% 98%, 0% 98%);
         }
@@ -222,6 +223,10 @@
         }
         &_farm-3 {
             clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 70% 98%, 0% 80%);
+        }
+        // stronghold
+        &_stronghold {
+            clip-path: polygon(0% 0%, 100% 0%, 100% 65%, 80% 98%, 60% 80%, 0% 98%);
         }
     }
     &__poetic {

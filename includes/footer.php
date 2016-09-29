@@ -53,7 +53,7 @@
             <ul class="row">
 
                 <li><a href="/objects/farm/">Ферма</a></li>
-                <li><a href="#">Хунзахская
+                <li><a href="/objects/stronghold/">Хунзахская
                             <br>крепость</a></li>
                 <li><a href="#">Аэропорт</a></li>
 
@@ -88,7 +88,7 @@
                             <br>комплекс</a></li>
                 <li class="commercial"><a href="/objects/commercial/">Коммерция</a></li>
                 <li class="farm"><a href="/objects/farm/">Ферма</a></li>
-                <li><a href="#">Хунзахская
+                <li class="stronghold"><a href="/objects/stronghold/">Хунзахская
                             <br>крепость</a></li>
                 <li><a href="#">Аэропорт</a></li>
 
