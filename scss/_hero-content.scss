@@ -241,6 +241,8 @@
         }
         &_map-local {
             position: relative;
+            max-width: 1400px;
+            margin: 0 auto;
             .dot {
                 position: absolute;
                 height: 3rem;
@@ -256,13 +258,13 @@
                     color: $dark-blue;
                     display: block;
                     padding-top: .7rem;
+                    z-index: 1;
                 }
                 @extend .map-dot-animation;
                 &:after {
                     @extend .bold;
                     pointer-events: none;
                     content: attr(data-tooltip);
-                    text-align: left;
                     width: auto;
                     padding: .2rem;
                     opacity: 0;
@@ -271,9 +273,23 @@
                     font-size: 2rem;
                     line-height: 1;
                     position: absolute;
-                    left: 3.3rem;
                     top: 0.3rem;
                     text-shadow: $dark-blue 0 0 4px;
+                    z-index: 2;
+                }
+                &.align-right {
+                    &:after {
+                        right: 3.3rem;
+                        text-align: right;
+                        transform: translate(0, 0, 0);
+                    }
+                }
+                &.align-left {
+                    &:after {
+                        text-align: left;
+                        left: 3.3rem;
+                        transform: translate(0, 0, 0);
+                    }
                 }
                 &:hover {
                     //animation-play-state: paused;
@@ -283,6 +299,7 @@
                     &:after {
                         opacity: 1;
                         visibility: visible;
+                        z-index:2;
                     }
                 }
                 @media screen and (max-width: 1300px) {

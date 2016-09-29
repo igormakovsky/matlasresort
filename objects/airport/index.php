@@ -161,19 +161,35 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
             <div class="hero-content__intermediate_map-local">
                 <img src="img/map-local.jpg" srcset="img/map-local@2x.jpg 2x">
                 
-                <div class="dot align-right" data-tooltip="Диспетчерская вышка" style="right:29%; top:41%;">
+                <div class="dot align-left" data-tooltip="Подъездная дорога" style="right:26.5%; top:75%;">
+                    <span class="dot__number">1</span>
+                </div>
+                
+                <div class="dot align-left" data-tooltip="Главное здание аэропорта" style="right:27%; top:53%;">
+                    <span class="dot__number">2</span>
+                </div>
+                
+                <div class="dot align-left" data-tooltip="Склад ГСМ" style="right:24%; top:42%;">
+                    <span class="dot__number">3</span>
+                </div>
+                
+                <div class="dot align-right" data-tooltip="Перрон" style="right:32%; bottom:30.5%;">
+                    <span class="dot__number">4</span>
+                </div>
+                
+                <div class="dot align-right" data-tooltip="Диспетчерская вышка" style="right:30%; top:43.5%;">
                     <span class="dot__number">5</span>
                 </div>
                 
-                <div class="dot align-left" data-tooltip="Ремонтный цех" style="right:34%; top:43%;">
+                <div class="dot align-right" data-tooltip="Ремонтный цех" style="right:34%; top:43%;">
                     <span class="dot__number">6</span>
                 </div>
                 
-                <div class="dot align-left" data-tooltip="Рулежная дорожка" style="right:40.3%; top:47%;">
+                <div class="dot align-right" data-tooltip="Рулежная дорожка" style="right:40.3%; top:50%;">
                     <span class="dot__number">7</span>
                 </div>
                 
-                <div class="dot align-left" data-tooltip="Взлетно- посадочная полоса" style="left:40%; top:50%;">
+                <div class="dot align-right" data-tooltip="Взлетно- посадочная полоса" style="left:40%; top:50%;">
                     <span class="dot__number">8</span>
                 </div>
                 
