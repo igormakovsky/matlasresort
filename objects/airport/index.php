@@ -161,44 +161,44 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
             <div class="hero-content__intermediate_map-local">
                 <img src="img/map-local.jpg" srcset="img/map-local@2x.jpg 2x">
                 
-                <div class="dot align-left" data-tooltip="Подъездная дорога" style="right:26.5%; top:75%;">
-                    <span class="dot__number">1</span>
+                <div class="dot align-right" data-tooltip="Подъездная дорога" style="right:26.5%; top:75%;">
+                    <a href="#li-1"><span class="dot__number">1</span></a>
                 </div>
                 
                 <div class="dot align-left" data-tooltip="Главное здание аэропорта" style="right:27%; top:53%;">
-                    <span class="dot__number">2</span>
+                    <a href="#li-2"><span class="dot__number">2</span></a>
                 </div>
                 
                 <div class="dot align-left" data-tooltip="Склад ГСМ" style="right:24%; top:42%;">
-                    <span class="dot__number">3</span>
+                    <a href="#li-3"><span class="dot__number">3</span></a>
                 </div>
                 
                 <div class="dot align-right" data-tooltip="Перрон" style="right:32%; bottom:30.5%;">
-                    <span class="dot__number">4</span>
+                    <a href="#li-4"><span class="dot__number">4</span></a>
                 </div>
                 
-                <div class="dot align-right" data-tooltip="Диспетчерская вышка" style="right:30%; top:43.5%;">
-                    <span class="dot__number">5</span>
+                <div class="dot align-right" data-tooltip="Диспетчерская вышка" style="right:30%; top:43.5%; z-index:11;">
+                    <a href="#li-5"><span class="dot__number">5</span></a>
                 </div>
                 
-                <div class="dot align-right" data-tooltip="Ремонтный цех" style="right:34%; top:43%;">
-                    <span class="dot__number">6</span>
+                <div class="dot align-right" data-tooltip="Ремонтный цех" style="right:34%; top:43%; z-index:10;">
+                    <a href="#li-6"><span class="dot__number">6</span></a>
                 </div>
                 
                 <div class="dot align-right" data-tooltip="Рулежная дорожка" style="right:40.3%; top:50%;">
-                    <span class="dot__number">7</span>
+                    <a href="#li-7"><span class="dot__number">7</span></a>
                 </div>
                 
-                <div class="dot align-right" data-tooltip="Взлетно- посадочная полоса" style="left:40%; top:50%;">
-                    <span class="dot__number">8</span>
+                <div class="dot align-right" data-tooltip="Взлетно- посадочная полоса" style="left:26%; top:35%;">
+                    <a href="#li-8"><span class="dot__number">8</span></a>
                 </div>
                 
                 <div class="dot align-left" data-tooltip="Вертодром" style="right:44.25%; top:37.5%;">
-                    <span class="dot__number">9</span>
+                    <a href="#li-9"><span class="dot__number">9</span></a>
                 </div>
                 
                 <div class="dot align-left" data-tooltip="Стоянка судов" style="left:42%; top:29%;">
-                    <span class="dot__number">10</span>
+                    <a href="#li-10"><span class="dot__number">10</span></a>
                 </div>
                 
             </div>
@@ -214,16 +214,16 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
         
         <div class="hero-content__list">
             <ol>
-                <li>Подъездная дорога</li>
-                <li>Здание аэропорта с торговым центром и&nbsp;техническими службами</li>
-                <li>Склад ГСМ</li>
-                <li>Перрон с местами стоянки воздушных судов</li>
-                <li>Диспетчерская вышка</li>
-                <li>Ремонтно-хозяйственная зона</li>
-                <li>Главная рулежная дорожка</li>
-                <li>ИВПП (искусственная взлетно-посадочная полоса)</li>
-                <li>Вертодром</li>
-                <li>Места стоянки воздушных судов</li>
+                <li id="li-1">Подъездная дорога</li>
+                <li id="li-2">Здание аэропорта с торговым центром и&nbsp;техническими службами</li>
+                <li id="li-3">Склад ГСМ</li>
+                <li id="li-4">Перрон с местами стоянки воздушных судов</li>
+                <li id="li-5">Диспетчерская вышка</li>
+                <li id="li-6">Ремонтно-хозяйственная зона</li>
+                <li id="li-7">Главная рулежная дорожка</li>
+                <li id="li-8">ИВПП (искусственная взлетно-посадочная полоса)</li>
+                <li id="li-9">Вертодром</li>
+                <li id="li-10">Места стоянки воздушных судов</li>
             </ol>
         </div>
 
