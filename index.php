@@ -20,7 +20,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';
         </div>
 
         <div id="title" class="hero-image__title exited">
-            <h1>Всесезонный<br>туристическо-рекреационный<br>комплекс</h1>
+            <h1>Всесезонный<br>туристско-рекреационный<br>комплекс</h1>
         </div>
 
         <div id="hero-image" class="hero-image__photo hero-image__hotel-four-stars darker">

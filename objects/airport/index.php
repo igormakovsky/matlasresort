@@ -153,65 +153,65 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
             </table>
 
         </div>
-        
+
         <!-- map-local -->
 
         <div class="hero-content__intermediate">
 
             <div class="hero-content__intermediate_map-local">
                 <img src="img/map-local.jpg" srcset="img/map-local@2x.jpg 2x">
-                
+
                 <div class="dot align-right" data-tooltip="Подъездная дорога" style="right:26.5%; top:75%;">
                     <a href="#li-1"><span class="dot__number">1</span></a>
                 </div>
-                
+
                 <div class="dot align-left" data-tooltip="Главное здание аэропорта" style="right:27%; top:53%;">
                     <a href="#li-2"><span class="dot__number">2</span></a>
                 </div>
-                
+
                 <div class="dot align-left" data-tooltip="Склад ГСМ" style="right:24%; top:42%;">
                     <a href="#li-3"><span class="dot__number">3</span></a>
                 </div>
-                
+
                 <div class="dot align-right" data-tooltip="Перрон" style="right:32%; bottom:30.5%;">
                     <a href="#li-4"><span class="dot__number">4</span></a>
                 </div>
-                
+
                 <div class="dot align-right" data-tooltip="Диспетчерская вышка" style="right:30%; top:43.5%; z-index:11;">
                     <a href="#li-5"><span class="dot__number">5</span></a>
                 </div>
-                
+
                 <div class="dot align-right" data-tooltip="Ремонтный цех" style="right:34%; top:43%; z-index:10;">
                     <a href="#li-6"><span class="dot__number">6</span></a>
                 </div>
-                
+
                 <div class="dot align-right" data-tooltip="Рулежная дорожка" style="right:40.3%; top:50%;">
                     <a href="#li-7"><span class="dot__number">7</span></a>
                 </div>
-                
+
                 <div class="dot align-right" data-tooltip="Взлетно- посадочная полоса" style="left:26%; top:35%;">
                     <a href="#li-8"><span class="dot__number">8</span></a>
                 </div>
-                
+
                 <div class="dot align-left" data-tooltip="Вертодром" style="right:44.25%; top:37.5%;">
                     <a href="#li-9"><span class="dot__number">9</span></a>
                 </div>
-                
+
                 <div class="dot align-left" data-tooltip="Стоянка судов" style="left:42%; top:29%;">
                     <a href="#li-10"><span class="dot__number">10</span></a>
                 </div>
-                
+
             </div>
 
         </div>
-        
+
         <div class="hero-content__title">
             <h2 lang="ru"></h2>
             <h3 lang="ru">Схема аэродрома и аэропорта в случае совместного базирования</h3>
             <h2 lang="en"></h2>
             <h3 lang="en"></h3>
         </div>
-        
+
         <div class="hero-content__list">
             <ol>
                 <li id="li-1">Подъездная дорога</li>
