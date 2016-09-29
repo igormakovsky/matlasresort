@@ -106,6 +106,12 @@
             @media screen and (max-width: 1150px) {
                 width: 100%;
             }
+            &.coverage {
+                th,
+                td {
+                    width: 33%; //airport
+                }
+            }
             tr {
                 min-height: 1.5rem;
                 height: 3.5em;
@@ -205,6 +211,7 @@
     &__intermediate {
         width: 100vw;
         margin: 10rem 0;
+        min-width: 1000px;
         img {
             width: 100%;
         }
@@ -227,6 +234,61 @@
         // stronghold
         &_stronghold {
             clip-path: polygon(0% 0%, 100% 0%, 100% 65%, 80% 98%, 60% 80%, 0% 98%);
+        }
+        // airport
+        &_map-global {
+            clip-path: polygon(0% 0%, 100% 0%, 100% 98%, 81.5% 88%, 68% 98%, 15% 70%, 0% 80%);
+        }
+        &_map-local {
+            position: relative;
+            .dot {
+                position: absolute;
+                height: 3rem;
+                width: 3rem;
+                opacity: .7;
+                border-radius: 50%;
+                background-color: white;
+                transition: transform .4s, opacity 1s;
+                &__number {
+                    @extend .bold;
+                    text-align: center;
+                    font-size: 1.5rem;
+                    color: $dark-blue;
+                    display: block;
+                    padding-top: .7rem;
+                }
+                @extend .map-dot-animation;
+                &:after {
+                    @extend .bold;
+                    pointer-events: none;
+                    content: attr(data-tooltip);
+                    text-align: left;
+                    width: auto;
+                    padding: .2rem;
+                    opacity: 0;
+                    visibility: hidden;
+                    color: white;
+                    font-size: 2rem;
+                    line-height: 1;
+                    position: absolute;
+                    left: 3.3rem;
+                    top: 0.3rem;
+                    text-shadow: $dark-blue 0 0 4px;
+                }
+                &:hover {
+                    //animation-play-state: paused;
+                    animation: none;
+                    transform: scale(1.1);
+                    opacity: 1;
+                    &:after {
+                        opacity: 1;
+                        visibility: visible;
+                    }
+                }
+                @media screen and (max-width: 1300px) {
+                transform: scale(.8);
+            }
+            }
         }
     }
     &__poetic {

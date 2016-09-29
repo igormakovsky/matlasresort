@@ -98,6 +98,23 @@
     }
 }
 
+.map-dot-animation {
+    animation: map-dot-animation .5s ease-in-out 0s infinite alternate;
+}
+
+@keyframes map-dot-animation {
+    0% {
+        transform: scale(1);
+        background-color: white;
+        opacity: .8;
+    }
+    100% {
+        transform: scale(.95);
+        background-color: white;
+        opacity: .5;
+    }
+}
+
 .appear {
     opacity: 0;
     animation-duration: .5s;

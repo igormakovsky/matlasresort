@@ -22,7 +22,7 @@
             <li class="farm"><a href="/objects/farm/">Ферма</a></li>
             <li class="stronghold"><a href="/objects/stronghold/">Хунзахская
                             <br>крепость</a></li>
-            <li><a href="#">Аэропорт</a></li>
+            <li class="airport"><a href="/objects/airport/">Аэропорт</a></li>
         </ul>
 
     </nav>
