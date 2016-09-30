@@ -56,23 +56,6 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
         </div>
 
-        <!-- <div class="hero-content__table">
-        
-            <table>
-                <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <td>₽</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
-        
-        </div> -->
-
         <!-- <div class="hero-content__carousel">
         
             <div class="photos" id="carousel">

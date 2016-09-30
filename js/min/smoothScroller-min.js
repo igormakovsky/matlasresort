@@ -5,7 +5,7 @@ $(function () {
 
 $('a[href^="#"]').click(function(){
     $('html, body').animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top - 50
+        scrollTop: $( $.attr(this, 'href') ).offset().top - 40
     }, 2000);
     return false;
 });

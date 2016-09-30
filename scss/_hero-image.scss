@@ -14,6 +14,14 @@ $transform-transition: transform 1.5s;
         z-index: 1;
         transition: $opacity-transition, $transform-transition;
         @extend .no-mobile;
+        &.index {
+            @media screen and (max-width: 1000px) {
+                opacity: 1;
+                display: block;
+                visibility: visible;
+                transform: translate(0, -4rem);
+            }
+        }
         &_light {
             @extend .hero-image__matlas-logo;
             background: url(/img/matlas-logo-white.png) top center / contain no-repeat;
@@ -37,6 +45,14 @@ $transform-transition: transform 1.5s;
         transform-origin: top center;
         white-space: nowrap;
         @extend .no-mobile;
+        &.index {
+            @media screen and (max-width: 1000px) {
+                opacity: 1;
+                display: block;
+                visibility: visible;
+                transform: translate(0, -4rem);
+            }
+        }
     }
     &__stars {
         display: flex;
@@ -83,6 +99,9 @@ $transform-transition: transform 1.5s;
         }
     }
     ///
+    &__matlasresort {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 98%, 85% 88%, 70% 98%, 0% 80%);
+    }
     &__hotel-four-stars {
         clip-path: polygon(0% 0%, 100% 0%, 100% 98%, 80% 80%, 60% 98%, 0% 50%);
     }
@@ -92,6 +111,7 @@ $transform-transition: transform 1.5s;
     &__commercial {
         clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 75% 98%, 51% 85%, 25% 98%, 0% 85%);
     }
+    ///
     .darker {
         filter: brightness(75%);
     }

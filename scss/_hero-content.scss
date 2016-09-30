@@ -112,6 +112,20 @@
                     width: 33%; //airport
                 }
             }
+            &.main {
+                .align-right {
+                    text-align: right;
+                    width: 10%;
+                }
+                th:nth-of-type(3),
+                th:nth-of-type(4),
+                th:nth-of-type(5),
+                td:nth-of-type(3),
+                td:nth-of-type(4),
+                td:nth-of-type(5) {
+                    @extend .align-right;
+                }
+            }
             tr {
                 min-height: 1.5rem;
                 height: 3.5em;
@@ -144,6 +158,9 @@
                     border-bottom: inherit;
                     border-left: dotted 1px $dark-blue;
                     vertical-align: top;
+                    &.total {
+                        font-size: 2.5rem;
+                    }
                 }
                 &>td {
                     &:first-child {
@@ -282,7 +299,7 @@
                         right: 3.3rem;
                         text-align: right;
                         transform: translate(0, 0, 0);
-                        z-index:100;
+                        z-index: 100;
                     }
                 }
                 &.align-left {
@@ -300,12 +317,86 @@
                     &:after {
                         opacity: 1;
                         visibility: visible;
-                        z-index:2;
+                        z-index: 2;
                     }
                 }
                 @media screen and (max-width: 1300px) {
-                transform: scale(.8);
+                    transform: scale(.8);
+                }
             }
+        }
+        ///
+        &_map-main {
+            clip-path: polygon(0% 0%, 100% 0%, 100% 98%, 50% 90%, 0% 98%);
+            position: relative;
+            max-width: 1400px;
+            margin: 0 auto;
+            img {
+                opacity: .75;
+            }
+            .dot {
+                position: absolute;
+                height: 3rem;
+                width: 3rem;
+                opacity: .7;
+                border-radius: 50%;
+                background-color: $dark-blue;
+                transition: transform .4s, opacity 1s;
+                &__number {
+                    @extend .bold;
+                    text-align: center;
+                    font-size: 1.5rem;
+                    color: $light;
+                    display: block;
+                    padding-top: .7rem;
+                    z-index: 1;
+                }
+                @extend .map-dot-animation-main;
+                &:after {
+                    @extend .bold;
+                    pointer-events: none;
+                    content: attr(data-tooltip);
+                    width: auto;
+                    padding: .2rem;
+                    opacity: 0;
+                    visibility: hidden;
+                    color: $dark-blue;
+                    font-size: 2rem;
+                    line-height: 1;
+                    position: absolute;
+                    top: 0.3rem;
+                    text-shadow: white 0 0 10px;
+                    z-index: 2;
+                }
+                &.align-right {
+                    &:after {
+                        right: 3.3rem;
+                        text-align: right;
+                        transform: translate(0, 0, 0);
+                        z-index: 100;
+                    }
+                }
+                &.align-left {
+                    &:after {
+                        text-align: left;
+                        left: 3.3rem;
+                        transform: translate(0, 0, 0);
+                    }
+                }
+                &:hover {
+                    //animation-play-state: paused;
+                    animation: none;
+                    transform: scale(1.1);
+                    opacity: 1;
+                    &:after {
+                        opacity: 1;
+                        visibility: visible;
+                        z-index: 2;
+                    }
+                }
+                @media screen and (max-width: 1300px) {
+                    transform: scale(.8);
+                }
             }
         }
     }

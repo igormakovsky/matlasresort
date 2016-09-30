@@ -115,6 +115,23 @@
     }
 }
 
+.map-dot-animation-main {
+    animation: map-dot-animation-main .5s ease-in-out 0s infinite alternate;
+}
+
+@keyframes map-dot-animation-main {
+    0% {
+        transform: scale(1);
+        background-color: $dark-blue;
+        opacity: .8;
+    }
+    100% {
+        transform: scale(.95);
+        background-color: $dark-blue;
+        opacity: .5;
+    }
+}
+
 .appear {
     opacity: 0;
     animation-duration: .5s;
