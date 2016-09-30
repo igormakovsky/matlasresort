@@ -64,14 +64,14 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
         <div class="hero-content__poetic">
 
             <div class="hero-content__poetic_poem">
-                <p>Кони траву щипали на склоне,
-                    <br>А луна серебрила холмы.
-                    <br>И, сведенные в пальцах, ладони
-                    <br>Положили под головы мы.</p>
+                <p>Из голубой небесной чаши
+                    <br>В зеленых чащах и лугах
+                    <br>Я жадно воздух пил сладчайший,
+                    <br>Настоянный на облаках</p>
 
                 <div class="hero-content__poetic_author">
                     <p>Расул Гамзатов
-                        <br><span class="title">У Максобского моста</span>
+                        <br><span class="title">Покуда вертится Земля</span>
                         <br>(отрывок)
                         <br>1976</p>
                 </div>
@@ -130,20 +130,20 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
             </p>
 
         </div>
-
+        
         <div class="hero-content__poetic">
 
             <div class="hero-content__poetic_poem">
-                <p>Из голубой небесной чаши
-                    <br>В зеленых чащах и лугах
-                    <br>Я жадно воздух пил сладчайший,
-                    <br>Настоянный на облаках</p>
+                <p>О, как они на ласку намекают,
+                    <br>Вздувая пламя у меня в груди!
+                    <br>А как порою предостерегают,
+                    <br>Безмолвно говоря: не подходи!</p>
 
                 <div class="hero-content__poetic_author">
                     <p>Расул Гамзатов
-                        <br><span class="title">Покуда вертится Земля</span>
+                        <br><span class="title">Брови</span>
                         <br>(отрывок)
-                        <br>1976</p>
+                        <br>1979</p>
                 </div>
 
             </div>
@@ -189,58 +189,20 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
         <div class="hero-content__description">
             <p>Анималотерапия — благоприятное взаимодействие между человеком и животным путем обмена положительной энергией. Оказывает эффективное действие на профилактику и лечение болезней и снятие стресса</p>
         </div>
-
-        <!-- <div class="hero-content__table">
         
-            <table>
-                <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <td>₽</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
-        
-        </div> -->
-
-        <!-- <div class="hero-content__carousel">
-        
-            <div class="photos" id="carousel">
-        
-                <div class="photo"><img src="/img/nature/nature-1.jpg"></div>
-                <div class="photo"><img src="/img/nature/nature-2.jpg"></div>
-                <div class="photo"><img src="/img/nature/nature-3.jpg"></div>
-                <div class="photo"><img src="/img/nature/nature-4.jpg"></div>
-                <div class="photo"><img src="/img/nature/nature-5.jpg"></div>
-                <div class="photo"><img src="/img/nature/nature-6.jpg"></div>
-                <div class="photo"><img src="/img/nature/nature-7.jpg"></div>
-        
-            </div>
-        
-            <nav class="carousel-btns">
-                <div id="btn-left" class="btn-left"></div>
-                <div id="btn-right" class="btn-right"></div>
-            </nav>
-        
-        </div> -->
-
         <div class="hero-content__poetic">
 
             <div class="hero-content__poetic_poem">
-                <p>О, как они на ласку намекают,
-                    <br>Вздувая пламя у меня в груди!
-                    <br>А как порою предостерегают,
-                    <br>Безмолвно говоря: не подходи!</p>
+                <p>Кони траву щипали на склоне,
+                    <br>А луна серебрила холмы.
+                    <br>И, сведенные в пальцах, ладони
+                    <br>Положили под головы мы.</p>
 
                 <div class="hero-content__poetic_author">
                     <p>Расул Гамзатов
-                        <br><span class="title">Брови</span>
+                        <br><span class="title">У Максобского моста</span>
                         <br>(отрывок)
-                        <br>1979</p>
+                        <br>1976</p>
                 </div>
 
             </div>
