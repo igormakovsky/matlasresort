@@ -264,7 +264,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';
                 </tr>
                 <tr>
                     <td>14</td>
-                    <td colspan="4"><span id="li-14" class="regular">Православная часовня</span></td>
+                    <td colspan="4"><span id="li-14" class="regular">Вертолетная площадка</span></td>
                 </tr>
                 <tr>
                     <td>15</td>
