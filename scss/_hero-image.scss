@@ -16,10 +16,10 @@ $transform-transition: transform 1.5s;
         @extend .no-mobile;
         &.index {
             @media screen and (max-width: 1000px) {
-                opacity: 1;
-                display: block;
-                visibility: visible;
-                transform: translate(0, -4rem);
+                opacity: 1 !important;
+                display: block !important;
+                visibility: visible !important;
+                //transform: translate(0, -4rem);
             }
         }
         &_light {
@@ -47,10 +47,10 @@ $transform-transition: transform 1.5s;
         @extend .no-mobile;
         &.index {
             @media screen and (max-width: 1000px) {
-                opacity: 1;
-                display: block;
-                visibility: visible;
-                transform: translate(0, -4rem);
+                opacity: 1 !important;
+                display: block !important;
+                visibility: visible !important;
+                //transform: translate(0, -4rem);
             }
         }
     }
