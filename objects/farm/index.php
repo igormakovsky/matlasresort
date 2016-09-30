@@ -64,14 +64,14 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
         <div class="hero-content__poetic">
 
             <div class="hero-content__poetic_poem">
-                <p>Из голубой небесной чаши
-                    <br>В зеленых чащах и лугах
-                    <br>Я жадно воздух пил сладчайший,
-                    <br>Настоянный на облаках</p>
+                <p>Вдохновенно, как дети лишь могут,
+                    <br>Слушать тех, кто снежком убелен,
+                    <br>Горкой речки мы слушали клёкот,
+                    <br>Шелест трав, колокольчиков звон</p>
 
                 <div class="hero-content__poetic_author">
                     <p>Расул Гамзатов
-                        <br><span class="title">Покуда вертится Земля</span>
+                        <br><span class="title">У Максобского моста</span>
                         <br>(отрывок)
                         <br>1976</p>
                 </div>
@@ -238,20 +238,20 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
             </ul>
         </div>
-
+        
         <div class="hero-content__poetic">
 
             <div class="hero-content__poetic_poem">
-                <p>Вдохновенно, как дети лишь могут,
-                    <br>Слушать тех, кто снежком убелен,
-                    <br>Горкой речки мы слушали клёкот,
-                    <br>Шелест трав, колокольчиков звон</p>
+                <p>Мне случалось видеть иногда:
+                    <br>Златокузнецы — мои соседи —
+                    <br>С помощью казаба без труда
+                    <br>Отличали золото от меди</p>
 
                 <div class="hero-content__poetic_author">
                     <p>Расул Гамзатов
-                        <br><span class="title">У Максобского моста</span>
+                        <br><span class="title">Мне случалось видеть иногда</span>
                         <br>(отрывок)
-                        <br>1976</p>
+                        <br>1977</p>
                 </div>
 
             </div>
@@ -285,20 +285,20 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
             </ul>
         </div>
-
+        
         <div class="hero-content__poetic">
 
             <div class="hero-content__poetic_poem">
-                <p>Мне случалось видеть иногда:
-                    <br>Златокузнецы — мои соседи —
-                    <br>С помощью казаба без труда
-                    <br>Отличали золото от меди</p>
+                <p>Из голубой небесной чаши
+                    <br>В зеленых чащах и лугах
+                    <br>Я жадно воздух пил сладчайший,
+                    <br>Настоянный на облаках</p>
 
                 <div class="hero-content__poetic_author">
                     <p>Расул Гамзатов
-                        <br><span class="title">Мне случалось видеть иногда</span>
+                        <br><span class="title">Покуда вертится Земля</span>
                         <br>(отрывок)
-                        <br>1977</p>
+                        <br>1976</p>
                 </div>
 
             </div>
