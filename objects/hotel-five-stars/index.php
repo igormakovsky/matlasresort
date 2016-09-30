@@ -136,31 +136,27 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
             <div class="photos" id="carousel">
 
                 <div class="photo">
-                    <img src="img/hotel-five-1.jpg">
+                    <img src="/img/interiors/01-lobby-1.jpg">
                 </div>
-
+                   
                 <div class="photo">
-                    <img src="img/hotel-five-2.jpg">
+                    <img src="/img/interiors/02-reception-1.jpg">
                 </div>
-
+                   
                 <div class="photo">
-                    <img src="img/hotel-five-3.jpg">
+                    <img src="/img/interiors/10-living.jpg">
                 </div>
-
+                   
                 <div class="photo">
-                    <img src="img/hotel-five-4.jpg">
+                    <img src="/img/interiors/07-luxe-2.jpg">
                 </div>
-
+                   
                 <div class="photo">
-                    <img src="img/hotel-five-5.jpg">
+                    <img src="/img/interiors/08-deluxe-1.jpg">
                 </div>
-
+                   
                 <div class="photo">
-                    <img src="img/hotel-five-6.jpg">
-                </div>
-
-                <div class="photo">
-                    <img src="img/hotel-five-7.jpg">
+                    <img src="/img/interiors/12-master-bedroom.jpg">
                 </div>
 
             </div>

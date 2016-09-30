@@ -115,29 +115,33 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
         <div class="hero-content__carousel">
 
             <div class="photos" id="carousel">
+                
+                <div class="photo">
+                    <img src="img/hotel-four-1.jpg">
+                </div>
 
                 <div class="photo">
-                    <img src="/img/interiors/01-lobby-1.jpg">
+                    <img src="img/hotel-four-2.jpg">
                 </div>
-                   
+
                 <div class="photo">
-                    <img src="/img/interiors/02-reception-1.jpg">
+                    <img src="img/hotel-four-3.jpg">
                 </div>
-                   
+
                 <div class="photo">
-                    <img src="/img/interiors/10-living.jpg">
+                    <img src="img/hotel-four-4.jpg">
                 </div>
-                   
+
                 <div class="photo">
-                    <img src="/img/interiors/07-luxe-2.jpg">
+                    <img src="img/hotel-four-5.jpg">
                 </div>
-                   
+
                 <div class="photo">
-                    <img src="/img/interiors/08-deluxe-1.jpg">
+                    <img src="img/hotel-four-6.jpg">
                 </div>
-                   
+
                 <div class="photo">
-                    <img src="/img/interiors/12-master-bedroom.jpg">
+                    <img src="img/hotel-four-7.jpg">
                 </div>
 
             </div>
