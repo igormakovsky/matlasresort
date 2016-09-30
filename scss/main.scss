@@ -32,8 +32,13 @@ sans-serif;
 //
 html {
     background-color: white;
+    :lang(en) {
+        visibility: hidden;
+        display: none;
+    }
 }
 
+//
 body {
     font-family: $font-regular;
     min-width: 1000px;

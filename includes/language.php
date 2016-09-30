@@ -10,9 +10,7 @@ function ru() {
     
     $dev = '.dev'; //.dev
     $host = parseUrl();
-	$host = $host['host'];
-    
-    //if($_COOCKIE['language']=='en')echo "My Site";else echo "Мой сайт"    
+	$host = $host['host'];  
     
     $firstDomain = 'matlasresort.com'.$dev;
     $lang = ($host == $firstDomain)?true:false;

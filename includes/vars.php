@@ -36,9 +36,6 @@ echo 'baseurl is '.$base_url.'<br>';
 echo 'siteroot is '.$siteroot.'<br>';*/
 //Language differences in variables
 
-
-
-
 if (ru()) {
     $sign = date("Y").' — Copyright (c) Igor Makovsky | http://www.igormakovsky.ru/';
     $title = $title_ru;
