@@ -13,6 +13,20 @@
             @extend .hero-content__matlas-logo;
             background: url(/img/matlas-logo-dark.png) top center / contain no-repeat;
         }
+        &_link {
+            transition: transform 1.5s, opacity .5s;
+            opacity: .9;
+            width: 40%;
+            height: inherit;
+            margin: inherit;
+            img {
+                width: 100%;
+            }
+            &:hover {
+                transform: scale(1.03);
+                opacity: 1;
+            }
+        }
     }
     &__title {
         max-width: 900px;

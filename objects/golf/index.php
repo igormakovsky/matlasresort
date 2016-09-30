@@ -28,7 +28,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
     <section class="hero-content">
 
-        <div class="hero-content__matlas-logo_dark"></div>
+        <div class="hero-content__matlas-logo_link"><a href="/"><img src="/img/matlas-logo-dark.png"></a></div>
 
         <div class="hero-content__title">
             <h2 lang="ru">Гольф</h2>
