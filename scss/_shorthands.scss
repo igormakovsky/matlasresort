@@ -648,14 +648,6 @@
     pointer-events: none;
 }
 
-.no-mobile {
-    @media screen and (max-width: 1000px) {
-        opacity: 0;
-        display: none;
-        visibility: hidden;
-    }
-}
-
 .margin-auto {
     margin: 0 auto;
 }
@@ -700,8 +692,20 @@
 }
 
 .hidden {
-    visibility: hidden !important;
-    display: none !important;
+    display: none;
+    visibility: hidden;
+    //clip-path: inset(100%);
+    //clip-path: rect(0, 0, 0, 0); not working?
+}
+
+.no-mobile {
+    @media screen and (max-width: 1000px) {
+        opacity: 0;
+        display: none;
+        visibility: hidden;
+        //clip-path: inset(100%);
+        //clip-path: rect(0, 0, 0, 0); not working?
+    }
 }
 
 .no-border {
