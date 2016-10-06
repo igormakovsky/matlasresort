@@ -22,7 +22,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';
             <h1 lang="en"></h1>
         </div>
 
-        <div id="hero-image" class="hero-image__photo hero-image__matlasresort darker">
+        <div id="hero-image" class="hero-image__photo hero-image__matlasresort index darker">
             <img style="width:100%;" src="img/hero-image.jpg" srcset="img/hero-image@2x.jpg 2x">
         </div>
 

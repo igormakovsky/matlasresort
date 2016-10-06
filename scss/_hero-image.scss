@@ -131,6 +131,15 @@ $height-mobile-album: 650px;
     ///
     .darker {
         filter: brightness(75%);
+        @media screen and (max-width: 1000px) {
+            filter: brightness(100%);
+        }
+        @media screen and (max-width: 1000px) and (max-height: $height-mobile-album) {
+            filter: brightness(75%);
+        }
+        &.index {
+            filter: brightness(75%);
+        }
     }
     .exited {
         opacity: 0;
