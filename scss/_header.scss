@@ -71,8 +71,8 @@ $max-height: 520px;
         @media screen and (max-width: 1000px) {
             transform: translate(-100vw, 0);
             width: 100vw;
-            //height: 103vh;
             opacity: 1;
+            overflow-x: scroll; // album-vertical nav.menu fix
         }
         
         .logo {
@@ -112,12 +112,7 @@ $max-height: 520px;
             flex-direction: column;
             justify-content: flex-start;
             padding: 0 2rem;
-            @media screen and (max-width: 1000px) {
-                flex-wrap: wrap;
-            }
-            /* @media screen and (max-height: $max-height) and (max-width: 1000px) {
-                height: 275px;
-            } */
+            height: 78rem; // auto doesn't work yet
             li {
                 display: inline-block;
                 text-align: center;
@@ -125,7 +120,7 @@ $max-height: 520px;
                 line-height: .5;
                 margin: 0;
                 padding: .5rem;
-                height: auto;
+                
                 line-height: 1;
                 transition: transform .3s;
                 z-index: 1001;
@@ -134,13 +129,9 @@ $max-height: 520px;
                     font-size: 3rem;
                     padding: 1rem;
                 }
-                /* @media screen and (max-height: $max-height) and (max-width: 1000px) {
-                    font-size: 5vh;
-                    padding: .5rem;
-                } */
                 &:hover {
                     background-color: rgba(255, 255, 255, 0.21);
-                    transform: scale(1.1);
+                    transform: scale(1.07);
                 }
                 &:before {
                     content: '';
@@ -183,7 +174,7 @@ $max-height: 520px;
         //transform: scale(.9);
         filter: brightness(40%);
         @media screen and (max-width: 1000px) {
-            
+            position: fixed; // lags mobile
         }
     }
 }
