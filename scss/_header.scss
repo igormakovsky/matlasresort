@@ -1,7 +1,7 @@
+$max-height: 520px;
 .header {
     position: absolute;
     &__opener {
-        @extend .no-mobile;
         height: 2.1em;
         width: 2.1em;
         background-color: $dark-blue;
@@ -14,6 +14,9 @@
         transition: opacity .4s;
         padding: 1rem;
         border-radius: 50%;
+        @media screen and (max-width: 1000px) {
+            transform: scale(1.5);
+        }
         &.x-mark {
             background-color: transparent;
         }
@@ -22,7 +25,7 @@
             width: 2.2rem;
             height: .3rem;
             background-color: white;
-            transition: all .2s;
+            transition: all .4s;
         }
         &_line_1 {
             @extend .line;
@@ -52,27 +55,64 @@
         }
     }
     &__nav {
-        @extend .no-mobile;
         position: fixed;
         left: 0;
         top: 0;
         transition: transform .2s;
-        transform: translate(-20em, 0);
-        height: 100vh;
+        transform: translate(-25em, 0);
+        height: 120vh;
         background-color: $dark-blue;
-        width: 20em;
-        opacity: .75;
+        width: 25em;
+        opacity: 0;
         z-index: 999;
-        min-height: 650px;
+        min-height: 600px;
+        opacity: 0;
+        
+        @media screen and (max-width: 1000px) {
+            transform: translate(-100vw, 0);
+            width: 100vw;
+            opacity: 1;
+            overflow-x: scroll; // album-vertical nav.menu fix
+        }
+        
+        .logo {
+            @extend .relate;
+            width: auto;
+            height: 8.5rem;
+            padding: 0;
+            border-bottom: dotted 1px rgba(255, 255, 255, 0.21);
+            text-align: center;
+            //
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            a {
+                width: 9rem;
+                margin: 0 auto;
+                img {
+                    width: 100%;
+                    height: auto;
+                    opacity: .75;
+                    transition: opacity .3s;
+                    @media screen and (max-width: 1000px) {
+                        transform: scale(1.8);
+                    }
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+        
         ul {
             @extend .cervo;
             color: white;
             letter-spacing: .1rem;
             display: flex;
             flex-direction: column;
-            justify-content: space-around;
-            padding: 2rem 2rem;
-            height: 90%;
+            justify-content: flex-start;
+            padding: 0 2rem;
+            height: 78rem; // auto doesn't work yet
             li {
                 display: inline-block;
                 text-align: center;
@@ -80,38 +120,18 @@
                 line-height: .5;
                 margin: 0;
                 padding: .5rem;
-                height: auto;
+                
                 line-height: 1;
                 transition: transform .3s;
                 z-index: 1001;
-                &.logo {
-                    @extend .relate;
-                    width: 100%;
-                    margin: 0 auto;
-                    height: 2rem;
-                    padding: 0;
-                    padding-bottom: 1rem;
-                    border-bottom: dotted 1px rgba(255, 255, 255, 0.21);
-                    opacity: .75;
-                    transition: opacity .3s;
-                    .beta {
-                        @extend .relate;
-                        //@extend .transparent;
-                        top: -2.5rem;
-                        left: 5.5rem;
-                    }
-                    img {
-                        width: 8rem;
-                    }
-                    &:hover {
-                        background-color: inherit;
-                        transform: scale(1);
-                        opacity: 1;
-                    }
+                flex-basis: 1;
+                @media screen and (max-width: 1000px) {
+                    font-size: 3rem;
+                    padding: 1rem;
                 }
                 &:hover {
                     background-color: rgba(255, 255, 255, 0.21);
-                    transform: scale(1.1);
+                    transform: scale(1.07);
                 }
                 &:before {
                     content: '';
@@ -125,22 +145,17 @@
                     }
                 }
             }
-            a {
-                @extend a;
-                color: $light;
-                border-bottom: none;
-            }
+        }
+        a {
+            @extend a;
+            color: $light;
+            border-bottom: none;
         }
     }
     &-opened {
         transform: translate(0, 0);
         opacity: .9;
     }
-}
-
-.backtomain {
-    display: none;
-    visibility: 0;
 }
 
 .language {
@@ -158,12 +173,8 @@
     &-moved {
         //transform: scale(.9);
         filter: brightness(40%);
+        @media screen and (max-width: 1000px) {
+            position: fixed; // lags mobile
+        }
     }
-}
-
-.testbutton {
-    height: 2em;
-    width: 2em;
-    background-color: red;
-    z-index: 1000;
 }
