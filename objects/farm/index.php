@@ -28,7 +28,9 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
     <section class="hero-content">
 
-        <div class="hero-content__matlas-logo_link"><a href="/"><img src="/img/matlas-logo-dark.png"></a></div>
+        <div class="hero-content__matlas-logo_link">
+            <a href="/"><img src="/img/matlas-logo-dark.png"></a>
+        </div>
 
         <div class="hero-content__title">
             <h2 lang="ru">Концепция создания фермы</h2>
@@ -64,14 +66,14 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
         <div class="hero-content__poetic">
 
             <div class="hero-content__poetic_poem">
-                <p>Вдохновенно, как дети лишь могут,
-                    <br>Слушать тех, кто снежком убелен,
-                    <br>Горкой речки мы слушали клёкот,
-                    <br>Шелест трав, колокольчиков звон</p>
+                <p>И люблю малиновый рассвет я,
+                    <br>И люблю молитвенный закат,
+                    <br>И люблю медовый первоцвет я,
+                    <br>И люблю багровый листопад</p>
 
                 <div class="hero-content__poetic_author">
                     <p>Расул Гамзатов
-                        <br><span class="title">У Максобского моста</span>
+                        <br><span class="title">И люблю малиновый рассвет</span>
                         <br>(отрывок)
                         <br>1976</p>
                 </div>
@@ -130,20 +132,20 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
             </p>
 
         </div>
-        
+
         <div class="hero-content__poetic">
 
             <div class="hero-content__poetic_poem">
-                <p>О, как они на ласку намекают,
-                    <br>Вздувая пламя у меня в груди!
-                    <br>А как порою предостерегают,
-                    <br>Безмолвно говоря: не подходи!</p>
+                <p>Ты безгрешна до того,
+                    <br>Что почти святою стала.
+                    <br>Не загрызла никого,
+                    <br>Никого не забодала</p>
 
                 <div class="hero-content__poetic_author">
                     <p>Расул Гамзатов
-                        <br><span class="title">Брови</span>
+                        <br><span class="title">Овечка</span>
                         <br>(отрывок)
-                        <br>1979</p>
+                        <br>1976</p>
                 </div>
 
             </div>
@@ -189,7 +191,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
         <div class="hero-content__description">
             <p>Анималотерапия — благоприятное взаимодействие между человеком и животным путем обмена положительной энергией. Оказывает эффективное действие на профилактику и лечение болезней и снятие стресса</p>
         </div>
-        
+
         <div class="hero-content__poetic">
 
             <div class="hero-content__poetic_poem">
@@ -238,7 +240,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
             </ul>
         </div>
-        
+
         <div class="hero-content__poetic">
 
             <div class="hero-content__poetic_poem">
@@ -285,7 +287,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
             </ul>
         </div>
-        
+
         <div class="hero-content__poetic">
 
             <div class="hero-content__poetic_poem">

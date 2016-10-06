@@ -28,7 +28,9 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
     <section class="hero-content">
 
-        <div class="hero-content__matlas-logo_link"><a href="/"><img src="/img/matlas-logo-dark.png"></a></div>
+        <div class="hero-content__matlas-logo_link">
+            <a href="/"><img src="/img/matlas-logo-dark.png"></a>
+        </div>
 
         <div class="hero-content__title">
             <h2 lang="ru">Аэропорт</h2>
@@ -40,16 +42,16 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
         <div class="hero-content__poetic">
 
             <div class="hero-content__poetic_poem">
-                <p>Про солнце пела, и про звезды,
-                    <br>И про того, кто сердцу мил.
-                    <br>Пусть он спешит, пока не поздно,
-                    <br>Пока другой не полюбил</p>
+                <p>Я, как орел, парю весной
+                    <br>Над весями твоими.
+                    <br>И эти крылья за спиной —
+                    <br>Твое святое имя</p>
 
                 <div class="hero-content__poetic_author">
                     <p>Расул Гамзатов
-                        <br><span class="title">В Ахвахе</span>
+                        <br><span class="title">О родине</span>
                         <br>(отрывок)
-                        <br>1964</p>
+                        <br>1979</p>
                 </div>
 
             </div>
