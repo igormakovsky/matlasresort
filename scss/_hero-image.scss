@@ -1,5 +1,6 @@
 $opacity-transition: opacity 1s;
 $transform-transition: transform 1.5s;
+$top-transition: top .3s;
 $height-mobile-album: 650px;
 .hero-image {
     width: 100vw;
@@ -13,8 +14,8 @@ $height-mobile-album: 650px;
         right: 0;
         top: 11.5em;
         z-index: 1;
-        transition: $opacity-transition, $transform-transition;
-        @media screen and (max-height: $height-mobile-album) {
+        transition: $opacity-transition, $transform-transition, $top-transition;
+        @media screen and (max-width: 1150px) {
             top:8.5em;
         }
         @media screen and (max-width: 1000px) and (min-height: $height-mobile-album) {
@@ -48,10 +49,10 @@ $height-mobile-album: 650px;
         z-index: 1;
         width: 1000px;
         text-align: center;
-        transition: $opacity-transition, $transform-transition;
+        transition: $opacity-transition, $transform-transition, $top-transition;
         transform-origin: top center;
         white-space: nowrap;
-        @media screen and (max-height: $height-mobile-album) {
+        @media screen and (max-width: 1150px) {
             top:16rem;
         }
         @media screen and (max-width: 1000px) and (min-height: $height-mobile-album) {
@@ -73,6 +74,9 @@ $height-mobile-album: 650px;
         width: 10rem;
         justify-content: space-between;
         margin: 0 auto;
+        @media screen and (max-width: 1150px) {
+            //transform: translate(0, -3rem);
+        }
     }
     &__star {
         margin-top: 1.2em;
