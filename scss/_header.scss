@@ -58,7 +58,7 @@ $max-height: 520px;
         position: fixed;
         left: 0;
         top: 0;
-        transition: transform .2s;
+        transition: transform .2s, opacity .2s;
         transform: translate(-25em, 0);
         height: 120vh;
         background-color: $dark-blue;
@@ -66,12 +66,10 @@ $max-height: 520px;
         opacity: 0;
         z-index: 999;
         min-height: 600px;
-        opacity: 0;
         
         @media screen and (max-width: 1000px) {
             transform: translate(-100vw, 0);
             width: 100vw;
-            opacity: 1;
             overflow-x: scroll; // album-vertical nav.menu fix
         }
         
@@ -168,13 +166,13 @@ $max-height: 520px;
 }
 
 .page {
-    transition: filter .2s;
+    //transition: filter .2s;
     background: white;
     &-moved {
         //transform: scale(.9);
-        filter: brightness(40%);
+        //filter: brightness(40%);
         @media screen and (max-width: 1000px) {
-            position: fixed; // lags mobile
+            //position: fixed; // lags mobile
         }
     }
 }
