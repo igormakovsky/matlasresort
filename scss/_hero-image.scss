@@ -1,5 +1,6 @@
 $opacity-transition: opacity 1s;
 $transform-transition: transform 1.5s;
+$height-mobile-album: 650px;
 .hero-image {
     width: 100vw;
     &__matlas-logo {
@@ -13,7 +14,13 @@ $transform-transition: transform 1.5s;
         top: 11.5em;
         z-index: 1;
         transition: $opacity-transition, $transform-transition;
-        @extend .no-mobile;
+        @media screen and (max-height: $height-mobile-album) {
+            top:8.5em;
+        }
+        @media screen and (max-width: 1000px) and (min-height: $height-mobile-album) {
+            opacity: 0;
+            visibility: hidden;
+        }
         &.index {
             @media screen and (max-width: 1000px) {
                 opacity: 1 !important;
@@ -44,7 +51,13 @@ $transform-transition: transform 1.5s;
         transition: $opacity-transition, $transform-transition;
         transform-origin: top center;
         white-space: nowrap;
-        @extend .no-mobile;
+        @media screen and (max-height: $height-mobile-album) {
+            top:16rem;
+        }
+        @media screen and (max-width: 1000px) and (min-height: $height-mobile-album) {
+            opacity: 0;
+            visibility: hidden;
+        }
         &.index {
             @media screen and (max-width: 1000px) {
                 opacity: 1 !important;

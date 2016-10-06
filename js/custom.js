@@ -48,7 +48,7 @@ $(function () {
                 $('#hero-image').toggleClass("darker")
             $('#hero-content').toggleClass("show")
         },
-        offset: 150
+        offset: 110
     })
 
     /// hero-content
