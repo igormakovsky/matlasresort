@@ -172,7 +172,7 @@ $max-height: 520px;
         //transform: scale(.9);
         //filter: brightness(40%);
         @media screen and (max-width: 1000px) {
-            //position: fixed; // lags mobile
+            position: fixed; // lags mobile
         }
     }
 }
