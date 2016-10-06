@@ -10,13 +10,11 @@
 
     <nav id="header__nav" class="header__nav">
 
+        <div class="logo">
+            <a href="/"><img src="/img/matlas-logo-white.png"></a>
+        </div>
+
         <ul>
-
-            <li class="logo">
-                <a href="/"><img src="/img/matlas-logo-white.png"></a>
-                <div class="beta">beta</div>
-            </li>
-
             <li class="hotel-five-stars"><a href="/objects/hotel-five-stars/">Гостиничный комплекс 5<span class="asterisk">*</span></a></li>
             <li class="hotel-four-stars"><a href="/objects/hotel-four-stars/">Гостиничный комплекс 4<span class="asterisk">*</span></a></li>
             <li class="villas-and-cottages"><a href="/objects/villas-and-cottages/">Виллы и коттеджи</a></li>
