@@ -108,10 +108,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
                     <br>И коня не торопись менять</p>
 
                 <div class="hero-content__poetic_author">
-                    <p>Расул Гамзатов
-                        <br><span class="title">Берегите друзей</span>
-                        <br>(отрывок)
-                        <br>1977</p>
+                    <p>Расул Гамзатов</p>
                 </div>
 
             </div>

@@ -117,10 +117,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
                     <br>Молодость способное вернуть</p>
 
                 <div class="hero-content__poetic_author">
-                    <p>Расул Гамзатов
-                        <br><span class="title">Баллада о женщине, спасшей поэта</span>
-                        <br>(отрывок)
-                        <br>1979</p>
+                    <p>Расул Гамзатов</p>
                 </div>
 
             </div>

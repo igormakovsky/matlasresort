@@ -36,10 +36,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';
                     <br>И звука нет любимей</p>
 
                 <div class="hero-content__poetic_author">
-                    <p>Расул Гамзатов
-                        <br><span class="title">О родине</span>
-                        <br>(отрывок)
-                        <br>1979</p>
+                    <p>Расул Гамзатов</p>
                 </div>
 
             </div>
@@ -353,10 +350,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';
                     <br>На вершины твои приколю</p>
 
                 <div class="hero-content__poetic_author">
-                    <p>Расул Гамзатов
-                        <br><span class="title">Мне ль тебе, Дагестан мой былинный&hellip;</span>
-                        <br>(отрывок)
-                        <br>1976</p>
+                    <p>Расул Гамзатов</p>
                 </div>
 
             </div>

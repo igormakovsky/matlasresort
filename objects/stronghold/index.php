@@ -104,10 +104,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
                     <br>Отколовшейся птицею быть?</p>
 
                 <div class="hero-content__poetic_author">
-                    <p>Расул Гамзатов
-                        <br><span class="title">Мне ль тебе, Дагестан мой былинный&hellip;</span>
-                        <br>(отрывок)
-                        <br>1976</p>
+                    <p>Расул Гамзатов</p>
                 </div>
 
             </div>
@@ -158,10 +155,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
                     <br>Были возле сердца моего</p>
 
                 <div class="hero-content__poetic_author">
-                    <p>Расул Гамзатов
-                        <br><span class="title">И люблю малиновый рассвет я&hellip;</span>
-                        <br>(отрывок)
-                        <br>1976</p>
+                    <p>Расул Гамзатов</p>
                 </div>
 
             </div>

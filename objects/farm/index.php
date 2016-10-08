@@ -72,10 +72,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
                     <br>И люблю багровый листопад</p>
 
                 <div class="hero-content__poetic_author">
-                    <p>Расул Гамзатов
-                        <br><span class="title">И люблю малиновый рассвет</span>
-                        <br>(отрывок)
-                        <br>1976</p>
+                    <p>Расул Гамзатов</p>
                 </div>
 
             </div>
@@ -142,10 +139,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
                     <br>Никого не забодала</p>
 
                 <div class="hero-content__poetic_author">
-                    <p>Расул Гамзатов
-                        <br><span class="title">Овечка</span>
-                        <br>(отрывок)
-                        <br>1976</p>
+                    <p>Расул Гамзатов</p>
                 </div>
 
             </div>
@@ -201,10 +195,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
                     <br>Положили под головы мы.</p>
 
                 <div class="hero-content__poetic_author">
-                    <p>Расул Гамзатов
-                        <br><span class="title">У Максобского моста</span>
-                        <br>(отрывок)
-                        <br>1976</p>
+                    <p>Расул Гамзатов</p>
                 </div>
 
             </div>
@@ -250,10 +241,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
                     <br>Отличали золото от меди</p>
 
                 <div class="hero-content__poetic_author">
-                    <p>Расул Гамзатов
-                        <br><span class="title">Мне случалось видеть иногда</span>
-                        <br>(отрывок)
-                        <br>1977</p>
+                    <p>Расул Гамзатов</p>
                 </div>
 
             </div>
@@ -297,10 +285,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
                     <br>Настоянный на облаках</p>
 
                 <div class="hero-content__poetic_author">
-                    <p>Расул Гамзатов
-                        <br><span class="title">Покуда вертится Земля</span>
-                        <br>(отрывок)
-                        <br>1976</p>
+                    <p>Расул Гамзатов</p>
                 </div>
 
             </div>
@@ -346,10 +331,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
                     <br>Едва лишь земля побелеет.</p>
 
                 <div class="hero-content__poetic_author">
-                    <p>Расул Гамзатов
-                        <br><span class="title">Чем больше и ярче весна</span>
-                        <br>(отрывок)
-                        <br>1979</p>
+                    <p>Расул Гамзатов</p>
                 </div>
 
             </div>
