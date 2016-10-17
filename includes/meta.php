@@ -9,8 +9,8 @@
 
 <!-- Social: Twitter -->
 <meta name="twitter:card" content="<?=$headimage; ?>" />
-<meta name="twitter:site" content="@igormakovsky" />
-<meta name="twitter:creator" content="igormakovsky" />
+<meta name="twitter:site" content="@matlasresort" />
+<meta name="twitter:creator" content="matlasresort" />
 <meta name="twitter:title" content="<?=$title;?>" />
 <meta name="twitter:description" content="<?=$description; ?>" />
 <meta name="twitter:image:src" content="<?=$headimage; ?>" />

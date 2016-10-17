@@ -4,8 +4,8 @@ $id = 'index';
 $parent = 'object';
 $title_ru = 'Матлас';
 $title_en = 'Matlas';
-$description_ru = 'Описание на русском';
-$description_en = 'Description on english';
+$description_ru = 'Всесезонный туристско-рекреационный комплекс';
+$description_en = 'All-season tourist and recreational complex';
 $keywords_ru = 'кейвордс на русском';
 $keywords_en = 'keywords on english';
 
@@ -19,7 +19,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';
 
         <div id="title" class="hero-image__title exited index">
             <h1 lang="ru">Всесезонный<br>туристско-рекреационный<br>комплекс</h1>
-            <h1 lang="en"></h1>
+            <h1 lang="en">All-season<br>tourist and recreational<br>complex</h1>
         </div>
 
         <div id="hero-image" class="hero-image__photo hero-image__matlasresort index darker">

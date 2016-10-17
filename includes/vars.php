@@ -14,7 +14,8 @@ $full_url  = "${protocol}://${domain}${disp_port}${base_url}";
 $siteroot = $protocol.'://'.$domain;
 if ($id != 'contents'){
 $mainfolder = '/'.$parent.'/'.$id;
-$headimage = $siteroot.'/'.$parent.'/'.$id.'/img/hero-image.jpg';
+//$headimage = $siteroot.'/'.$parent.'/'.$id.'/img/hero-image.jpg';
+$headimage = '/img/index.jpg';
 $canonical = $siteroot.'/'.$parent.'/'.$id.'/';
 }
 else {
@@ -38,8 +39,10 @@ echo 'siteroot is '.$siteroot.'<br>';*/
 
 if (ru()) {
     $sign = date("Y").' — Copyright (c) Igor Makovsky | http://www.igormakovsky.ru/';
-    $title = $title_ru;
-    $description = $description_ru;
+    //$title = $title_ru;
+    $title = 'Матлас';
+    //$description = $description_ru;
+    $description = 'Официальный сайт всесезонного туристско-рекреационного комплекса «Матлас»';
     $keywords = 'матлас, курорт, дагестан, хунзах, '.$keywords_ru;
     $author = 'Матлас';
     $lang = 'ru';
@@ -49,8 +52,10 @@ if (ru()) {
 }
 else {
     $sign = date("Y").' — Copyright (c) Igor Makovsky | http://www.igormakovsky.com/';
-    $title = $title_en;
-    $description = $description_en;
+    //$title = $title_en;
+    //$description = $description_en;
+    $title = 'Matlas';
+    $description = 'All-season resort Matlas official website';
     $keywords = 'matlas, resort, dagestan, khuzakh, '.$keywords_en;
     $author = 'Matlas';
     $tomainpage = '&larr;';
