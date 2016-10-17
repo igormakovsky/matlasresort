@@ -24,6 +24,7 @@ $sign = date("Y").' — Copyright (c) Igor Makovsky | http://www.igormakovsky.ru
 <?
 require $docroot.'includes/top.php'; 
 //require $docroot.'includes/meta.php';
+require $docroot.'includes/favicon.php';
 require $docroot.'includes/scripts.php';
 require $docroot.'includes/styles.php';
 //require $docroot.'includes/css.php';
