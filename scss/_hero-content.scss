@@ -1,17 +1,23 @@
 .hero-content {
     margin-top: 5rem;
     &__matlas-logo {
-        width: 40%;
-        height: 4.5em;
+        width: 90%;
+        height: 6.5em;
         margin: 0 auto;
         transform: translate(-.2rem, 0);
         &_light {
             @extend .hero-content__matlas-logo;
             background: url(/img/matlas-logo-white.png) top center / contain no-repeat;
+            &:lang(en) {
+                background: url(/img/matlas-logo-white-en.png) top center / contain no-repeat;
+            }
         }
         &_dark {
             @extend .hero-content__matlas-logo;
             background: url(/img/matlas-logo-dark.png) top center / contain no-repeat;
+            &:lang(en) {
+                background: url(/img/matlas-logo-dark-en.png) top center / contain no-repeat;
+            }
         }
         &_link {
             transition: transform 1.5s, opacity .5s;
@@ -19,7 +25,7 @@
             width: 40%;
             height: inherit;
             margin: inherit;
-            img {
+            a {
                 width: 100%;
             }
             &:hover {

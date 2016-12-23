@@ -35,7 +35,11 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
     <section class="hero-content">
 
-        <div class="hero-content__matlas-logo_link"><a href="/"><img src="/img/matlas-logo-dark.png"></a></div>
+        <div class="hero-content__matlas-logo_link">
+            <a href="/">
+                <div class="hero-content__matlas-logo_dark"></div>
+            </a>
+        </div>
 
         <div class="hero-content__title">
             <h2 lang="ru">Гостиничный комплекс</h2>
@@ -52,22 +56,30 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
         </div>
 
         <div class="hero-content__description">
-            <p>5 звезд — не дань слепящей роскоши, но отличительный знак гостеприимства, спокойствия, комфорта и эксклюзивности</p>
+            <p lang="ru">5 звезд — не дань слепящей роскоши, но отличительный знак гостеприимства, спокойствия, комфорта и эксклюзивности</p>
+            <p lang="en">5&nbsp;stars is&nbsp;not&nbsp;a&nbsp;debt to&nbsp;dazzling luxury, but a&nbsp;distinctive mark of&nbsp;hospitality, tranquility, comfort and&nbsp;exclusivity</p>
         </div>
 
         <div class="hero-content__list">
-            <ul>
+            <ul lang="ru">
                 <li>Номерной фонд — 60</li>
                 <li>Рестораны и банкетные залы</li>
                 <li>СПА и Детокс центр</li>
                 <li>Конференц-зал</li>
                 <li>Коммерческие площади</li>
             </ul>
+            <ul lang="en">
+                <li>Hotel room capacity — 60</li>
+                <li>Restaurant and banqueting hall</li>
+                <li>SPA and Detox center</li>
+                <li>Conference hall</li>
+                <li>Commercial areas</li>
+            </ul>
         </div>
 
         <div class="hero-content__table">
 
-            <table>
+            <table lang="ru">
                 <tr>
                     <th>Наименования</th>
                     <th>Гостиничный
@@ -106,17 +118,22 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
                 <tr>
                     <th>Стоимость</th>
                     <td></td>
-                    <td><nobr>10 000 ₽</nobr>&nbsp;/ номер
+                    <td>
+                        <nobr>10 000 ₽</nobr>&nbsp;/ номер
                         <br>
                         <span class="regular">в&nbsp;сутки</span>
                     </td>
-                    <td><nobr>6 000 ₽</nobr>
+                    <td>
+                        <nobr>6 000 ₽</nobr><br>
                         <span class="regular">посещение</span>
                     </td>
-                    <td><nobr>250 000 ₽</nobr><br>
+                    <td>
+                        <nobr>250 000 ₽</nobr>
+                        <br>
                         <span class="regular">аренда, 3&nbsp;дня</span>
                     </td>
-                    <td><nobr>15 000 ₽</nobr>&nbsp;/ м<sup>2</sup> <span class="regular">в&nbsp;год</span>
+                    <td>
+                        <nobr>15 000 ₽</nobr>&nbsp;/ м<sup>2</sup> <span class="regular">в&nbsp;год</span>
                     </td>
                 </tr>
                 <tr>
@@ -125,6 +142,73 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
                     <td>56,57%</td>
                     <td>56,25%</td>
                     <td>2 аренды&nbsp;/ месяц</td>
+                    <td>90%</td>
+                </tr>
+            </table>
+               
+            <table lang="en">
+                <tr>
+                    <th>Name</th>
+                    <th>Hotel
+                        <br>resort, total</th>
+                    <th>Room capacity</th>
+                    <th>SPA and Detox-center</th>
+                    <th>Conference-hall</th>
+                    <th>Commercial areas</th>
+                </tr>
+                <tr>
+                    <th>Total area</th>
+                    <td>
+                        <nobr>8 400 m<sup>2</sup></nobr>
+                    </td>
+                    <td>
+                        <nobr>
+                            4 000 m<sup>2</sup>
+                        </nobr>
+                    </td>
+                    <td>
+                        <nobr>
+                            2 000 m<sup>2</sup>
+                        </nobr>
+                    </td>
+                    <td>
+                        <nobr>
+                            1 200 m<sup>2</sup>
+                        </nobr>
+                    </td>
+                    <td>
+                        <nobr>
+                            1 200 m<sup>2</sup>
+                        </nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Cost</th>
+                    <td></td>
+                    <td>
+                        <nobr>10 000 ₽</nobr>&nbsp;/ room
+                        <br>
+                        <span class="regular">a&nbsp;day</span>
+                    </td>
+                    <td>
+                        <nobr>6 000 ₽</nobr><br>
+                        <span class="regular">visit</span>
+                    </td>
+                    <td>
+                        <nobr>250 000 ₽</nobr>
+                        <br>
+                        <span class="regular">rent, 3&nbsp;days</span>
+                    </td>
+                    <td>
+                        <nobr>15 000 ₽</nobr>&nbsp;/ m<sup>2</sup> <span class="regular">per&nbsp;year</span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Occupancy</th>
+                    <td></td>
+                    <td>56,57%</td>
+                    <td>56,25%</td>
+                    <td>2 rents&nbsp;/ month</td>
                     <td>90%</td>
                 </tr>
             </table>
@@ -138,23 +222,23 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
                 <div class="photo">
                     <img src="/img/interiors/01-lobby-1.jpg">
                 </div>
-                   
+
                 <div class="photo">
                     <img src="/img/interiors/02-reception-1.jpg">
                 </div>
-                   
+
                 <div class="photo">
                     <img src="/img/interiors/10-living.jpg">
                 </div>
-                   
+
                 <div class="photo">
                     <img src="/img/interiors/07-luxe-2.jpg">
                 </div>
-                   
+
                 <div class="photo">
                     <img src="/img/interiors/08-deluxe-1.jpg">
                 </div>
-                   
+
                 <div class="photo">
                     <img src="/img/interiors/12-master-bedroom.jpg">
                 </div>

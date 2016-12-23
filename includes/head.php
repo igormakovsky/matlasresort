@@ -1,28 +1,13 @@
 <?
-$docroot = $_SERVER['DOCUMENT_ROOT'].'/';
-/* $dev = '.dev'; //.dev */
-/* require $docroot.'includes/language.php'; */
-/* require $docroot.'includes/vars.php'; */
-/* <html lang="<?=$lang?>"> */
+$docroot = $_SERVER['DOCUMENT_ROOT'] . '/';
+$dev = '.dev'; //.dev
 
-$sign = date("Y").' — Copyright (c) Igor Makovsky | http://www.igormakovsky.ru/';
-//$title = $title_ru;
-$title = 'Матлас';
-//$description = $description_ru;
-$description = 'Официальный сайт всесезонного туристско-рекреационного комплекса «Матлас»';
-$headimage = 'http://matlasresort.com/img/index.jpg';
-$canonical = '/';
-$keywords = 'матлас, курорт, дагестан, хунзах, '.$keywords_ru;
-$author = 'Матлас';
-$lang = 'ru';
-$tomainpage = '&larr;';
-$contact = 'контакты';
-$settolang = 'in english';
-
+require $docroot . 'includes/language.php';
+require $docroot . 'includes/vars.php';
 ?>
 
 <!doctype html>
-<html lang="ru">
+<html lang="<?= isset($lang)?$lang:'ru' ?>">
 
 <head>
 <?
@@ -31,7 +16,7 @@ require $docroot.'includes/meta.php';
 require $docroot.'includes/favicon.php';
 require $docroot.'includes/scripts.php';
 require $docroot.'includes/styles.php';
-//require $docroot.'includes/css.php';
+require $docroot.'includes/css.php';
 ?>
 </head>
 

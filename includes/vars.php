@@ -37,30 +37,29 @@ echo 'baseurl is '.$base_url.'<br>';
 echo 'siteroot is '.$siteroot.'<br>';*/
 //Language differences in variables
 
+$canonical = '/';
+$tomainpage = '&larr;';
+$contact = 'контакты';
+
 if (ru()) {
-    $sign = date("Y").' — Copyright (c) Igor Makovsky | http://www.igormakovsky.ru/';
-    //$title = $title_ru;
-    $title = 'Матлас';
-    //$description = $description_ru;
-    $description = 'Официальный сайт всесезонного туристско-рекреационного комплекса «Матлас»';
-    $keywords = 'матлас, курорт, дагестан, хунзах, '.$keywords_ru;
-    $author = 'Матлас';
-    $lang = 'ru';
-    $tomainpage = '&larr;';
-    $contact = 'контакты';
-    $settolang = 'in english';
+$sign = date("Y").' — © Игорь Маковский | http://www.igormakovsky.ru/';
+$title = $title_ru;
+$description = $description_ru;
+$headimage = 'http://matlasresort.com/img/index.jpg';
+$keywords = 'матлас, курорт, дагестан, хунзах, '.$keywords_ru;
+$author = 'Матлас';
+$lang = 'ru';
+$settolang = 'ENG';
 }
 else {
-    $sign = date("Y").' — Copyright (c) Igor Makovsky | http://www.igormakovsky.com/';
-    //$title = $title_en;
-    //$description = $description_en;
-    $title = 'Matlas';
-    $description = 'All-season resort Matlas official website';
+    $sign = date("Y").' — © Igor Makovsky | http://www.igormakovsky.com/';
+    $title = $title_en;
+    $description = $description_en;
+    $headimage = 'http://matlasresort.com/img/index.jpg';
     $keywords = 'matlas, resort, dagestan, khuzakh, '.$keywords_en;
     $author = 'Matlas';
-    $tomainpage = '&larr;';
     $lang = 'en-US';
-    $settolang = 'по-русски';
+    $settolang = 'RU';
 }
 
 ?>

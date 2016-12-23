@@ -66,13 +66,11 @@ $max-height: 520px;
         opacity: 0;
         z-index: 999;
         min-height: 600px;
-        
         @media screen and (max-width: 1000px) {
             transform: translate(-100vw, 0);
             width: 100vw;
             overflow-x: scroll; // album-vertical nav.menu fix
         }
-        
         .logo {
             @extend .relate;
             width: auto;
@@ -101,7 +99,6 @@ $max-height: 520px;
                 }
             }
         }
-        
         ul {
             @extend .cervo;
             color: white;
@@ -118,7 +115,6 @@ $max-height: 520px;
                 line-height: .5;
                 margin: 0;
                 padding: .5rem;
-                
                 line-height: 1;
                 transition: transform .3s;
                 z-index: 1001;
@@ -157,12 +153,24 @@ $max-height: 520px;
 }
 
 .language {
-    display: none;
-    visibility: 0;
     position: absolute;
-    top: 1em;
-    right: 3em;
+    top: 3.6rem;
+    right: 3.5rem;
     z-index: 9998;
+    a {
+        @extend .cervo;
+        color: white;
+        letter-spacing: .1rem;
+        font-size: 1.25rem;
+        transition: opacity .4s;
+        opacity: .8;
+        @media screen and (max-width: 1000px) {
+            font-size: 2rem;
+        }
+        &:hover {
+            opacity: 1;
+        }
+    }
 }
 
 .page {

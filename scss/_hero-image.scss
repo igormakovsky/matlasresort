@@ -33,10 +33,16 @@ $height-mobile-album: 650px;
         &_light {
             @extend .hero-image__matlas-logo;
             background: url(/img/matlas-logo-white.png) top center / contain no-repeat;
+            &:lang(en) {
+                background: url(/img/matlas-logo-white-en.png) top center / contain no-repeat;
+            }
         }
         &_dark {
             @extend .hero-image__matlas-logo;
             background: url(/img/matlas-logo-dark.png) top center / contain no-repeat;
+            &:lang(en) {
+                background: url(/img/matlas-logo-dark-en.png) top center / contain no-repeat;
+            }
         }
     }
     &__title {

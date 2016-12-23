@@ -14,8 +14,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';
 
     <section class="hero-image">
 
-        <div id="logo" class="hero-image__matlas-logo_light exited index">
-        </div>
+        <div id="logo" class="hero-image__matlas-logo_light exited index"></div>
 
         <div id="title" class="hero-image__title exited index">
             <h1 lang="ru">Всесезонный<br>туристско-рекреационный<br>комплекс</h1>

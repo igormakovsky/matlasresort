@@ -2529,6 +2529,22 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/css\/custom.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/custom-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/custom.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/custom.css.map",
+		"oF": 0
+		},
 	"\/css\/main.css": {
 		"aP": 0,
 		"bl": 0,
@@ -2538,6 +2554,12 @@
 		"oAP": "\/css\/main-ck.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/css\/main.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/main.css.map",
+		"oF": 0
 		},
 	"\/favicon.png": {
 		"ft": 32768,
@@ -2642,6 +2664,15 @@
 		"oA": 2,
 		"oAP": "\/fonts\/graphik-regular-web\/ttEULA.txt",
 		"oF": 0
+		},
+	"\/gulpfile.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/min\/gulpfile-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
 		},
 	"\/img\/carousel-arrow-left.svg": {
 		"ft": 2097152,
@@ -2827,6 +2858,22 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/matlas-logo-dark-en.png": {
+		"ft": 32768,
+		"iS": 16591,
+		"oA": 0,
+		"oAP": "\/img\/matlas-logo-dark-en.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/matlas-logo-dark-en@2x.png": {
+		"ft": 32768,
+		"iS": 35589,
+		"oA": 0,
+		"oAP": "\/img\/matlas-logo-dark-en@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/matlas-logo-dark.png": {
 		"ft": 32768,
 		"iS": 17316,
@@ -2840,6 +2887,22 @@
 		"iS": 37198,
 		"oA": 0,
 		"oAP": "\/img\/matlas-logo-dark@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/matlas-logo-white-en.png": {
+		"ft": 32768,
+		"iS": 16585,
+		"oA": 0,
+		"oAP": "\/img\/matlas-logo-white-en.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/matlas-logo-white-en@2x.png": {
+		"ft": 32768,
+		"iS": 35583,
+		"oA": 0,
+		"oAP": "\/img\/matlas-logo-white-en@2x.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -3199,6 +3262,12 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/includes\/styles.php",
+		"oF": 0
+		},
+	"\/includes\/switch_languages.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/includes\/switch_languages.php",
 		"oF": 0
 		},
 	"\/includes\/top.php": {
@@ -3837,6 +3906,14 @@
 		"oA": 0,
 		"oAP": "\/objects\/villas-and-cottages\/index.php",
 		"oF": 0
+		},
+	"\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"\/README.md": {
 		"cS": 0,
