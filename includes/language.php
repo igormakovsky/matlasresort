@@ -1,19 +1,16 @@
 <?php
 
-function parseUrl ()
+function ru()
 {
-    $url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-    return parse_url($url);
+    if (isset($_COOKIE['matlas-lang'])) {
+        if ($_COOKIE['matlas-lang'] == 'en') {
+            return false;
+        } else {
+            return true;
+        }
+    } else {
+        return true;
+    }
 }
 
-function ru() {
-    
-    $dev = '.dev'; //.dev
-    $host = parseUrl();
-	$host = $host['host'];  
-    
-    $firstDomain = 'matlasresort.com'.$dev;
-    $lang = ($host == $firstDomain)?true:false;
-    return $lang;
-}
 ?>

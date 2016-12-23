@@ -33,3 +33,15 @@
     </nav>
 
 </header>
+
+<div class="language">
+    <p>
+       <form action="/includes/switch_languages.php" method="post" id="switch-lang-form">
+           <input type="hidden" name="lang" value="<?=!ru()?'ru':'en'?>">
+            <a href="#" id="switch-lang">
+                <?=$settolang;?>
+            </a>
+       </form>
+        <? if ($id == 'contents'){
+    echo '<p><a href="#contactinfo">'.$contact.'</a></p>';} ?>
+</div>
