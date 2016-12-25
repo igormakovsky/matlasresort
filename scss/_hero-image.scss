@@ -4,6 +4,17 @@ $top-transition: top .3s;
 $height-mobile-album: 650px;
 .hero-image {
     width: 100vw;
+    &__language-switch {
+        position: absolute;
+        right: 2rem;
+        top: 2rem;
+        z-index: 1;
+        @extend .cervo;
+        font-size: 1.5rem;
+        letter-spacing: .2rem;
+        color: white;
+        text-align: right;
+    }
     &__matlas-logo {
         position: absolute;
         width: 37rem;
@@ -123,7 +134,7 @@ $height-mobile-album: 650px;
     }
     ///
     &__matlasresort {
-        clip-path: polygon(0% 0%, 100% 0%, 100% 98%, 85% 88%, 70% 98%, 0% 80%);
+        clip-path: polygon(0% 0%, 100% 0%, 100% 98%, 80% 88%, 60% 98%, 0% 80%);
     }
     &__hotel-four-stars {
         clip-path: polygon(0% 0%, 100% 0%, 100% 98%, 80% 80%, 60% 98%, 0% 50%);

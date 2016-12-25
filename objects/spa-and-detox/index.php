@@ -4,7 +4,7 @@ $parent = 'object';
 $title_ru = 'СПА и Детокс центр';
 $title_en = 'SPA and Detox center';
 $description_ru = 'Восстановление, релаксация и детоксикация организма';
-$description_en = '';
+$description_en = 'Restoration, relaxation and body detoxification';
 $keywords_ru = '';
 $keywords_en = '';
 
@@ -28,13 +28,17 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
     <section class="hero-content">
 
-        <div class="hero-content__matlas-logo_link"><a href="/"><img src="/img/matlas-logo-dark.png"></a></div>
+        <div class="hero-content__matlas-logo_link">
+            <a href="/">
+                <div class="hero-content__matlas-logo_dark"></div>
+            </a>
+        </div>
 
         <div class="hero-content__title">
             <h2 lang="ru">СПА и Детокс центр</h2>
             <h3 lang="ru">Восстановление, релаксация и&nbsp;детоксикация&nbsp;организма</h3>
-            <h2 lang="en"></h2>
-            <h3 lang="en"></h3>
+            <h2 lang="en">SPA and Detox center</h2>
+            <h3 lang="en">Restoration, relaxation and body detoxification</h3>
         </div>
 
         <div class="hero-content__description">
@@ -45,7 +49,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
         <div class="hero-content__list">
 
-            <ul>
+            <ul lang="ru">
 
                 <li>
                     <h4>Программы СПА</h4>
@@ -68,11 +72,34 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
             </ul>
 
+            <ul lang="en">
+
+                <li>
+                    <h4>SPA programme</h4>
+                </li>
+                <li>Western and Eastern massages, aromatherapy, thalassotherapy
+                    <li>Gitrepository, lymphatic drainage</li>
+                    <li>Health improvement and cosmetic clearance (forming) face and body, hair and nails, Solarium</li>
+                    <li>Programs of&nbsp;regeneration and rejuvenation of&nbsp;skin of&nbsp;face and body</li>
+                    <li>Wet wraps with thermal regulation</li>
+
+                    <li>
+                        <h4>Detox programme</h4>
+                    </li>
+                    <li>Body detoxification</li>
+                    <li>Rejuvenation</li>
+                    <li>Weight loss</li>
+                    <li>Recovery of sleep</li>
+                    <li>Stress coping</li>
+                    <li>Control of smoking</li>
+
+            </ul>
+
         </div>
 
         <div class="hero-content__table">
 
-            <table>
+            <table lang="ru">
                 <tr>
                     <th>Общая площадь</th>
                     <th>Средняя стоимость посещения</th>
@@ -80,6 +107,19 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
                 </tr>
                 <tr>
                     <td>2 000 м<sup>2</sup></td>
+                    <td>6 000 ₽</td>
+                    <td>56,25%</td>
+                </tr>
+            </table>
+               
+            <table lang="en">
+                <tr>
+                    <th>Total area</th>
+                    <th>Average visit price</th>
+                    <th>Occupancy</th>
+                </tr>
+                <tr>
+                    <td>2 000 m<sup>2</sup></td>
                     <td>6 000 ₽</td>
                     <td>56,25%</td>
                 </tr>

@@ -1,10 +1,10 @@
 <?php
 $id = 'ski';
 $parent = 'object';
-$title_ru = 'Горнолыжный комплекс';
-$title_en = 'Один из основных зимних центров притяжения';
-$description_ru = '';
-$description_en = '';
+$title_ru = 'Матлас — горнолыжный комплекс';
+$title_en = 'Matlas — ski resort';
+$description_ru = 'Один из основных зимних центров притяжения';
+$description_en = 'One of the main winter centre attraction';
 $keywords_ru = '';
 $keywords_en = '';
 
@@ -17,7 +17,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
         <div id="title" class="hero-image__title exited">
             <h1 lang="ru">Горнолыжный комплекс</h1>
-            <h1 lang="en"></h1>
+            <h1 lang="en">Ski resort</h1>
         </div>
 
         <div id="hero-image" class="hero-image__photo hero-image__hotel-four-stars darker">
@@ -28,13 +28,17 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
     <section class="hero-content">
 
-        <div class="hero-content__matlas-logo_link"><a href="/"><img src="/img/matlas-logo-dark.png"></a></div>
+        <div class="hero-content__matlas-logo_link">
+            <a href="/">
+                <div class="hero-content__matlas-logo_dark"></div>
+            </a>
+        </div>
 
         <div class="hero-content__title">
             <h2 lang="ru">Горнолыжный комплекс</h2>
             <h3 lang="ru">Один из основных зимних центров притяжения</h3>
-            <h2 lang="en"></h2>
-            <h3 lang="en"></h3>
+            <h2 lang="en">Ski resort</h2>
+            <h3 lang="en">One of the main winter centre attraction</h3>
         </div>
 
         <div class="hero-content__description">
@@ -59,37 +63,52 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
             <div class="absolute" style="left:7rem; top:-3.5rem; width:10rem;">
 
-                <p>Горнолыжные трассы расположены на северном склоне</p>
+                <p>
+                    <span lang="ru">Горнолыжные трассы расположены на северном склоне</span>
+                    <span lang="en">Ski routes<br>are located on the northern<br>slope</span>
+                </p>
 
             </div>
-                
+
             <div class="absolute" style="left:7rem; top:9.5rem; width:10rem;">
 
-                <p><a href="#snow">Система искусственного снегообразования</a>&nbsp;— сезон до 6 месяцев</p>
+                <p>
+                    <span lang="ru"><a href="#snow">Система искусственного снегообразования</a>&nbsp;— сезон до 6 месяцев</span>
+                    <span lang="en"><a href="#snow">Artificial snow generation system</a>&nbsp;—<br>up to 6&nbsp;months season</span>
+                </p>
 
             </div>
 
             <div id="top-gondola" class="pin" style="right:13.95rem; top:0rem;">
                 <a href="#gondola"><img src="/img/pin-brown.svg"></a>
                 <div class="pin__note" style="right:5.5rem; top:-1.7rem; text-align:right;">
-                    <h5 class="brown"><a href="#gondola">Гондольная<br>канатная<br>дорога</a></h5>
-                    <h5 class="brown meters align-right">+2750 м</h5>
+                    <h5 class="brown">
+                    <span lang="ru"><a href="#gondola">Гондольная<br>канатная<br>дорога</a></span>
+                    <span lang="en"><a href="#gondola">Gondola<br>cable&nbsp;road</a></span>
+                    </h5>
+                    <h5 class="brown meters align-right">+2750 m</h5>
                 </div>
             </div>
 
             <div id="top-chair" class="pin" style="left:8.65rem; bottom:13.4rem;">
                 <a href="#chair"><img src="/img/pin-blue.svg"></a>
                 <div class="pin__note" style="left:-1rem; top:-10rem;">
-                    <h5 class="light-blue"><a href="#chair">Кресельная канатная дорога</a></h5>
-                    <h5 class="light-blue meters">+1900 м</h5>
+                    <h5 class="light-blue">
+                    <span lang="ru"><a href="#chair">Кресельная канатная дорога</a></span>
+                    <span lang="en"><a href="#chair">Chairlift road</a></span>
+                    </h5>
+                    <h5 class="light-blue meters">+1900 m</h5>
                 </div>
             </div>
 
             <div class="pin pin-start" style="left:7rem; bottom:1.5rem;">
                 <img class="scale" src="/img/pin-start.svg">
                 <div class="pin__note" style="left:1.4rem; top:6rem;">
-                    <h5 class="light-blue">Зона выката</h5>
-                    <h5 class="light-blue meters">+1800 м</h5>
+                    <h5 class="light-blue">
+                    <span lang="ru">Зона выката</span>
+                    <span lang="en">Overrun area</span>
+                    </h5>
+                    <h5 class="light-blue meters">+1800 m</h5>
                 </div>
             </div>
 
@@ -99,13 +118,15 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
             <div style="width:3rem; height:auto; margin:0 auto;">
                 <a href="#top-chair"><img class="scale__bottom" src="/img/pin-blue.svg"></a>
             </div>
-            <h3 lang="ru" class="light-blue">Кресельная канатная дорога, 1-я очередь</h3>
-            <h3 lang="en"></h3>
+            <h3 class="light-blue">
+            <span lang="ru">Кресельная канатная дорога, 1-я очередь</span>
+            <span lang="en">Chairlift road, 1st phase</span>
+            </h3>
         </div>
 
         <div class="hero-content__table">
 
-            <table class="mini">
+            <table class="mini" lang="ru">
                 <tr>
                     <th>Протяженность</th>
                     <th>Горнолыжные трассы</th>
@@ -117,6 +138,19 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
                     <td>300 человек</td>
                 </tr>
             </table>
+               
+            <table class="mini" lang="en">
+                <tr>
+                    <th>Distance</th>
+                    <th>Ski slopes</th>
+                    <th>Amount of simultaneously skiing</th>
+                </tr>
+                <tr>
+                    <td>0,9 km</td>
+                    <td>1,9 km</td>
+                    <td>300 people</td>
+                </tr>
+            </table>
 
         </div>
 
@@ -124,13 +158,15 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
             <div style="width:3rem; height:auto; margin:0 auto;">
                 <a href="#top-gondola"><img class="scale__bottom" src="/img/pin-brown.svg"></a>
             </div>
-            <h3 lang="ru">Гондольная канатная дорога, 2-я очередь</h3>
-            <h3 lang="en"></h3>
+            <h3>
+            <span lang="ru">Гондольная канатная дорога, 2-я очередь</span>
+            <span lang="en">Gondola cable road, 2nd phase</span>
+            </h3>
         </div>
 
         <div class="hero-content__table">
 
-            <table class="mini">
+            <table class="mini" lang="ru">
                 <tr>
                     <th>Протяженность</th>
                     <th>Горнолыжные трассы</th>
@@ -140,6 +176,19 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
                     <td>6,8 км</td>
                     <td>16,3 км</td>
                     <td>2000 человек</td>
+                </tr>
+            </table>
+               
+            <table class="mini" lang="en">
+                <tr>
+                    <th>Distance</th>
+                    <th>Ski slopes</th>
+                    <th>Amount of simultaneously skiing</th>
+                </tr>
+                <tr>
+                    <td>6,8 km</td>
+                    <td>16,3 km</td>
+                    <td>2000 people</td>
                 </tr>
             </table>
 
@@ -154,7 +203,8 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
         <div id="snow" class="hero-content__illustration">
 
             <div class="image" style="width:900px; margin:10rem auto;">
-                <img src="img/temperature-ru.png">
+                <img lang="ru" src="img/temperature-ru.png">
+                <img lang="en" src="img/temperature-en.png">
             </div>
 
         </div>

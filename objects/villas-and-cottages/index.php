@@ -28,17 +28,21 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
     <section class="hero-content">
 
-        <div class="hero-content__matlas-logo_link"><a href="/"><img src="/img/matlas-logo-dark.png"></a></div>
+        <div class="hero-content__matlas-logo_link">
+            <a href="/">
+                <div class="hero-content__matlas-logo_dark"></div>
+            </a>
+        </div>
 
         <div class="hero-content__title">
             <h2 lang="ru">Виллы и коттеджи</h2>
             <h3 lang="ru">Обособленная резиденция в горах</h3>
             <h2 lang="en">Villas and cottages</h2>
-            <h3 lang="en"></h3>
+            <h3 lang="en">Detached residence in the mointains</h3>
         </div>
 
         <div class="hero-content__list">
-            <ul>
+            <ul lang="ru">
                 <li>Близость туристско-рекреационной зоны</li>
                 <li>3 виллы площадью 500 м<sup>2</sup></li>
                 <li>7 коттеджей площадью 250 м<sup>2</sup></li>
@@ -47,11 +51,20 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
                 <li>Транспортная доступность</li>
                 <li>Мягкий окружающий климат</li>
             </ul>
+            <ul lang="en">
+                <li>The proximity of the tourist and recreational zone </li>
+                <li>3 villas with total area of 500 m<sup>2</sup></li>
+                <li>7 cottages with total area of 250 m<sup>2</sup></li>
+                <li>Modern interior and equipment</li>
+                <li>Isolation to the neighbors</li>
+                <li>Transport accessibility</li>
+                <li>Soft surrounding climate</li>
+            </ul>
         </div>
 
         <div class="hero-content__table">
 
-            <table>
+            <table lang="ru">
                 <tr>
                     <th>Общая площадь</th>
                     <th>Количество</th>
@@ -64,6 +77,23 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
                     </td>
                     <td>10</td>
                     <td>20 000 ₽ / сутки</td>
+                    <td>56,6%</td>
+                </tr>
+            </table>
+               
+            <table lang="en">
+                <tr>
+                    <th>Total area</th>
+                    <th>Quantity</th>
+                    <th>Average rent price</th>
+                    <th>Average annual occupancy</th>
+                </tr>
+                <tr>
+                    <td>
+                        <nobr>3 250 m<sup>2</sup></nobr>
+                    </td>
+                    <td>10</td>
+                    <td>20 000 ₽ / per&nbsp;day</td>
                     <td>56,6%</td>
                 </tr>
             </table>

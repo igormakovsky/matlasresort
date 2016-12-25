@@ -35,6 +35,8 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
     <section class="hero-content">
 
+       <!-- copy -->
+       
         <div class="hero-content__matlas-logo_link">
             <a href="/">
                 <div class="hero-content__matlas-logo_dark"></div>
@@ -124,7 +126,8 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
                         <span class="regular">в&nbsp;сутки</span>
                     </td>
                     <td>
-                        <nobr>6 000 ₽</nobr><br>
+                        <nobr>6 000 ₽</nobr>
+                        <br>
                         <span class="regular">посещение</span>
                     </td>
                     <td>
@@ -145,7 +148,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
                     <td>90%</td>
                 </tr>
             </table>
-               
+
             <table lang="en">
                 <tr>
                     <th>Name</th>
@@ -188,10 +191,11 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
                     <td>
                         <nobr>10 000 ₽</nobr>&nbsp;/ room
                         <br>
-                        <span class="regular">a&nbsp;day</span>
+                        <span class="regular">per&nbsp;day</span>
                     </td>
                     <td>
-                        <nobr>6 000 ₽</nobr><br>
+                        <nobr>6 000 ₽</nobr>
+                        <br>
                         <span class="regular">visit</span>
                     </td>
                     <td>
@@ -254,7 +258,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
         <div class="hero-content__poetic">
 
-            <div class="hero-content__poetic_poem">
+            <div class="hero-content__poetic_poem" lang="ru">
                 <p>Ты, на заре проснувшись, сделай милость,
                     <br>Еще хоть миг с собой наедине
                     <br>Побудь и вспомни все, что ночью снилось:
@@ -262,6 +266,18 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
                 <div class="hero-content__poetic_author">
                     <p>Расул Гамзатов</p>
+                </div>
+
+            </div>
+
+            <div class="hero-content__poetic_poem" lang="en">
+                <p>Waking early with the sunrise,
+                    <br>To this rule, I beg you, keep:
+                    <br>Pause and recollect your slumber—
+                    <br>Did you laugh or cry in sleep?</p>
+
+                <div class="hero-content__poetic_author">
+                    <p>Rasul Gamzatov</p>
                 </div>
 
             </div>

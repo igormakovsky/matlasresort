@@ -34,7 +34,11 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
     <section class="hero-content">
 
-        <div class="hero-content__matlas-logo_link"><a href="/"><img src="/img/matlas-logo-dark.png"></a></div>
+        <div class="hero-content__matlas-logo_link">
+            <a href="/">
+                <div class="hero-content__matlas-logo_dark"></div>
+            </a>
+        </div>
 
         <div class="hero-content__title">
             <h2 lang="ru">Гостиничный комплекс</h2>
@@ -50,20 +54,23 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
         </div>
 
         <div class="hero-content__description">
-            <p>Элегантная и утонченная, гостиница 4 звезды представляет собой идеальное место для расслабляющего и оздоровительного отдыха в&nbsp;обстановке домашнего уюта и комфорта, вдали от суматошного ритма повседневной жизни</p>
+            <p>
+            <span lang="ru">Элегантная и утонченная, гостиница 4 звезды представляет собой идеальное место для расслабляющего и оздоровительного отдыха в&nbsp;обстановке домашнего уюта и комфорта, вдали от суматошного ритма повседневной жизни</span>
+            <span lang="en">The elegant and exquisite four star hotel is&nbsp;a&nbsp;perfect place for&nbsp;relaxing and health-giving vacation in&nbsp;an&nbsp;atmosphere of&nbsp;coziness and&nbsp;comfort, away from spoffish pace of daily living.</span>
+            </p>
         </div>
 
         <div class="hero-content__list">
             <ul>
-                <li>Номерной фонд — <strong>260</strong></li>
-                <li>Рестораны и банкетные залы</li>
-                <li>Коммерческие площади</li>
+                <li>Room capacity — <strong>260</strong></li>
+                <li>Restaurant and banqueting hall</li>
+                <li>Commercial spaces</li>
             </ul>
         </div>
 
         <div class="hero-content__table">
 
-            <table>
+            <table lang="ru">
                 <tr>
                     <th>Наименования</th>
                     <th>Гостиничный комплекс, итого</th>
@@ -104,6 +111,53 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
                 </tr>
                 <tr>
                     <th>Загрузка</th>
+                    <td></td>
+                    <td>56,13%</td>
+                    <td>90%</td>
+                </tr>
+            </table>
+               
+            <table lang="en">
+                <tr>
+                    <th>Name</th>
+                    <th>Hotel complex, total</th>
+                    <th>Room capacity</th>
+                    <th>Commercial spaces</th>
+                </tr>
+                <tr>
+                    <th>Total area</th>
+                    <td>
+                        <nobr>
+                            15 000 m<sup>2</sup>
+                        </nobr>
+                    </td>
+                    <td>
+                        <nobr>
+                            10 400 m<sup>2</sup>
+                        </nobr>
+                    </td>
+                    <td>
+                        <nobr>
+                            4 600 m<sup>2</sup>
+                        </nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Price</th>
+                    <td></td>
+                    <td>
+                        <nobr>5 000 ₽</nobr>&nbsp;/ room
+                        <br>
+                        <span class="regular">per day</span>
+                    </td>
+                    <td>
+                        <nobr>15 000 ₽</nobr>&nbsp;/ m<sup>2</sup>
+                        <br>
+                        <span class="regular">per year</span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Occupancy</th>
                     <td></td>
                     <td>56,13%</td>
                     <td>90%</td>

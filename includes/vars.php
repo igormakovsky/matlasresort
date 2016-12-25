@@ -37,7 +37,7 @@ echo 'baseurl is '.$base_url.'<br>';
 echo 'siteroot is '.$siteroot.'<br>';*/
 //Language differences in variables
 
-$canonical = '/';
+//$canonical = $siteroot;
 $tomainpage = '&larr;';
 $contact = 'контакты';
 

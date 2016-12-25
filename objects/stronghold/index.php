@@ -1,10 +1,10 @@
 <?php
 $id = 'stronghold';
 $parent = 'object';
-$title_ru = 'Хунзахская крепость';
-$title_en = '';
+$title_ru = 'Матлас — Хунзахская крепость';
+$title_en = 'Matlas — Khunzakh fortress';
 $description_ru = 'Концепция реконструкции Хунзахской крепости';
-$description_en = '';
+$description_en = 'Khunzakh fortress reconstruction concept';
 $keywords_ru = '';
 $keywords_en = '';
 
@@ -17,7 +17,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
         <div id="title" class="hero-image__title exited">
             <h1 lang="ru">Хунзахская крепость</h1>
-            <h1 lang="en"></h1>
+            <h1 lang="en">Khunzakh fortress</h1>
         </div>
 
         <div id="hero-image" class="hero-image__photo hero-image__hotel-four-stars darker">
@@ -28,23 +28,31 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
     <section class="hero-content">
 
-        <div class="hero-content__matlas-logo_link"><a href="/"><img src="/img/matlas-logo-dark.png"></a></div>
+        <div class="hero-content__matlas-logo_link">
+            <a href="/">
+                <div class="hero-content__matlas-logo_dark"></div>
+            </a>
+        </div>
 
         <div class="hero-content__title">
             <h2 lang="ru">Хунзахская крепость</h2>
             <h3 lang="ru">Концепция реконструкции Хунзахской крепости</h3>
-            <h2 lang="en"></h2>
-            <h3 lang="en"></h3>
+            <h2 lang="en">Khunzakh fortress</h2>
+            <h3 lang="en">Khunzakh fortress reconstruction concept</h3>
         </div>
 
         <div class="hero-content__description">
 
-            <p>Крепость была возведена по указу Императора Александра II в 1867 году, как опорное укрепление русских войск Кавказе</p>
+            <p>
+                <span lang="ru">Крепость была возведена по указу Императора Александра II в 1867 году, как опорное укрепление русских войск Кавказе</span>
+                <span lang="en">The fortress was built under the decree of the Emperor Alexander II in&nbsp;1867 as a basic strengthening of the Russian Caucasus troops</span>
+            </p>
 
         </div>
 
         <div class="hero-content__list">
-            <ul>
+
+            <ul lang="ru">
                 <li>Хунзах — столица Аварского ханства</li>
                 <li>Хунзахская крепость является объектом культурного наследия Федерального значения</li>
                 <li>Крепость расположена на Хунзахском плато вблизи водопада «Тобот» и занимает площадь
@@ -54,6 +62,14 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
                 </li>
                 <li>Хунзахская крепость имеет важное историческое и архитектурное значение как образец оборонительной архитектуры Российской Империи XIX в.</li>
             </ul>
+
+            <ul lang="en">
+                <li>Khunzakh — is the capital of the Avarian khanate</li>
+                <li>Khunzakhsky fortress is an object of cultural heritage of Federal importance</li>
+                <li>Fortress is located on the Khunzakh plateau near the Tobot falls and occupies the space of <span class="nobr">27 thousand sq.m</span> </li>
+                <li>Khunzakhsky fortress has important historical and architectural value as an example of defensive architecture of the Russian Empire in 19th century</li>
+            </ul>
+
         </div>
 
         <!-- <div class="hero-content__table">
@@ -124,25 +140,39 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
         <div class="hero-content__title">
             <h2 lang="ru">Хунзахская крепость</h2>
             <h3 lang="ru"></h3>
-            <h2 lang="en"></h2>
+            <h2 lang="en">Khunzakh fortress</h2>
             <h3 lang="en"></h3>
         </div>
 
         <div class="hero-content__description">
 
-            <p>Для обеспечения сохранности объекта культурного наследия федерального значения, реставрации объекта включена в&nbsp;ФЦП&nbsp;«Культура России (2012 – 2018 годы)»</p>
+            <p>
+                <span lang="ru">Для обеспечения сохранности объекта культурного наследия федерального значения, реставрации объекта включена в&nbsp;ФЦП&nbsp;«Культура России (2012 – 2018 годы)»</span>
+                <span lang="en">In order to provide the cultural heritage object of&nbsp;Federal importance, the&nbsp;restoration of&nbsp;the&nbsp;object included in&nbsp;the&nbsp;Federal target program “Culture of Russia (2012 – 2018)”</span>
+            </p>
 
-            <p>В соответствие с концепцией прокта Матлас, после реконструкции на&nbsp;территории Хунзахской крепости планируется расположить:</p>
+            <p>
+                <span lang="ru">В соответствие с концепцией прокта Матлас, после реконструкции на&nbsp;территории Хунзахской крепости планируется расположить:</span>
+                <span lang="en">In accordance with the&nbsp;project Matlas concept, after reconstruction on&nbsp;the&nbsp;territory of&nbsp;Khunzakh fortress it&nbsp;is&nbsp;planned to&nbsp;locate:</span>
+            </p>
 
         </div>
 
         <div class="hero-content__list">
-            <ul>
+            <ul lang="ru">
                 <li>ВОО «Русское географическое общество»</li>
                 <li>Первую горную гимназию</li>
                 <li>Исторический музей</li>
                 <li>Музей искусства и истории Хунзаха</li>
                 <li>Выставочную галерею</li>
+            </ul>
+
+            <ul lang="en">
+                <li>RPO “Russian geographical society”</li>
+                <li>The first mountain gymnasia</li>
+                <li>Historical Museum</li>
+                <li>Khunzakh museum of art and history</li>
+                <li>Exhibition gallery</li>
             </ul>
         </div>
 

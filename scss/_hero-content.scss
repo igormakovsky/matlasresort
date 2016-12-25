@@ -314,6 +314,24 @@
                     text-shadow: $dark-blue 0 0 4px;
                     z-index: 2;
                 }
+                &:lang(en) {
+                    &:after {
+                        @extend .bold;
+                        pointer-events: none;
+                        content: attr(data-tooltip-en);
+                        width: auto;
+                        padding: .2rem;
+                        opacity: 0;
+                        visibility: hidden;
+                        color: white;
+                        font-size: 2rem;
+                        line-height: 1;
+                        position: absolute;
+                        top: 0.3rem;
+                        text-shadow: $dark-blue 0 0 4px;
+                        z-index: 2;
+                    }
+                }
                 &.align-right {
                     &:after {
                         right: 3.3rem;
@@ -387,6 +405,24 @@
                     top: 0.3rem;
                     text-shadow: white 0 0 10px;
                     z-index: 2;
+                }
+                &:lang(en) {
+                    &:after {
+                        @extend .bold;
+                        pointer-events: none;
+                        content: attr(data-tooltip-en);
+                        width: auto;
+                        padding: .2rem;
+                        opacity: 0;
+                        visibility: hidden;
+                        color: $dark-blue;
+                        font-size: 2rem;
+                        line-height: 1;
+                        position: absolute;
+                        top: 0.3rem;
+                        text-shadow: white 0 0 10px;
+                        z-index: 2;
+                    }
                 }
                 &.align-right {
                     &:after {

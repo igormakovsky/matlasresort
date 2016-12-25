@@ -17,7 +17,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
         <div id="title" class="hero-image__title exited">
             <h1 lang="ru">Активные виды отдыха</h1>
-            <h1 lang="en"></h1>
+            <h1 lang="en">Leisure time activities</h1>
         </div>
 
         <div id="hero-image" class="hero-image__photo hero-image__hotel-four-stars darker">
@@ -28,13 +28,17 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
     <section class="hero-content">
 
-        <div class="hero-content__matlas-logo_link"><a href="/"><img src="/img/matlas-logo-dark.png"></a></div>
+        <div class="hero-content__matlas-logo_link">
+            <a href="/">
+                <div class="hero-content__matlas-logo_dark"></div>
+            </a>
+        </div>
 
         <div class="hero-content__title">
             <h2 lang="ru">Активные виды отдыха</h2>
             <h3 lang="ru">Летние и зимние, активные<br>и экстремальные виды отдыха на любой вкус</h3>
-            <h2 lang="en"></h2>
-            <h3 lang="en"></h3>
+            <h2 lang="en">Leisure time activities</h2>
+            <h3 lang="en">Summer and winter, recreational<br>and extreme sport suited to every fancy</h3>
         </div>
 
         <div class="hero-content__description">
@@ -44,7 +48,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
         </div>
 
         <div class="hero-content__list">
-            <ul>
+            <ul lang="ru">
                 <li>Спортивный комплекс с футбольным полем</li>
                 <li>Открытый теннисный корт</li>
                 <li>Скейтпарк</li>
@@ -57,6 +61,20 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
                 <li>Сноуборд</li>
                 <li>Пейнтбол и страйкбол</li>
                 <li>Пешие походы, велопоходы</li>
+            </ul>
+            <ul lang="en">
+                <li>A sports complex with a football field</li>
+                <li>Outdoor tennis court</li>
+                <li>Skatepark</li>
+                <li>Shooting club (shooting range)</li>
+                <li>Ice skating rink</li>
+                <li>Squal, monoski, telemark, sleigh rides and&nbsp;snowmobiling</li>
+                <li>Quad biking, jeeping, mountain biking</li>
+                <li>Sports mountaineering and climbing</li>
+                <li>Paragliding</li>
+                <li>Snowboard</li>
+                <li>Paintball and airsoft</li>
+                <li>Hiking, Biking</li>
             </ul>
         </div>
 

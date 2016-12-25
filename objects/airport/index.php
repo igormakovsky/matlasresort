@@ -1,10 +1,10 @@
 <?php
 $id = 'airport';
 $parent = 'object';
-$title_ru = 'Аэропорт «Матлас»';
-$title_en = '';
+$title_ru = 'Матлас — аэропорт';
+$title_en = 'Matlas — airport';
 $description_ru = 'Концепция создания аэропорта';
-$description_en = '';
+$description_en = 'Airport creation concept';
 $keywords_ru = '';
 $keywords_en = '';
 
@@ -17,7 +17,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
         <div id="title" class="hero-image__title exited">
             <h1 lang="ru">Аэропорт</h1>
-            <h1 lang="en"></h1>
+            <h1 lang="en">Airport</h1>
         </div>
 
         <div id="hero-image" class="hero-image__photo hero-image__hotel-four-stars darker">
@@ -29,14 +29,16 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
     <section class="hero-content">
 
         <div class="hero-content__matlas-logo_link">
-            <a href="/"><img src="/img/matlas-logo-dark.png"></a>
+            <a href="/">
+                <div class="hero-content__matlas-logo_dark"></div>
+            </a>
         </div>
 
         <div class="hero-content__title">
             <h2 lang="ru">Аэропорт</h2>
             <h3 lang="ru">Концепция создания</h3>
-            <h2 lang="en"></h2>
-            <h3 lang="en"></h3>
+            <h2 lang="en">Airport</h2>
+            <h3 lang="en">Creation concept</h3>
         </div>
 
         <div class="hero-content__poetic">
@@ -81,32 +83,35 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
         <div class="hero-content__intermediate">
 
             <div class="hero-content__intermediate_map-global">
-                <img src="img/map-global.jpg" srcset="img/map-global@2x.jpg 2x">
+                <img lang="ru" src="img/map-global.jpg" srcset="img/map-global@2x.jpg 2x">
+                <img lang="en" src="img/map-global-en.jpg" srcset="img/map-global-en@2x.jpg 2x">
             </div>
 
         </div>
 
         <div class="hero-content__title">
             <h2 lang="ru">Концепция аэропорта</h2>
-            <h3 lang="ru"></h3>
-            <h2 lang="en"></h2>
-            <h3 lang="en"></h3>
+            <h2 lang="en">Airport concept</h2>
         </div>
 
         <div class="hero-content__description">
 
-            <p>«Малую авиацию нужно развивать прежде всего в отдаленных регионах, где она просто незаменима. Это важнейшая социальная и&nbsp;экономическая задача»
-                <br>— В.В. Путин</p>
+            <p>
+                <span lang="ru">«Малую авиацию нужно развивать прежде всего в&nbsp;отдаленных регионах, где она просто незаменима. Это важнейшая социальная и&nbsp;экономическая задача»
+                <br>— В.В. Путин</span>
+                <span lang="en">“It&nbsp;is&nbsp;necessary to&nbsp;develop small aviation in&nbsp;the&nbsp;backcountry, where its&nbsp;presence is&nbsp;essential. This&nbsp;is&nbsp;the&nbsp;most important social and&nbsp;economic objective”
+                <br>— Vladimir Putin</span>
+            </p>
 
         </div>
 
         <div class="hero-content__table">
 
-            <table>
+            <table lang="ru">
                 <tr>
                     <th>Наименование</th>
-                    <th>Описание аэродрома</th>
-                    <th>Описание вертодрома</th>
+                    <th>Аэродром</th>
+                    <th>Вертодром</th>
                 </tr>
                 <tr>
                     <th>Класс Аэродрома</th>
@@ -134,6 +139,38 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
                 </tr>
             </table>
 
+            <table lang="en">
+                <tr>
+                    <th>Name</th>
+                    <th>Airport</th>
+                    <th>Helipad</th>
+                </tr>
+                <tr>
+                    <th>Airport class</th>
+                    <td colspan="2">III class (joint deploying)</td>
+                </tr>
+                <tr>
+                    <th>Airstrip length</th>
+                    <td>L = 1 800 m, S = 45 m</td>
+                    <td>L = 110 – 190 m,
+                        <br><span class="regular">Landing fields</span> 50×50m <span class="regular">are&nbsp;additionally&nbsp;equipped</span></td>
+                </tr>
+                <tr>
+                    <th>Type of&nbsp;airstrip</th>
+                    <td colspan="2"><span class="regular">Artificial airstrip</span></td>
+                </tr>
+                <tr>
+                    <th>Type of an aircraft</th>
+                    <td>3rd class aircraft</td>
+                    <td>Helicopters of all types</td>
+                </tr>
+                <tr>
+                    <th>Aircrafts applicable for receiving</th>
+                    <td>Bombardier Q400, Bombardier CRJ200, Saab 2000, ATR 72-600, Falcon 50EX, С-80, АН-26-100 and ВС of lower classes</td>
+                    <td>Mi-6, Mi-10, Mi-26, Mi-8, Mi-4, Ka-32, Mi-2, Ka-26, Ansat, Mi-34С, Robinson, Bell, Agusta, MD, Eurocopter</td>
+                </tr>
+            </table>
+
         </div>
 
         <!-- map-local -->
@@ -143,43 +180,43 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
             <div class="hero-content__intermediate_map-local">
                 <img src="img/map-local.jpg" srcset="img/map-local@2x.jpg 2x">
 
-                <div class="dot align-right" data-tooltip="Подъездная дорога" style="right:26.5%; top:75%;">
+                <div class="dot align-right" data-tooltip-ru="Подъездная дорога" data-tooltip-en="Service road" style="right:26.5%; top:75%;">
                     <a href="#li-1"><span class="dot__number">1</span></a>
                 </div>
 
-                <div class="dot align-left" data-tooltip="Главное здание аэропорта" style="right:27%; top:53%;">
+                <div class="dot align-left" data-tooltip-ru="Главное здание аэропорта" data-tooltip-en="Airport central building" style="right:27%; top:53%;">
                     <a href="#li-2"><span class="dot__number">2</span></a>
                 </div>
 
-                <div class="dot align-left" data-tooltip="Склад ГСМ" style="right:24%; top:42%;">
+                <div class="dot align-left" data-tooltip-ru="Склад ГСМ" data-tooltip-en="Fuel storage" style="right:24%; top:42%;">
                     <a href="#li-3"><span class="dot__number">3</span></a>
                 </div>
 
-                <div class="dot align-right" data-tooltip="Перрон" style="right:32%; bottom:30.5%;">
+                <div class="dot align-right" data-tooltip-ru="Перрон" data-tooltip-en="Platform" style="right:32%; bottom:30.5%;">
                     <a href="#li-4"><span class="dot__number">4</span></a>
                 </div>
 
-                <div class="dot align-right" data-tooltip="Диспетчерская вышка" style="right:30%; top:43.5%; z-index:11;">
+                <div class="dot align-right" data-tooltip-ru="Диспетчерская вышка" data-tooltip-en="Control tower" style="right:30%; top:43.5%; z-index:11;">
                     <a href="#li-5"><span class="dot__number">5</span></a>
                 </div>
 
-                <div class="dot align-right" data-tooltip="Ремонтный цех" style="right:34%; top:43%; z-index:10;">
+                <div class="dot align-right" data-tooltip-ru="Ремонтный цех" data-tooltip-en="Repair area" style="right:34%; top:43%; z-index:10;">
                     <a href="#li-6"><span class="dot__number">6</span></a>
                 </div>
 
-                <div class="dot align-right" data-tooltip="Рулежная дорожка" style="right:40.3%; top:50%;">
+                <div class="dot align-right" data-tooltip-ru="Рулежная дорожка" data-tooltip-en="Steering track" style="right:40.3%; top:50%;">
                     <a href="#li-7"><span class="dot__number">7</span></a>
                 </div>
 
-                <div class="dot align-right" data-tooltip="Взлетно- посадочная полоса" style="left:26%; top:35%;">
+                <div class="dot align-right" data-tooltip-ru="Взлетно- посадочная полоса" data-tooltip-en="Airstrip" style="left:26%; top:35%;">
                     <a href="#li-8"><span class="dot__number">8</span></a>
                 </div>
 
-                <div class="dot align-left" data-tooltip="Вертодром" style="right:44.25%; top:37.5%;">
+                <div class="dot align-left" data-tooltip-ru="Вертодром" data-tooltip-en="Helipad" style="right:44.25%; top:37.5%;">
                     <a href="#li-9"><span class="dot__number">9</span></a>
                 </div>
 
-                <div class="dot align-left" data-tooltip="Стоянка судов" style="left:42%; top:29%;">
+                <div class="dot align-left" data-tooltip-ru="Стоянка судов" data-tooltip-en="Parking lots" style="left:42%; top:29%;">
                     <a href="#li-10"><span class="dot__number">10</span></a>
                 </div>
 
@@ -188,24 +225,52 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
         </div>
 
         <div class="hero-content__title">
-            <h2 lang="ru"></h2>
             <h3 lang="ru">Схема аэродрома и аэропорта в случае совместного базирования</h3>
-            <h2 lang="en"></h2>
-            <h3 lang="en"></h3>
+            <h3 lang="en">Diagram of the airfield and airport in the case of joint deploying</h3>
         </div>
 
         <div class="hero-content__list">
             <ol>
-                <li id="li-1">Подъездная дорога</li>
-                <li id="li-2">Здание аэропорта с торговым центром и&nbsp;техническими службами</li>
-                <li id="li-3">Склад ГСМ</li>
-                <li id="li-4">Перрон с местами стоянки воздушных судов</li>
-                <li id="li-5">Диспетчерская вышка</li>
-                <li id="li-6">Ремонтно-хозяйственная зона</li>
-                <li id="li-7">Главная рулежная дорожка</li>
-                <li id="li-8">ИВПП (искусственная взлетно-посадочная полоса)</li>
-                <li id="li-9">Вертодром</li>
-                <li id="li-10">Места стоянки воздушных судов</li>
+                <li id="li-1">
+                    <span lang="ru">Подъездная дорога</span>
+                    <span lang="en">Service road</span>
+                </li>
+                <li id="li-2">
+                    <span lang="ru">Здание аэропорта с торговым центром и&nbsp;техническими службами</span>
+                    <span lang="en">The airport building with shopping centre and technical services</span>
+                </li>
+                <li id="li-3">
+                    <span lang="ru">Склад ГСМ</span>
+                    <span lang="en">Fuel storage</span>
+                </li>
+                <li id="li-4">
+                    <span lang="ru">Перрон с местами стоянки воздушных судов</span>
+                    <span lang="en">Platform with aircraft parking lots</span>
+                </li>
+                <li id="li-5">
+                    <span lang="ru">Диспетчерская вышка</span>
+                    <span lang="en">Control tower</span>
+                </li>
+                <li id="li-6">
+                    <span lang="ru">Ремонтно-хозяйственная зона</span>
+                    <span lang="en">Repair utility area</span>
+                </li>
+                <li id="li-7">
+                    <span lang="ru">Главная рулежная дорожка</span>
+                    <span lang="en">The main steering track</span>
+                </li>
+                <li id="li-8">
+                    <span lang="ru">ИВПП (искусственная взлетно-посадочная полоса)</span>
+                    <span lang="en">Artificial airstrip</span>
+                </li>
+                <li id="li-9">
+                    <span lang="ru">Вертодром</span>
+                    <span lang="en">Helipad</span>
+                </li>
+                <li id="li-10">
+                    <span lang="ru">Места стоянки воздушных судов</span>
+                    <span lang="en">Aircraft parking lots</span>
+                </li>
             </ol>
         </div>
 
@@ -214,7 +279,8 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
         <div class="hero-content__intermediate">
 
             <div class="hero-content__intermediate_coverage">
-                <img src="img/coverage.jpg" srcset="img/coverage@2x.jpg 2x">
+                <img lang="ru" src="img/coverage.jpg" srcset="img/coverage@2x.jpg 2x">
+                <img lang="en" src="img/coverage-en.jpg" srcset="img/coverage-en@2x.jpg 2x">
             </div>
 
         </div>
@@ -222,34 +288,34 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
         <div class="hero-content__title">
             <h2 lang="ru">Зона охвата</h2>
             <h3 lang="ru">Внутренние перевозки</h3>
-            <h2 lang="en"></h2>
-            <h3 lang="en"></h3>
+            <h2 lang="en">Coverage</h2>
+            <h3 lang="en">Domestic flights</h3>
         </div>
 
         <div class="hero-content__table">
 
             <table class="coverage">
                 <tr>
-                    <th>0 – 500 км</th>
-                    <th>500 – 1000 км</th>
-                    <th>1000 — 1600 км</th>
+                    <th>0 – 500 km</th>
+                    <th>500 – 1000 km</th>
+                    <th>1000 – 1600 km</th>
                 </tr>
                 <tr>
-                    <td>Махачкала
-                        <br>Грозный
-                        <br>Владикавказ
-                        <br>Ставрополь
-                        <br>Астрахань</td>
-                    <td>Волгоград
-                        <br>Ростов на Дону
-                        <br>Краснодар
-                        <br>Саратов</td>
-                    <td>Тула
-                        <br>Самара
-                        <br>Оренбург
-                        <br>Симферополь
-                        <br>Липецк
-                        <br>Москва</td>
+                    <td>Makhachkala
+                        <br>Grozny
+                        <br>Vladikavkaz
+                        <br>Stavropol
+                        <br>Astrakhan</td>
+                    <td>Volgograd
+                        <br>Rostov na Donu
+                        <br>Krasnodar
+                        <br>Saratov</td>
+                    <td>Tula
+                        <br>Samara
+                        <br>Orenburg
+                        <br>Simferopol
+                        <br>Lipetsk
+                        <br>Moscow</td>
                 </tr>
             </table>
 
@@ -259,31 +325,31 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
             <h2 lang="ru"></h2>
             <h3 lang="ru">Внешние перевозки</h3>
             <h2 lang="en"></h2>
-            <h3 lang="en"></h3>
+            <h3 lang="en">International flights</h3>
         </div>
 
         <div class="hero-content__table">
 
             <table class="coverage">
                 <tr>
-                    <th>0 – 500 км</th>
-                    <th>500 – 1000 км</th>
-                    <th>1000 — 1600 км</th>
+                    <th>0 – 500 km</th>
+                    <th>500 – 1000 km</th>
+                    <th>1000 – 1600 km</th>
                 </tr>
                 <tr>
-                    <td>Баку
-                        <br>Ереван
-                        <br>Тбилиси
-                        <br>Актау</td>
-                    <td>Атырау
-                        <br>Багдад
-                        <br>Тегеран</td>
-                    <td>Дамаск
-                        <br>Ашхабад
-                        <br>Анкара
-                        <br>Стамбул
-                        <br>Кишинев
-                        <br>Киев</td>
+                    <td>Baku
+                        <br>Erevan
+                        <br>Tbilisi
+                        <br>Aktau</td>
+                    <td>Atyrau
+                        <br>Bagdad
+                        <br>Tegeran</td>
+                    <td>Damask
+                        <br>Ashkhabad
+                        <br>Ankara
+                        <br>Stambul
+                        <br>Kishinev
+                        <br>Kiev</td>
                 </tr>
             </table>
 

@@ -126,7 +126,7 @@
                 </li>
                 <li class="balneology">
                     <a lang="ru" href="/objects/balneology/">Бальнеология</a>
-                    <a lang="en" href="/objects/balneology/">Balneology</a>
+                    <a lang="en" href="/objects/balneology/">Balneological<br>center</a>
                 </li>
                 <li class="spa-and-detox">
                     <a lang="ru" href="/objects/spa-and-detox/">СПА и Детокс</a>
@@ -165,10 +165,8 @@
                     <a lang="en" href="/objects/farm/">Farm</a>
                 </li>
                 <li class="stronghold">
-                    <a lang="ru" href="/objects/stronghold/">Хунзахская
-                            <br>крепость</a>
-                    <a lang="en" href="/objects/stronghold/">Khunzakh
-                            <br>fortress</a>
+                    <a lang="ru" href="/objects/stronghold/">Хунзахская<br>крепость</a>
+                    <a lang="en" href="/objects/stronghold/">Khunzakh<br>fortress</a>
                 </li>
                 <li class="airport">
                     <a lang="ru" href="/objects/airport/">Аэропорт</a>
@@ -213,7 +211,7 @@
                     </div>
                     <div class="title">
                         <span lang="ru"><a href="http://www.cushmanwakefield.ru/" target="_blank">Стратегический консалтинг</a></span>
-                        <span lang="en"><a href="http://www.cushmanwakefield.ru/" target="_blank">Strategical consulting</a></span>
+                        <span lang="en"><a href="http://www.cushmanwakefield.ru/" target="_blank">Strategic consulting</a></span>
                     </div>
                 </div>
                 <div class="partner">
@@ -252,7 +250,7 @@
                     </div>
                     <div class="title">
                         <span lang="ru"><a href="http://government.ru/" target="_blank">Правительство РФ</a></span>
-                        <span lang="en"><a href="http://government.ru/" target="_blank">Government<br>of Russia<br>Federation</a></span>
+                        <span lang="en"><a href="http://government.ru/" target="_blank">Government<br>of&nbsp;the&nbsp;Russia<br>Federation</a></span>
                     </div>
                 </div>
                 <div class="partner">
@@ -263,7 +261,7 @@
                         <span lang="ru"><a href="http://www.e-dag.ru/" target="_blank">Правительство
                                 <br>республики
                                 <br>Дагестан</a></span>
-                        <span lang="en"><a href="http://www.e-dag.ru/" target="_blank">Republic<br>of Dagestan<br>Government</a></span>
+                        <span lang="en"><a href="http://www.e-dag.ru/" target="_blank">Republic<br>of&nbsp;the&nbsp;Dagestan<br>Republic</a></span>
                     </div>
                 </div>
                 <div class="partner">
@@ -274,7 +272,7 @@
                         <span lang="ru"><a href="http://khunzakh.ru/" target="_blank">Администрация
                                 <br>Хунзахского
                                 <br>района</a></span>
-                        <span lang="en"><a href="http://khunzakh.ru/" target="_blank">Khunzakh<br>District<br>Government</a></span>
+                        <span lang="en"><a href="http://khunzakh.ru/" target="_blank">Khunzakh<br>District<br>Administration</a></span>
                     </div>
                 </div>
                 <div class="partner">
@@ -284,30 +282,29 @@
                     <div class="title">
                         <span lang="ru"><a href="http://www.ncrc.ru/" target="_blank">Управляющая
                                 <br>компания ОЭЗ</a></span>
-                        <span lang="en"><a href="http://www.ncrc.ru/" target="_blank">Managment
-                                <br>company SEZ</a></span>
+                        <span lang="en"><a href="http://www.ncrc.ru/" target="_blank">Asset
+                                <br>managment of&nbsp;SEZ</a></span>
                     </div>
                 </div>
             </div>
 
             <div class="third-column">
 
-                <p lang="ru">
-                    <strong>Матлас</strong>
+                <p>
+                    <strong>
+                    <span lang="ru">Матлас</span>
+                    <span lang="en">Matlas</span>
+                    </strong>
+                    <span lang="ru">
                     <br>г. Махачкала,
                     <br>ул. Танкаева, 54
-                    <br><a id="showmap" href="#showmap">показать карту</a><a id="closemap" class="hidden" href="#closemap">скрыть карту</a>
-                    <br><a href="mailto:info@matlasresort.com">info<span class="beige">@</span>matlasresort.com</a>
-                    <br>matlasresort.com
-                    <br>
-                    <?=date("Y")?>
-                </p>
-                   
-                <p lang="en">
-                    <strong>Matlas</strong>
+                    </span>
+                    <span lang="en">
                     <br>Makhachkala,
                     <br>Tankaeva st., 54
-                    <br><a id="showmap" href="#showmap">show map</a><a id="closemap" class="hidden" href="#closemap">close map</a>
+                    </span>
+                    <br><a id="showmap" href="#showmap"><span lang="ru">показать карту</span><span lang="en">show map</span></a>
+                    <a id="closemap" class="hidden" href="#closemap"><span lang="ru">скрыть карту</span><span lang="en">close map</span></a>
                     <br><a href="mailto:info@matlasresort.com">info<span class="beige">@</span>matlasresort.com</a>
                     <br>matlasresort.com
                     <br>
@@ -323,7 +320,7 @@
                     <br>и разработчик сайта —
                     <br><a href="http://www.igormakovsky.ru" target="_blank">Игорь Маковский</a>
                 </p>
-                   
+
                 <p lang="en">
                     Designer
                     <br>and site developer —
@@ -389,7 +386,7 @@
             <br>
             <?=date("Y")?>
         </p>
-           
+
         <p lang="en">
             <strong>Matlas</strong>
             <br>Makhachkala, Tankaeva st., 54

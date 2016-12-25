@@ -4,7 +4,7 @@ $parent = 'object';
 $title_ru = 'Гольф';
 $title_en = 'Golf';
 $description_ru = 'Гольф-клуб и поле для гольфа на 18 лунок';
-$description_en = '';
+$description_en = 'Golf club with golf course for 18 holes';
 $keywords_ru = '';
 $keywords_en = '';
 
@@ -28,13 +28,17 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
 
     <section class="hero-content">
 
-        <div class="hero-content__matlas-logo_link"><a href="/"><img src="/img/matlas-logo-dark.png"></a></div>
+        <div class="hero-content__matlas-logo_link">
+            <a href="/">
+                <div class="hero-content__matlas-logo_dark"></div>
+            </a>
+        </div>
 
         <div class="hero-content__title">
             <h2 lang="ru">Гольф</h2>
             <h3 lang="ru">Гольф-клуб и поле<br>для гольфа на 18 лунок</h3>
             <h2 lang="en">Golf</h2>
-            <h3 lang="en"></h3>
+            <h3 lang="en">Golf club with golf course<br>with 18 holes</h3>
         </div>
 
         <div class="hero-content__description">
@@ -44,17 +48,24 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
         </div>
 
         <div class="hero-content__list">
-            <ul>
+            <ul lang="ru">
                 <li>Тренировки по различным программам на&nbsp;специальном тренировочном поле, учитывающие возраст и уровень игрока в&nbsp;гольф</li>
                 <li>Программа детских занятий (TPI — начиная с&nbsp;азов гольфа)</li>
                 <li>Групповые и индивидуальные тренировки под&nbsp;руководством опытных специалистов</li>
                 <li>Проведение различных мероприятий (турниры, соревнования)</li>
             </ul>
+               
+            <ul lang="en">
+                <li>Training according the various programs in the special practice green, taking into account the age and level of golfer</li>
+                <li>Program of children's classes (TPI — starting with the basics of Golf)</li>
+                <li>Group and individual training under the guidance of experienced professionals</li>
+                <li>Running events (tournaments, competitions)</li>
+            </ul>
         </div>
 
         <div class="hero-content__table">
 
-            <table>
+            <table lang="ru">
                 <tr>
                     <th>Гольф-клуб, общая площадь</th>
                     <th>Стоимость клубной карты</th>
@@ -68,6 +79,23 @@ require $_SERVER['DOCUMENT_ROOT'].'/'.'includes/head.php';?>
                     <td>4 500 ₽</td>
                     <td>4 000 ₽</td>
                     <td>от 8 до 34</td>
+                </tr>
+            </table>
+               
+            <table lang="en">
+                <tr>
+                    <th>Golf club, total area</th>
+                    <th>Club cart price</th>
+                    <th>Lap price /&nbsp;game</th>
+                    <th>Buggy renting price</th>
+                    <th>Completed rounds per&nbsp;day</th>
+                </tr>
+                <tr>
+                    <td>2 000 m<sup>2</sup></td>
+                    <td>250 000 ₽</td>
+                    <td>4 500 ₽</td>
+                    <td>4 000 ₽</td>
+                    <td>from 8 to 34</td>
                 </tr>
             </table>
 

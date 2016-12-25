@@ -2665,15 +2665,6 @@
 		"oAP": "\/fonts\/graphik-regular-web\/ttEULA.txt",
 		"oF": 0
 		},
-	"\/gulpfile.js": {
-		"ft": 64,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "\/min\/gulpfile-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
 	"\/img\/carousel-arrow-left.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2694,26 +2685,42 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/caucasus-map.jpg": {
+	"\/img\/caucasus-map-en.jpg": {
 		"ft": 16384,
-		"iS": 291903,
-		"oA": 0,
-		"oAP": "\/img\/caucasus-map.jpg",
+		"iS": 412466,
+		"oA": 1,
+		"oAP": "\/img\/caucasus-map-en.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/img\/caucasus-map@2x.jpg": {
+	"\/img\/caucasus-map-en@2x.jpg": {
+		"ft": 16384,
+		"iS": 1099414,
+		"oA": 1,
+		"oAP": "\/img\/caucasus-map-en@2x.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/caucasus-map-ru.jpg": {
+		"ft": 16384,
+		"iS": 291903,
+		"oA": 1,
+		"oAP": "\/img\/caucasus-map-ru.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/caucasus-map-ru@2x.jpg": {
 		"ft": 16384,
 		"iS": 801505,
-		"oA": 0,
-		"oAP": "\/img\/caucasus-map@2x.jpg",
+		"oA": 1,
+		"oAP": "\/img\/caucasus-map-ru@2x.jpg",
 		"oF": 0,
 		"opt": 0
 		},
 	"\/img\/hero-image.jpg": {
 		"ft": 16384,
 		"iS": 608630,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/hero-image.jpg",
 		"oF": 0,
 		"opt": 0
@@ -2721,7 +2728,7 @@
 	"\/img\/hero-image@2x.jpg": {
 		"ft": 16384,
 		"iS": 1888380,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/hero-image@2x.jpg",
 		"oF": 0,
 		"opt": 0
@@ -2749,7 +2756,7 @@
 	"\/img\/index.jpg": {
 		"ft": 16384,
 		"iS": 248824,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/index.jpg",
 		"oF": 0,
 		"opt": 0
@@ -2757,7 +2764,7 @@
 	"\/img\/interiors\/01-lobby-1.jpg": {
 		"ft": 16384,
 		"iS": 942134,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/interiors\/01-lobby-1.jpg",
 		"oF": 0,
 		"opt": 0
@@ -2765,7 +2772,7 @@
 	"\/img\/interiors\/02-reception-1.jpg": {
 		"ft": 16384,
 		"iS": 615952,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/interiors\/02-reception-1.jpg",
 		"oF": 0,
 		"opt": 0
@@ -2773,7 +2780,7 @@
 	"\/img\/interiors\/03-lobby-bar-1.jpg": {
 		"ft": 16384,
 		"iS": 975192,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/interiors\/03-lobby-bar-1.jpg",
 		"oF": 0,
 		"opt": 0
@@ -2781,7 +2788,7 @@
 	"\/img\/interiors\/04-restaurant-buffet-1.jpg": {
 		"ft": 16384,
 		"iS": 898637,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/interiors\/04-restaurant-buffet-1.jpg",
 		"oF": 0,
 		"opt": 0
@@ -2789,7 +2796,7 @@
 	"\/img\/interiors\/05-public-bathroom-2.jpg": {
 		"ft": 16384,
 		"iS": 623547,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/interiors\/05-public-bathroom-2.jpg",
 		"oF": 0,
 		"opt": 0
@@ -2797,7 +2804,7 @@
 	"\/img\/interiors\/06-restaurant.jpg": {
 		"ft": 16384,
 		"iS": 890256,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/interiors\/06-restaurant.jpg",
 		"oF": 0,
 		"opt": 0
@@ -2805,7 +2812,7 @@
 	"\/img\/interiors\/07-luxe-2.jpg": {
 		"ft": 16384,
 		"iS": 811771,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/interiors\/07-luxe-2.jpg",
 		"oF": 0,
 		"opt": 0
@@ -2813,7 +2820,7 @@
 	"\/img\/interiors\/08-deluxe-1.jpg": {
 		"ft": 16384,
 		"iS": 748996,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/interiors\/08-deluxe-1.jpg",
 		"oF": 0,
 		"opt": 0
@@ -2821,7 +2828,7 @@
 	"\/img\/interiors\/09-deluxe-2.jpg": {
 		"ft": 16384,
 		"iS": 819899,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/interiors\/09-deluxe-2.jpg",
 		"oF": 0,
 		"opt": 0
@@ -2829,7 +2836,7 @@
 	"\/img\/interiors\/10-living.jpg": {
 		"ft": 16384,
 		"iS": 995242,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/interiors\/10-living.jpg",
 		"oF": 0,
 		"opt": 0
@@ -2837,7 +2844,7 @@
 	"\/img\/interiors\/11-dining.jpg": {
 		"ft": 16384,
 		"iS": 1028390,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/interiors\/11-dining.jpg",
 		"oF": 0,
 		"opt": 0
@@ -2845,7 +2852,7 @@
 	"\/img\/interiors\/12-master-bedroom.jpg": {
 		"ft": 16384,
 		"iS": 847310,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/interiors\/12-master-bedroom.jpg",
 		"oF": 0,
 		"opt": 0
@@ -2853,7 +2860,7 @@
 	"\/img\/interiors\/13-pool-area.jpg": {
 		"ft": 16384,
 		"iS": 901543,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/interiors\/13-pool-area.jpg",
 		"oF": 0,
 		"opt": 0
@@ -2925,7 +2932,7 @@
 	"\/img\/matlas-open-soon.jpg": {
 		"ft": 16384,
 		"iS": 1562340,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/matlas-open-soon.jpg",
 		"oF": 0,
 		"opt": 0
@@ -2933,7 +2940,7 @@
 	"\/img\/nature\/nature-1.jpg": {
 		"ft": 16384,
 		"iS": 935092,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/nature\/nature-1.jpg",
 		"oF": 0,
 		"opt": 0
@@ -2941,7 +2948,7 @@
 	"\/img\/nature\/nature-10.jpg": {
 		"ft": 16384,
 		"iS": 1821700,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/nature\/nature-10.jpg",
 		"oF": 0,
 		"opt": 0
@@ -2949,7 +2956,7 @@
 	"\/img\/nature\/nature-11.jpg": {
 		"ft": 16384,
 		"iS": 2070500,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/nature\/nature-11.jpg",
 		"oF": 0,
 		"opt": 0
@@ -2957,7 +2964,7 @@
 	"\/img\/nature\/nature-12.jpg": {
 		"ft": 16384,
 		"iS": 2074070,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/nature\/nature-12.jpg",
 		"oF": 0,
 		"opt": 0
@@ -2965,7 +2972,7 @@
 	"\/img\/nature\/nature-13.jpg": {
 		"ft": 16384,
 		"iS": 1645590,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/nature\/nature-13.jpg",
 		"oF": 0,
 		"opt": 0
@@ -2973,7 +2980,7 @@
 	"\/img\/nature\/nature-14.jpg": {
 		"ft": 16384,
 		"iS": 738071,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/nature\/nature-14.jpg",
 		"oF": 0,
 		"opt": 0
@@ -2981,7 +2988,7 @@
 	"\/img\/nature\/nature-15.jpg": {
 		"ft": 16384,
 		"iS": 1048010,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/nature\/nature-15.jpg",
 		"oF": 0,
 		"opt": 0
@@ -2989,7 +2996,7 @@
 	"\/img\/nature\/nature-16.jpg": {
 		"ft": 16384,
 		"iS": 1792020,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/nature\/nature-16.jpg",
 		"oF": 0,
 		"opt": 0
@@ -2997,7 +3004,7 @@
 	"\/img\/nature\/nature-17.jpg": {
 		"ft": 16384,
 		"iS": 1521000,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/nature\/nature-17.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3005,7 +3012,7 @@
 	"\/img\/nature\/nature-18.jpg": {
 		"ft": 16384,
 		"iS": 1133360,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/nature\/nature-18.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3013,7 +3020,7 @@
 	"\/img\/nature\/nature-2.jpg": {
 		"ft": 16384,
 		"iS": 1787170,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/nature\/nature-2.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3021,7 +3028,7 @@
 	"\/img\/nature\/nature-3.jpg": {
 		"ft": 16384,
 		"iS": 1096830,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/nature\/nature-3.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3029,7 +3036,7 @@
 	"\/img\/nature\/nature-4.jpg": {
 		"ft": 16384,
 		"iS": 1119490,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/nature\/nature-4.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3037,7 +3044,7 @@
 	"\/img\/nature\/nature-5.jpg": {
 		"ft": 16384,
 		"iS": 1336190,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/nature\/nature-5.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3045,7 +3052,7 @@
 	"\/img\/nature\/nature-6.jpg": {
 		"ft": 16384,
 		"iS": 1297000,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/nature\/nature-6.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3053,7 +3060,7 @@
 	"\/img\/nature\/nature-7.jpg": {
 		"ft": 16384,
 		"iS": 1179820,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/nature\/nature-7.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3061,7 +3068,7 @@
 	"\/img\/nature\/nature-8.jpg": {
 		"ft": 16384,
 		"iS": 1239480,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/nature\/nature-8.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3069,7 +3076,7 @@
 	"\/img\/nature\/nature-9.jpg": {
 		"ft": 16384,
 		"iS": 683642,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/nature\/nature-9.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3179,7 +3186,7 @@
 	"\/img\/wireframe-map.jpg": {
 		"ft": 16384,
 		"iS": 556408,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/wireframe-map.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3187,7 +3194,7 @@
 	"\/img\/wireframe-map@2x.jpg": {
 		"ft": 16384,
 		"iS": 1992490,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/img\/wireframe-map@2x.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3354,7 +3361,7 @@
 	"\/objects\/!empty\/img\/hero-image.jpg": {
 		"ft": 16384,
 		"iS": 575433,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/!empty\/img\/hero-image.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3362,7 +3369,7 @@
 	"\/objects\/!empty\/img\/hero-image@2x.jpg": {
 		"ft": 16384,
 		"iS": 1460490,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/!empty\/img\/hero-image@2x.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3373,10 +3380,26 @@
 		"oAP": "\/objects\/!empty\/index.php",
 		"oF": 0
 		},
+	"\/objects\/airport\/img\/coverage-en.jpg": {
+		"ft": 16384,
+		"iS": 514092,
+		"oA": 1,
+		"oAP": "\/objects\/airport\/img\/coverage-en.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/objects\/airport\/img\/coverage-en@2x.jpg": {
+		"ft": 16384,
+		"iS": 1378423,
+		"oA": 1,
+		"oAP": "\/objects\/airport\/img\/coverage-en@2x.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/objects\/airport\/img\/coverage.jpg": {
 		"ft": 16384,
 		"iS": 430082,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/airport\/img\/coverage.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3384,7 +3407,7 @@
 	"\/objects\/airport\/img\/coverage@2x.jpg": {
 		"ft": 16384,
 		"iS": 1318240,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/airport\/img\/coverage@2x.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3392,7 +3415,7 @@
 	"\/objects\/airport\/img\/hero-image.jpg": {
 		"ft": 16384,
 		"iS": 575433,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/airport\/img\/hero-image.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3400,23 +3423,39 @@
 	"\/objects\/airport\/img\/hero-image@2x.jpg": {
 		"ft": 16384,
 		"iS": 1460490,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/airport\/img\/hero-image@2x.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/objects\/airport\/img\/map-global-en.jpg": {
+		"ft": 16384,
+		"iS": 594695,
+		"oA": 1,
+		"oAP": "\/objects\/airport\/img\/map-global-en.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/objects\/airport\/img\/map-global-en@2x.jpg": {
+		"ft": 16384,
+		"iS": 2187922,
+		"oA": 1,
+		"oAP": "\/objects\/airport\/img\/map-global-en@2x.jpg",
 		"oF": 0,
 		"opt": 0
 		},
 	"\/objects\/airport\/img\/map-global.jpg": {
 		"ft": 16384,
-		"iS": 594695,
-		"oA": 0,
+		"iS": 828893,
+		"oA": 1,
 		"oAP": "\/objects\/airport\/img\/map-global.jpg",
 		"oF": 0,
 		"opt": 0
 		},
 	"\/objects\/airport\/img\/map-global@2x.jpg": {
 		"ft": 16384,
-		"iS": 1662230,
-		"oA": 0,
+		"iS": 2276812,
+		"oA": 1,
 		"oAP": "\/objects\/airport\/img\/map-global@2x.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3424,7 +3463,7 @@
 	"\/objects\/airport\/img\/map-local.jpg": {
 		"ft": 16384,
 		"iS": 373136,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/airport\/img\/map-local.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3432,7 +3471,7 @@
 	"\/objects\/airport\/img\/map-local@2x.jpg": {
 		"ft": 16384,
 		"iS": 1092750,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/airport\/img\/map-local@2x.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3446,16 +3485,16 @@
 	"\/objects\/balneology\/img\/hero-image.jpg": {
 		"ft": 16384,
 		"iS": 575433,
-		"oA": 0,
-		"oAP": "\/objects\/!empty 2\/img\/hero-image.jpg",
+		"oA": 1,
+		"oAP": "\/objects\/balneology\/img\/hero-image.jpg",
 		"oF": 0,
 		"opt": 0
 		},
 	"\/objects\/balneology\/img\/hero-image@2x.jpg": {
 		"ft": 16384,
 		"iS": 1460490,
-		"oA": 0,
-		"oAP": "\/objects\/!empty 2\/img\/hero-image@2x.jpg",
+		"oA": 1,
+		"oAP": "\/objects\/balneology\/img\/hero-image@2x.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -3468,7 +3507,7 @@
 	"\/objects\/commercial\/img\/hero-image.jpg": {
 		"ft": 16384,
 		"iS": 575433,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/commercial\/img\/hero-image.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3476,7 +3515,7 @@
 	"\/objects\/commercial\/img\/hero-image@2x.jpg": {
 		"ft": 16384,
 		"iS": 1460490,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/commercial\/img\/hero-image@2x.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3490,7 +3529,7 @@
 	"\/objects\/farm\/img\/area.jpg": {
 		"ft": 16384,
 		"iS": 561638,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/farm\/img\/area.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3498,7 +3537,7 @@
 	"\/objects\/farm\/img\/area@2x.jpg": {
 		"ft": 16384,
 		"iS": 1086150,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/farm\/img\/area@2x.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3506,7 +3545,7 @@
 	"\/objects\/farm\/img\/craft.jpg": {
 		"ft": 16384,
 		"iS": 328468,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/farm\/img\/craft.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3514,7 +3553,7 @@
 	"\/objects\/farm\/img\/craft@2x.jpg": {
 		"ft": 16384,
 		"iS": 1019370,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/farm\/img\/craft@2x.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3522,7 +3561,7 @@
 	"\/objects\/farm\/img\/farm-1.jpg": {
 		"ft": 16384,
 		"iS": 642763,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/farm\/img\/farm-1.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3530,7 +3569,7 @@
 	"\/objects\/farm\/img\/farm-1@2x.jpg": {
 		"ft": 16384,
 		"iS": 2035390,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/farm\/img\/farm-1@2x.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3538,7 +3577,7 @@
 	"\/objects\/farm\/img\/farm-2.jpg": {
 		"ft": 16384,
 		"iS": 583360,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/farm\/img\/farm-2.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3546,7 +3585,7 @@
 	"\/objects\/farm\/img\/farm-2@2x.jpg": {
 		"ft": 16384,
 		"iS": 1756140,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/farm\/img\/farm-2@2x.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3554,7 +3593,7 @@
 	"\/objects\/farm\/img\/farm-3.jpg": {
 		"ft": 16384,
 		"iS": 763559,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/farm\/img\/farm-3.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3562,7 +3601,7 @@
 	"\/objects\/farm\/img\/farm-3@2x.jpg": {
 		"ft": 16384,
 		"iS": 2313100,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/farm\/img\/farm-3@2x.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3570,7 +3609,7 @@
 	"\/objects\/farm\/img\/hero-image.jpg": {
 		"ft": 16384,
 		"iS": 575433,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/farm\/img\/hero-image.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3578,7 +3617,7 @@
 	"\/objects\/farm\/img\/hero-image@2x.jpg": {
 		"ft": 16384,
 		"iS": 1460490,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/farm\/img\/hero-image@2x.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3592,7 +3631,7 @@
 	"\/objects\/golf\/img\/hero-image.jpg": {
 		"ft": 16384,
 		"iS": 575433,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/golf\/img\/hero-image.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3600,7 +3639,7 @@
 	"\/objects\/golf\/img\/hero-image@2x.jpg": {
 		"ft": 16384,
 		"iS": 1460490,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/golf\/img\/hero-image@2x.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3614,23 +3653,23 @@
 	"\/objects\/horse-club\/img\/hero-image.jpg": {
 		"ft": 16384,
 		"iS": 736391,
-		"oA": 0,
-		"oAP": "\/objects\/hotel-four-stars 2\/img\/hero-image.jpg",
+		"oA": 1,
+		"oAP": "\/objects\/horse-club\/img\/hero-image.jpg",
 		"oF": 0,
 		"opt": 0
 		},
 	"\/objects\/horse-club\/img\/hero-image@2x.jpg": {
 		"ft": 16384,
 		"iS": 1692530,
-		"oA": 0,
-		"oAP": "\/objects\/hotel-four-stars 2\/img\/hero-image@2x.jpg",
+		"oA": 1,
+		"oAP": "\/objects\/horse-club\/img\/hero-image@2x.jpg",
 		"oF": 0,
 		"opt": 0
 		},
 	"\/objects\/horse-club\/img\/horse-club-1.jpg": {
 		"ft": 16384,
 		"iS": 1411750,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/horse-club\/img\/horse-club-1.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3638,15 +3677,15 @@
 	"\/objects\/horse-club\/img\/horse-club-2.jpg": {
 		"ft": 16384,
 		"iS": 1142930,
-		"oA": 0,
-		"oAP": "\/objects\/horse-club\/img\/carousel-image-2.jpg",
+		"oA": 1,
+		"oAP": "\/objects\/horse-club\/img\/horse-club-2.jpg",
 		"oF": 0,
 		"opt": 0
 		},
 	"\/objects\/horse-club\/img\/horse-club-3.jpg": {
 		"ft": 16384,
 		"iS": 1462600,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/horse-club\/img\/horse-club-3.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3660,7 +3699,7 @@
 	"\/objects\/hotel-five-stars\/img\/hero-image.jpg": {
 		"ft": 16384,
 		"iS": 736391,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/hotel-five-stars\/img\/hero-image.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3668,7 +3707,7 @@
 	"\/objects\/hotel-five-stars\/img\/hero-image@2x.jpg": {
 		"ft": 16384,
 		"iS": 1692530,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/hotel-five-stars\/img\/hero-image@2x.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3682,7 +3721,7 @@
 	"\/objects\/hotel-four-stars\/img\/hero-image.jpg": {
 		"ft": 16384,
 		"iS": 736391,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/hotel-four-stars\/img\/hero-image.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3690,7 +3729,7 @@
 	"\/objects\/hotel-four-stars\/img\/hero-image@2x.jpg": {
 		"ft": 16384,
 		"iS": 1692530,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/hotel-four-stars\/img\/hero-image@2x.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3698,7 +3737,7 @@
 	"\/objects\/hotel-four-stars\/img\/hotel-four-1.jpg": {
 		"ft": 16384,
 		"iS": 1118920,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/hotel-four-stars\/img\/hotel-four-1.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3706,7 +3745,7 @@
 	"\/objects\/hotel-four-stars\/img\/hotel-four-2.jpg": {
 		"ft": 16384,
 		"iS": 958812,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/hotel-four-stars\/img\/hotel-four-2.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3714,7 +3753,7 @@
 	"\/objects\/hotel-four-stars\/img\/hotel-four-3.jpg": {
 		"ft": 16384,
 		"iS": 988834,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/hotel-four-stars\/img\/hotel-four-3.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3722,7 +3761,7 @@
 	"\/objects\/hotel-four-stars\/img\/hotel-four-4.jpg": {
 		"ft": 16384,
 		"iS": 1142230,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/hotel-four-stars\/img\/hotel-four-4.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3730,7 +3769,7 @@
 	"\/objects\/hotel-four-stars\/img\/hotel-four-5.jpg": {
 		"ft": 16384,
 		"iS": 781430,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/hotel-four-stars\/img\/hotel-four-5.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3738,7 +3777,7 @@
 	"\/objects\/hotel-four-stars\/img\/hotel-four-6.jpg": {
 		"ft": 16384,
 		"iS": 1140120,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/hotel-four-stars\/img\/hotel-four-6.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3746,7 +3785,7 @@
 	"\/objects\/hotel-four-stars\/img\/hotel-four-7.jpg": {
 		"ft": 16384,
 		"iS": 923895,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/hotel-four-stars\/img\/hotel-four-7.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3760,7 +3799,7 @@
 	"\/objects\/ski\/img\/hero-image.jpg": {
 		"ft": 16384,
 		"iS": 575433,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/ski\/img\/hero-image.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3768,7 +3807,7 @@
 	"\/objects\/ski\/img\/hero-image@2x.jpg": {
 		"ft": 16384,
 		"iS": 1460490,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/ski\/img\/hero-image@2x.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3776,7 +3815,7 @@
 	"\/objects\/ski\/img\/slope.jpg": {
 		"ft": 16384,
 		"iS": 85747,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/ski\/img\/slope.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3784,8 +3823,16 @@
 	"\/objects\/ski\/img\/slope@2x.jpg": {
 		"ft": 16384,
 		"iS": 215001,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/ski\/img\/slope@2x.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/objects\/ski\/img\/temperature-en.png": {
+		"ft": 32768,
+		"iS": 69791,
+		"oA": 0,
+		"oAP": "\/objects\/ski\/img\/temperature-en.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -3806,7 +3853,7 @@
 	"\/objects\/spa-and-detox\/img\/hero-image.jpg": {
 		"ft": 16384,
 		"iS": 575433,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/spa-and-detox\/img\/hero-image.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3814,7 +3861,7 @@
 	"\/objects\/spa-and-detox\/img\/hero-image@2x.jpg": {
 		"ft": 16384,
 		"iS": 1460490,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/spa-and-detox\/img\/hero-image@2x.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3828,7 +3875,7 @@
 	"\/objects\/sport\/img\/hero-image.jpg": {
 		"ft": 16384,
 		"iS": 575433,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/sport\/img\/hero-image.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3836,7 +3883,7 @@
 	"\/objects\/sport\/img\/hero-image@2x.jpg": {
 		"ft": 16384,
 		"iS": 1460490,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/sport\/img\/hero-image@2x.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3850,7 +3897,7 @@
 	"\/objects\/stronghold\/img\/hero-image.jpg": {
 		"ft": 16384,
 		"iS": 575433,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/stronghold\/img\/hero-image.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3858,7 +3905,7 @@
 	"\/objects\/stronghold\/img\/hero-image@2x.jpg": {
 		"ft": 16384,
 		"iS": 1460490,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/stronghold\/img\/hero-image@2x.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3866,7 +3913,7 @@
 	"\/objects\/stronghold\/img\/stronghold.jpg": {
 		"ft": 16384,
 		"iS": 651935,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/stronghold\/img\/stronghold.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3874,7 +3921,7 @@
 	"\/objects\/stronghold\/img\/stronghold@2x.jpg": {
 		"ft": 16384,
 		"iS": 1945840,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/stronghold\/img\/stronghold@2x.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3888,7 +3935,7 @@
 	"\/objects\/villas-and-cottages\/img\/hero-image.jpg": {
 		"ft": 16384,
 		"iS": 575423,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/villas-and-cottages\/img\/hero-image.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3896,7 +3943,7 @@
 	"\/objects\/villas-and-cottages\/img\/hero-image@2x.jpg": {
 		"ft": 16384,
 		"iS": 1983360,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/objects\/villas-and-cottages\/img\/hero-image@2x.jpg",
 		"oF": 0,
 		"opt": 0
@@ -3906,14 +3953,6 @@
 		"oA": 0,
 		"oAP": "\/objects\/villas-and-cottages\/index.php",
 		"oF": 0
-		},
-	"\/package.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/package-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
 		},
 	"\/README.md": {
 		"cS": 0,
@@ -5967,7 +6006,7 @@
 		"useUnixNewlines": 0
 		},
 	"languageDefaultsJPG": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*.jpg",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
